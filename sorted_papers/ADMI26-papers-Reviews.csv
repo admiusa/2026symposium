@@ -1,0 +1,93 @@
+#,Title,Scores,Average,Decision,Author Category,Submission Category
+1,Machine Learning-Based Detection of Business Email Compromise: A Comparative Analysis of Gradient Boosting Techniques,3(4),3,ACCEPT,Student - Undergraduate,Full-Oral
+2,Machine Learning Diagnosis of Peripheral Arterial Disease from CT-Angiography (CTA) Images,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+3,AI-Enabled Construction of Aligned Collagen Using Two-Photon Techniques,1(3),1,ACCEPT,Student - Undergraduate,Poster
+4,AI and Automation in Sports,2(4),2,ACCEPT,Student - Undergraduate,Full-Oral
+5,"Social Media Misinformation: Trust, Perception, & Public Awareness in the Age of AI",2(4),2,ACCEPT,Student - Undergraduate,Full-Oral
+6,FORGETTING BY DESIGN: TESTING THE EFFECTIVENESS OF MACHINE UNLEARNING IN RIGHT TO BE FORGOTTEN DATA DELETION,,0,,Student - Graduate,Full-Oral
+7,SQL Injection Prevention Techniques,1(4),1,ACCEPT,Student - Graduate,Full-Oral
+8,The Immersive Campus Experience: Designing Interactive Physical-Digital Systems for Recruitment and UX Research,-1(4),-1,REJECT,Student - Undergraduate,Full-Oral
+9,Adversarial Patch: Autonomous Vehicles,"0(4),1(4)",0.5,,Student - Undergraduate,Full-Oral
+10,Beyond the Box Score: How Analytics Shape Modern Basketball,"0(4),0(5)",0,REJECT,Student - Undergraduate,Full-Oral
+11,PeerConnect: Optimizing Peer Tutoring with Predictive Analytics and Intelligent Matching,0(4),0,accept poster?,Student - Undergraduate,Poster
+12,EXPLORING CALCULUS CONCEPTS WITH MAPLE,,0,,Faculty,Full-Oral
+13,An Optimized Artificial Intelligence Powered iOS Mobile App for Weed Identification,3(4),3,ACCEPT,Faculty,Full-Oral
+14,Deep Learning in Network Traffic Analysis Using Synthetic Data for Privacy Protection and Cyber Attack Mitigation,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+15,Semantic Search for Healthcare Patient Data using Sentence Transformers and ChromaDB,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+16,Deep Learning for Skin Lesion Detection: A CNN Approach,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+17,Cardiovascular Disease Prediction Using Machine Learning,0(4),0,accept poster?,Student - Undergraduate,Poster
+18,An Accuracy Comparison of Linear and Quadratic Programming Approaches for Classifying Breast Cancer Cells as Malignant or Benign,-2(3),-2,REJECT,Student - Undergraduate,Full-Oral
+19,Gradpath - Academic Advising platform,-1(4),-1,REJECT,Student - Undergraduate,Full-Oral
+20,A Hands-On Laboratory Approach to Supporting Student Learning in Computer Vision Education,2(4),2,ACCEPT,Student - Graduate,Full-Oral
+21,XAI-DRL based intrusion detection system for Connected Autonomous Vehicles,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+22,Robots for Outreach,2(4),2,ACCEPT,Student - Undergraduate,Full-Oral
+23,Investigating Motion-Focused Video Frame Interpolation: Efficiency vs. Fidelity,3(3),3,ACCEPT,Student - Graduate,Full-Oral
+24,Enhancing Computer Science Education through AI-Driven Scaffolding,2(3),2,ACCEPT,Faculty,Full-Oral
+25,Robust Noise-Resilient Feature Extract and 3D-CNN classification for Hyperspectral imagery,,0,,Faculty,Full-Oral
+26,Enhancing Undergraduate Research Recruitment through NLP-Driven Application Matching,0(4),0,accept poster?,Student - Undergraduate,Poster
+27,Some experimental results for fingerprint image processing,2(3),2,ACCEPT,Faculty,Full-Oral
+28,Enabling safe Beyond Visual Line of Sight Drone Operations of Sight Drone Operations Through AI-Powered Object Detection,2(4),2,ACCEPT,Student - Undergraduate,Full-Oral
+29,Decal Management System,-1(4),-1,REJECT Poster,Student - Undergraduate,Poster
+30,Assessing Video LLM Performance in Detecting Child Safety Risks,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+31,Understanding Object Detection Vulnerabilities in the Age of YOLO v11,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+32,Limitless: The future of Personalized AI power sports advertisements,0(4),0,accept poster?,Student - Undergraduate,Poster
+33,Optimizing Lineup Styles: A Data-Driven Approach to Team Performance and Win Probability,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+34,Perfect Path: An AI-Powered Pose Detection System for Personalized Golf Swing Visualization and Inclusive Sports Engagement,0(4),0,accept poster?,Student - Undergraduate,Poster
+35,Perfect Path: An AI-Powered Pose Detection System for Personalized Golf Swing Visualization and Inclusive Sports Engagement,-3(5),-3,REJECT Poster,Student - Undergraduate,Poster
+36,"Fine-Tuning DistilBERT, DeBERTa and ModernBERT for Valence–Arousal Prediction and Change Estimation",2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+37,Automated Estimation of Glasgow Coma Scale Scores Using Multimodal Video Analysis,-1(4),-1,REJECT Poster,Student - Undergraduate,Poster
+38,Time-Aware Two-Dimensional Packing for Throughput Optimization in Slicing-Aware 3D Printing,0(4),0,accept poster?,Student - Undergraduate,Poster
+39,Disaster Relief AI Chatbot,0(4),0,accept poster?,Student - Undergraduate,Poster
+40,Exploring Prompt Strategies for Joke Generation Under Input Constraints,0(4),0,accept poster?,Student - Undergraduate,Poster
+41,Speech-Based Detection and Severity Assessment of Alzheimer’s Disease,1(3),1,ACCEPT POSTER,Student - Undergraduate,Poster
+42,"A.N.T.S. (Autonomous, Navigation, Technician, Swarm)",1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+43,Evidence Guided Abductive Scoring with Option Conditioned Retrieval and Constrained LLM Evaluation,0(4),0,accept poster?,Student - Undergraduate,Poster
+44,Unsupervised People’s Speech Challenge: BiMamba2 Masked Spectrogram Model,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+45,Budget Aware Tracerouting,,0,,Student - Undergraduate,Full-Oral
+46,"Evaluating Dialect Bias in Commercial Automatic Speech Recognition Systems: A Comparative Analysis of AAVE, Clean, and Noisy Speech",1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+48,Improving Multilingual Medieval Handwriting Recognition through Multimodal Language Modeling,0(4),0,accept poster?,Student - Undergraduate,Poster
+49,Black Press + AI,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+50,Robust Noise-Resilient Feature Extraction and 3D-CNN Classification for Hyperspectral Imagery,,0,,Faculty,Full-Oral
+51,Integrating Blockchain dApp Development in Cybersecurity Education via Real-World Applications,2(3),2,ACCEPT,Student - Graduate,Full-Oral
+52,Augmenting Naval Ship Images for Viewing Distance using Adobe Generative Fill,0(4),0,accept poster?,Student - Undergraduate,Poster
+53,Advanced Methods for Top-View RGB-D Person Re-ID (TVRID),0(4),0,accept poster?,Student - Undergraduate,Poster
+54,Knowledge-Grounded Adverse Drug Event Detection from Clinical Narratives,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+55,Enhancing Black-Box Transparency with SHAP and LIME: A Comparative and Practical Review of Explainable AI in Cybersecurity,-1(3),-1,,Student - Undergraduate,Full-Oral
+56,Detecting and Labeling Hidden MPLS Tunnels,-2(4),-2,REJECT Poster,Student - Undergraduate,Poster
+57,Addressing Fairness and Trustworthiness in The Workplace Using Scalable Blockchain Survey Solutions,0(4),0,accept poster?,Student - Graduate,Poster
+58,Identification and Analysis of Missing Hops in Network Routing Paths Using Traceroute and Automated Python Parsing,-1(4),-1,REJECT Poster,Student - Undergraduate,Poster
+59,Filling in the Stars - Missing Hops in Traceroute,-1(4),-1,REJECT Poster,Student - Undergraduate,Poster
+60,Onboard Multimodal Learning for Data-Driven Decision-Making in Humanoid Robotics,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+61,Detecting Hidden Multiprotocol Label Switching Tunnels (MPLS) In Networks,,0,,Student - Undergraduate,Full-Oral
+62,Beyond Accuracy: Forensic Evaluation of Trust and Grounding in LLM Outputs,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+63,Online Anonymity vs. Online Accountability,1(4),1,,Student - Undergraduate,Full-Oral
+64,Fine-Tuning SimAM-ResNet34 and WavLM-Base for Cross-Lingual Speaker Verification,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+65,Ensemble Voting and Meta-Learning for Homonym Disambiguation: A Hybrid Approach to SemEval 2026 Task 5,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+66,Feature Effect Visualization in Cybersecurity: A Study of PDP and ICE,3(3),3,ACCEPT,Student - Undergraduate,Full-Oral
+67,Clustering + Adversarial AI,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+68,THE LANGUAGE FAMILY EFFECT: IMPROVING AFRICAN SENTIMENT MODELS THROUGH LINGUISTIC RELATEDNESS,2(4),2,ACCEPT,Student - Undergraduate,Poster
+69,Beyond Visible Spectrum: Developing Computer Vision Techniques for Agricultural Hyperspectral Image Categorization,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+70,Query Reformulation and Dense-Lexical Retrieval Fusion for Multi-Turn Retrieval-Augmented Generation,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+71,Artificial Intelligence and the Expanding Digital Divide,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+72,Denoising and Object Tracking in Adverse Conditions,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+73,Using Personalized Generative AI as a “First Responder” in C++ Education to improve student learning,,0,,Faculty,Full-Oral
+74,The Importance of Course Redesign: Microlearning Strategies for Enhanced Course Design: Insights from the JCSU CITL Summer Workshop,,0,,Faculty,Full-Oral
+75,The Impact of AI-Integrated Pre-College Bridge Program on First-Year Student Success,0(4),0,ACCEPT,Student - Undergraduate,Poster
+76,CULTURALLY AWARE MULTILINGUAL MODEL ROUTING THROUGH A MIXTURE-OF-SPECIALISTS FRAMEWORK,3(4),3,ACCEPT POSTER,Student - Undergraduate,Poster
+77,ASR Benchmarking for AAVE,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+78,The Importance of Adversarial Patch Detection in Cybersecurity Attacks: A Critical Analysis of Machine Learning Vulnerabilities and Defense Mechanisms,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+79,Developing Effective Computer Science Program Curricula and AI-Driven Educational Models to Enhance Learning Outcomes,2(3),2,ACCEPT,Faculty,Full-Oral
+80,Detecting Physical Adversarial Patch Attacks with Object Detectors,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+81,Structural Augmentation for Conspiracy Detection: A ModernBERT Approach to PsyCoMark 2026 Subtask 2,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+82,Evaluating Perceptions of Naturalness in AI-Generated Speech,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+83,Digitizing Textbook Adoption Processes: A Role-Based Web System for Academic Workflow Optimization,0(4),0,accept poster?,Student - Undergraduate,Full-Oral
+84,Cross-Silo Federated Learning for Radiomics,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
+85,Advancing Digital Forensics with the Integration of Cyber Threat Intelligence Technologies,2(4),2,ACCEPT,Student - Graduate,Full-Oral
+86,Enhancing Data Mining and Machine Learning Course by Using HPC,-3(2),-3,ACCEPT,Faculty,Full-Oral
+87,Comparative Analysis of Adversarial Patch Types and Their Distinct Cybersecurity Risks in Computer Vision Systems,1(4),1,ACCEPT POSTER,Student - Undergraduate,Poster
+88,Blockchain-Enabled IoT Security: A Distributed Computing Approach Using Dew and Cloudlet Architecture,-2(4),-2,REJECT,Student - Graduate,Full-Oral
+89,AI4PC-Howard University at SemEval-2026 Task 9: Multilingual Polarization Detection via Large Language Model Inference,0(4),0,accept poster?,Student - Undergraduate,Poster
+90,Bridging Policy and Practice: The CLASS AlignED Framework for Responsible AI Integration in Higher Education,3(4),3,ACCEPT,Student - Graduate,Full-Oral
+91,Findings from a Feasibility Study on AI-Aligned Experiential Learning at an HBCU,2(4),2,ACCEPT,Faculty,Full-Oral
+92,Building the Next Generation of Cyber AI Professionals: Lessons from Bowie State University’s CyberAI Scholarship For Service Program,"2(4),3(4)",2.5,ACCEPT,Faculty,Full-Oral
+93,Transformer-Based Suicide Detection on Reddit with Sentiment Masking,2(4),2,ACCEPT POSTER,Student - Undergraduate,Poster
