@@ -1,4 +1,7 @@
+<img src="ADMI2026_banner.jpg">
+
 # ADMI 2026 — Accepted Papers
+Event Site: <a href="https://admiusa.org/admi2026/index.php">ADMI Symposium 2026</a>  
 
 ---
 
