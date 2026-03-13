@@ -9,7 +9,7 @@ Event Site: <a href="https://admiusa.org/admi2026/index.php">ADMI Symposium 2026
 
 ### Faculty
 
-| # | Paper |
+| # | Title |
 |---|-------|
 | 12 | [EXPLORING CALCULUS CONCEPTS WITH MAPLE](sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_12.pdf) |
 | 13 | [An Optimized Artificial Intelligence Powered iOS Mobile App for Weed Identification](sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_13.pdf) |
@@ -25,7 +25,7 @@ Event Site: <a href="https://admiusa.org/admi2026/index.php">ADMI Symposium 2026
 
 ### Student — Graduate
 
-| # | Paper |
+| # | Title |
 |---|-------|
 | 6 | [FORGETTING BY DESIGN: TESTING THE EFFECTIVENESS OF MACHINE UNLEARNING IN RIGHT TO BE FORGOTTEN DATA DELETION](sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_6.pdf) |
 | 7 | [SQL Injection Prevention Techniques](sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_7.pdf) |
@@ -37,7 +37,7 @@ Event Site: <a href="https://admiusa.org/admi2026/index.php">ADMI Symposium 2026
 
 ### Student — Undergraduate
 
-| # | Paper |
+| # | Title |
 |---|-------|
 | 1 | [Machine Learning-Based Detection of Business Email Compromise: A Comparative Analysis of Gradient Boosting Techniques](sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_1.pdf) |
 | 4 | [AI and Automation in Sports](sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_4.pdf) |
@@ -55,13 +55,13 @@ Event Site: <a href="https://admiusa.org/admi2026/index.php">ADMI Symposium 2026
 
 ### Student — Graduate
 
-| # | Paper |
+| # | Title |
 |---|-------|
 | 57 | [Addressing Fairness and Trustworthiness in The Workplace Using Scalable Blockchain Survey Solutions](sorted_papers/Poster/Student%20-%20Graduate/ADMI_2026_paper_57.pdf) |
 
 ### Student — Undergraduate
 
-| # | Paper |
+| # | Title |
 |---|-------|
 | 2 | [Machine Learning Diagnosis of Peripheral Arterial Disease from CT-Angiography (CTA) Images](sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_2.pdf) |
 | 3 | [AI-Enabled Construction of Aligned Collagen Using Two-Photon Techniques](sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_3.pdf) |
