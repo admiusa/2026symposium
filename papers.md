@@ -1,9 +1,6 @@
 ---
 title: ADMI 2026 Papers and Posters
 ---
-<img src="ADMI2026_banner.jpg">
-
-
 
 <style>
 :root {
