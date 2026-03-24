@@ -1,4 +1,3 @@
-# Thank You to Our Sponsors
 
 <style>
 .page-hero {

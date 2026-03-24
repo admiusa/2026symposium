@@ -185,7 +185,7 @@
     <div class="quick-link-text">Thank the organizations whose support helps make the symposium possible.</div>
   </a>
 
-  <a class="quick-link" href="/2026symposium/">
+  <a class="quick-link" href="/2026symposium/admi26_papers">
     <div class="quick-link-title">Papers &amp; Posters</div>
     <div class="quick-link-text">Browse accepted submissions, abstracts, and linked PDFs from the proceedings page.</div>
   </a>
