@@ -147,26 +147,7 @@
 </style>
 
 <div class="hero">
-  <div class="hero-inner">
-    <div class="hero-kicker">March 26–28, 2026 • ADMI Symposium</div>
-    <h1>Leveraging Artificial Intelligence in Learning, Teaching, and Research</h1>
-    <p>
-      Welcome to the ADMI 2026 Symposium website. Explore the president’s letter, featured speakers,
-      sponsor acknowledgements, and the collection of papers and posters that help define this year’s event.
-    </p>
-  </div>
-</div>
-
-<div class="branding">
-  <img src="/ADMI-Logos/admi_logo.png" alt="ADMI logo" onerror="this.style.display='none'">
-  <div class="branding-copy">
-    <h2 style="margin:0;">Association of Computer Science Departments at Minority Institutions</h2>
-    <p>
-      The ADMI Symposium on Computing at Minority Institutions highlights undergraduate and graduate research,
-      supports collaboration across institutions and industry, and advances broad participation in computing.
-      The 2026 symposium theme centers on the growing role of artificial intelligence in education and research.
-    </p>
-  </div>
+<img src="ADMI2026_banner.jpg">
 </div>
 
 <div class="quick-links">
