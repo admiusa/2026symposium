@@ -13,7 +13,7 @@ permalink: /
   min-height: 360px;
   background:
     linear-gradient(rgba(10, 18, 35, 0.45), rgba(10, 18, 35, 0.65)),
-    url('ADMI2026_banner.jpg') center/cover no-repeat;
+    url('ADMI2026_banner.jpg') top center/cover no-repeat;
   display: flex;
   align-items: end;
   box-shadow: 0 12px 28px rgba(0,0,0,0.16);
