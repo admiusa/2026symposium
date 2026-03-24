@@ -1,4 +1,8 @@
-# ADMI 2026 Speakers
+---
+layout: default
+title: Speakers
+permalink: /admi26_speakers
+---
 
 <style>
 .page-intro {

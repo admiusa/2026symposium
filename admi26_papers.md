@@ -1,4 +1,8 @@
-# ADMI 2026 Papers and Posters
+---
+layout: default
+title: Papers & Posters
+permalink: /admi26_papers
+---
 
 Browse the ADMI 2026 collection by submission type and author category. Titles link directly to the PDF when the file is present in the repository under `sorted_papers/`.
 

@@ -1,4 +1,8 @@
-# ADMI 2026 Symposium
+---
+layout: home
+title: ADMI 2026 Symposium
+permalink: /
+---
 
 <style>
 .hero {

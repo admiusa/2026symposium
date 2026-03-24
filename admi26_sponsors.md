@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sponsors
+permalink: /admi26_sponsors
+---
 
 <style>
 .page-hero {
