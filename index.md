@@ -1,0 +1,240 @@
+# ADMI 2026 Symposium
+
+<style>
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 1.25rem 0 2rem 0;
+  min-height: 360px;
+  background:
+    linear-gradient(rgba(10, 18, 35, 0.45), rgba(10, 18, 35, 0.65)),
+    url('/images/ADMI2026_banner.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: end;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.16);
+}
+.hero-inner {
+  padding: 2rem;
+  color: #fff;
+  max-width: 760px;
+}
+.hero-kicker {
+  display: inline-block;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.95;
+  margin-bottom: 0.6rem;
+}
+.hero h1 {
+  margin: 0 0 0.65rem 0;
+  font-size: 2.4rem;
+  line-height: 1.15;
+  color: #fff;
+}
+.hero p {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #f3f4f6;
+}
+
+.branding {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 1.5rem 0;
+}
+.branding img {
+  max-height: 84px;
+  width: auto;
+  object-fit: contain;
+}
+.branding-copy {
+  flex: 1 1 420px;
+}
+.branding-copy p {
+  margin: 0.35rem 0 0 0;
+  line-height: 1.7;
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.quick-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #d0d7de;
+  border-radius: 18px;
+  padding: 1.15rem 1.2rem;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.quick-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+}
+.quick-link-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+.quick-link-text {
+  color: #4b5563;
+  line-height: 1.6;
+  font-size: 0.96rem;
+}
+
+.section-card {
+  border: 1px solid #d0d7de;
+  border-radius: 18px;
+  padding: 1.35rem 1.4rem;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+  margin: 1.5rem 0;
+}
+.section-card h2 {
+  margin-top: 0;
+}
+.section-card p {
+  line-height: 1.75;
+}
+
+.program-placeholder {
+  border-left: 5px solid #0969da;
+  background: #f8fbff;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+.badge {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+  font-size: 0.92rem;
+}
+
+.footer-note {
+  margin-top: 2rem;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    min-height: 290px;
+  }
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+  .hero-inner {
+    padding: 1.35rem;
+  }
+}
+</style>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-kicker">March 26–28, 2026 • ADMI Symposium</div>
+    <h1>Leveraging Artificial Intelligence in Learning, Teaching, and Research</h1>
+    <p>
+      Welcome to the ADMI 2026 Symposium website. Explore the president’s letter, featured speakers,
+      sponsor acknowledgements, and the collection of papers and posters that help define this year’s event.
+    </p>
+  </div>
+</div>
+
+<div class="branding">
+  <img src="/ADMI-Logos/admi_logo.png" alt="ADMI logo" onerror="this.style.display='none'">
+  <div class="branding-copy">
+    <h2 style="margin:0;">Association of Computer Science Departments at Minority Institutions</h2>
+    <p>
+      The ADMI Symposium on Computing at Minority Institutions highlights undergraduate and graduate research,
+      supports collaboration across institutions and industry, and advances broad participation in computing.
+      The 2026 symposium theme centers on the growing role of artificial intelligence in education and research.
+    </p>
+  </div>
+</div>
+
+<div class="quick-links">
+  <a class="quick-link" href="/2026symposium/admi26_president_letter">
+    <div class="quick-link-title">President’s Letter</div>
+    <div class="quick-link-text">Read the welcome message from ADMI President Alfred Watkins.</div>
+  </a>
+
+  <a class="quick-link" href="/2026symposium/admi26_speakers">
+    <div class="quick-link-title">Speakers</div>
+    <div class="quick-link-text">Meet the scholars, educators, and innovators featured at ADMI 2026.</div>
+  </a>
+
+  <a class="quick-link" href="/2026symposium/admi26_sponsors">
+    <div class="quick-link-title">Sponsors</div>
+    <div class="quick-link-text">Thank the organizations whose support helps make the symposium possible.</div>
+  </a>
+
+  <a class="quick-link" href="/2026symposium/">
+    <div class="quick-link-title">Papers &amp; Posters</div>
+    <div class="quick-link-text">Browse accepted submissions, abstracts, and linked PDFs from the proceedings page.</div>
+  </a>
+</div>
+
+<div class="section-card">
+  <h2>Welcome</h2>
+  <p>
+    The ADMI 2026 Symposium brings together students, faculty, researchers, and partners for a shared exploration
+    of computing innovation, research excellence, and inclusive opportunity. This year’s event emphasizes artificial
+    intelligence as both a tool and a topic of study, with programming that spans faculty papers, student papers,
+    posters, workshops, competitions, networking, and career development.
+  </p>
+  <div class="badge-row">
+    <span class="badge">Faculty Papers</span>
+    <span class="badge">Graduate Research</span>
+    <span class="badge">Undergraduate Research</span>
+    <span class="badge">Poster Sessions</span>
+    <span class="badge">Workshops</span>
+    <span class="badge">Competitions</span>
+  </div>
+</div>
+
+<div class="section-card program-placeholder">
+  <h2>Symposium Program</h2>
+  <p>
+    A dedicated program page will be added here for the GitHub Pages site. Until then, the current official program
+    is available on the ADMI event website.
+  </p>
+  <p>
+    <a href="https://admiusa.org/admi2026/program.php">View the current ADMI 2026 program</a>
+  </p>
+  <p>
+    The official program currently lists a schedule at a glance from Thursday, March 26, 2026 through Saturday,
+    March 28, 2026, including the opening session, keynote, faculty papers, poster sessions, workshops, competitions,
+    career fair, networking, and awards banquet. citeturn517087search1
+  </p>
+</div>
+
+<div class="section-card">
+  <h2>About This Site</h2>
+  <p>
+    This companion site is designed to make symposium materials easier to browse and share. As the repository grows,
+    it can also host the full program, proceedings updates, speaker images, sponsor assets, and future archival content
+    for ADMI 2026.
+  </p>
+</div>
+
+<p class="footer-note">
+  GitHub Pages note: this page expects the banner image at <code>/images/ADMI2026_banner.jpg</code> and ADMI logo assets
+  under <code>/ADMI-Logos/</code>. Update the logo filename in this page if your primary ADMI logo uses a different name.
+</p>
