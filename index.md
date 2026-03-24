@@ -151,7 +151,7 @@ permalink: /
 </style>
 
 <div class="hero">
-<img src="ADMI2026_banner.jpg">
+
 </div>
 
 <div class="quick-links">
