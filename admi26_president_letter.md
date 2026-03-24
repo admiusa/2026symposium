@@ -1,4 +1,8 @@
-# President’s Letter
+---
+layout: default
+title: President’s Letter
+permalink: /admi26_president_letter
+---
 
 <style>
 .hero {
