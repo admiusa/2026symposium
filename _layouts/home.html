@@ -2,126 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    :root {
-      --border: #d0d7de;
-      --text: #111827;
-      --muted: #4b5563;
-      --link: #0969da;
-      --nav-bg: #0f172a;
-      --nav-text: #f8fafc;
-      --nav-hover: #1e293b;
-      --content-max: 1100px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      color: var(--text);
-      background: #ffffff;
+      font-family: system-ui;
     }
 
-    .site-header {
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .site-header img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    
-
-    .site-nav {
-      background: var(--nav-bg);
-      border-bottom: 1px solid #0b1220;
-    }
-
-    .site-nav-inner {
-      max-width: var(--content-max);
-      margin: 0 auto;
-      padding: 0 1rem;
+    /* 🔥 NAV AT TOP */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(6px);
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
-      gap: 0.5rem;
-      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
-    .site-nav a {
-      display: inline-block;
-      color: var(--nav-text);
+    .nav a {
+      color: white;
+      padding: 1rem 1.2rem;
       text-decoration: none;
-      padding: 0.95rem 0.9rem;
-      font-size: 0.96rem;
-      line-height: 1;
-      border-radius: 8px;
-      margin: 0.35rem 0;
+      font-weight: 500;
+      font-size: 0.95rem;
     }
 
-    .site-nav a:hover {
-      background: var(--nav-hover);
+    .nav a:hover {
+      background: #1e293b;
     }
 
-    .site-nav a.active {
-      background: #1d4ed8;
+    /* 🔥 HERO (FULL WIDTH) */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      background: url('/2026symposium/images/ADMI2026_banner.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: flex-end;
     }
 
+    .hero-overlay {
+      width: 100%;
+      padding: 2rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0));
+      color: white;
+    }
+
+    .hero-overlay h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .hero-overlay p {
+      margin: 0.5rem 0 0 0;
+      font-size: 1.1rem;
+    }
+
+    /* CONTENT */
     .content {
-      max-width: var(--content-max);
-      margin: 0 auto;
-      padding: 1.5rem 1rem 2.5rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1.5rem;
     }
 
-    .page-title {
-      margin: 0 0 1.25rem 0;
-    }
-
-    @media (max-width: 720px) {
-      .site-nav-inner {
-        gap: 0.25rem;
+    @media (max-width: 700px) {
+      .hero {
+        height: 300px;
       }
 
-      .site-nav a {
-        padding: 0.8rem 0.75rem;
-        font-size: 0.92rem;
-      }
-
-      .content {
-        padding-top: 1.1rem;
+      .nav a {
+        padding: 0.8rem;
+        font-size: 0.9rem;
       }
     }
   </style>
 </head>
+
 <body>
 
-  <div class="site-header">
-    
+  <!-- 🔥 NAV AT VERY TOP -->
+  <div class="nav">
+    <a href="/2026symposium/">Home</a>
+    <a href="/2026symposium/admi26_president_letter">President</a>
+    <a href="/2026symposium/admi26_speakers">Speakers</a>
+    <a href="/2026symposium/admi26_sponsors">Sponsors</a>
+    <a href="/2026symposium/admi26_papers">Papers</a>
   </div>
 
-  <nav class="site-nav">
-    <div class="site-nav-inner">
-      <a href="/2026symposium/" {% if page.url == "/" or page.url == "/index.html" %}class="active"{% endif %}>Home</a>
-      <a href="/2026symposium/admi26_president_letter" {% if page.url contains "admi26_president_letter" %}class="active"{% endif %}>President’s Letter</a>
-      <a href="/2026symposium/admi26_speakers" {% if page.url contains "admi26_speakers" %}class="active"{% endif %}>Speakers</a>
-      <a href="/2026symposium/admi26_sponsors" {% if page.url contains "admi26_sponsors" %}class="active"{% endif %}>Sponsors</a>
-      <a href="/2026symposium/admi26_papers" {% if page.url contains "admi26_papers" or page.url contains "README" %}class="active"{% endif %}>Papers &amp; Posters</a>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-overlay">
+      <h1>ADMI Symposium 2026</h1>
+      <p>Leveraging Artificial Intelligence in Learning, Teaching, and Research</p>
     </div>
-  </nav>
+  </div>
 
-  <main class="content">
+  <!-- CONTENT -->
+  <div class="content">
     {{ content }}
-  </main>
+  </div>
 
 </body>
 </html>
