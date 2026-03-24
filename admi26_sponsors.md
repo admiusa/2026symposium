@@ -120,7 +120,7 @@
 
     <a class="sponsor-card" href="https://www.teachcswithai.org" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="/sponsorlogos/GenAIinCSEdClogo.svg" alt="GenAI in CS Education Consortium logo">
+        <img src="sponsorlogos/GenAIinCSEdClogo.svg" alt="GenAI in CS Education Consortium logo">
       </div>
       <div class="sponsor-name">GenAI in CS Education Consortium</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -128,7 +128,7 @@
 
     <a class="sponsor-card" href="https://datascience.aucenter.edu" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="/sponsorlogos/AUCC_SCI_LOGO.png" alt="AUC Data Science Initiative logo">
+        <img src="sponsorlogos/AUCC_SCI_LOGO.png" alt="AUC Data Science Initiative logo">
       </div>
       <div class="sponsor-name">AUC Data Science Initiative</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -136,7 +136,7 @@
 
     <a class="sponsor-card" href="https://www.ncyte.net" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="/sponsorlogos/ncyte_logo.png" alt="NCyTE Center logo">
+        <img src="sponsorlogos/ncyte_logo.png" alt="NCyTE Center logo">
       </div>
       <div class="sponsor-name">NCyTE Center</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -144,7 +144,7 @@
 
     <a class="sponsor-card" href="https://sciencegateways.org" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="/sponsorlogos/sciencegateways.png" alt="SGX3 logo">
+        <img src="sponsorlogos/sciencegateways.png" alt="SGX3 logo">
       </div>
       <div class="sponsor-name">SGX3</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -152,7 +152,7 @@
 
     <a class="sponsor-card" href="https://www.statsperform.com" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="/sponsorlogos/stats-perform-logo.png" alt="Stats Perform logo">
+        <img src="sponsorlogos/stats-perform-logo.png" alt="Stats Perform logo">
       </div>
       <div class="sponsor-name">Stats Perform</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -160,7 +160,7 @@
 
     <a class="sponsor-card" href="https://www.auburn.edu" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="/sponsorlogos/auburn_formal_v_fullcolor_digital.svg" alt="Auburn University logo">
+        <img src="sponsorlogos/auburn_formal_v_fullcolor_digital.svg" alt="Auburn University logo">
       </div>
       <div class="sponsor-name">Auburn University</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
