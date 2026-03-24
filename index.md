@@ -150,9 +150,7 @@ permalink: /
 }
 </style>
 
-<div class="hero">
-<img src="ADMI2026_banner.jpg">
-</div>
+
 
 <div class="quick-links">
   <a class="quick-link" href="/2026symposium/admi26_president_letter">
