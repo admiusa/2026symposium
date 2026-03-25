@@ -1,0 +1,11 @@
+@inproceedings{Tucker2026crosssilofederated,
+  author = {Anthony Tucker and Saurav Keshari Aryal},
+  title = {Cross-Silo Federated Learning for Radiomics},
+  booktitle = {Proceedings of the ADMI 2026 Symposium on Computing at Minority Institutions},
+  year = {2026},
+  publisher = {The Association of Computer Science Departments at Minority Institutions 2026 Symposium},
+  address = {Orangeburg, SC},
+  note = {Poster submission; Student - Undergraduate},
+  url = {https://admiusa.github.io/2026symposium/sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_84.pdf},
+  abstract = {Radiomics allows for the extraction of features from medical images for predictive modeling, but due to data privacy regulations, training models on multi-institutional datasets is not feasible. We propose a cross-silo federated learning framework that allows hospitals to jointly train radiomics models without sharing patient data. Our solution utilizes the Flower framework and the radMLBench benchmark (50+ radiomics datasets) to create a multi-hospital federated learning setting. Each hospital is given unique datasets, as seen in real-world settings. We handle feature heterogeneity by using intersection-based feature alignment, making the model compatible across hospitals. The framework utilizes a four-layer neural network architecture that is trained locally at each hospital. The central server combines the model parameters using Federated Averaging (FedAvg), weighted by the number of samples. We compare the federated learning method with a centralized approach that trains on aggregated data using accuracy as a metric. Although the centralized approach has the advantage of direct access to all the data, the federated approach is able to attain similar results while preserving the privacy of the data, thus proving that collaborative learning can come close to the centralized approach without breaching the privacy constraints. The framework is applied to brain-related disorders (gliomas and glioblastomas) using MRI images, thus illustrating how different institutions can work together to collaboratively enhance the performance of the model while being HIPAA compliant.}
+}

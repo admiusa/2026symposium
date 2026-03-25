@@ -1,0 +1,11 @@
+@inproceedings{Ayandosu2026evidenceguidedabductive,
+  author = {Ifeoluwakiitan Ayandosu and Saurav Keshari Aryal},
+  title = {Evidence Guided Abductive Scoring with Option Conditioned Retrieval and Constrained LLM Evaluation},
+  booktitle = {Proceedings of the ADMI 2026 Symposium on Computing at Minority Institutions},
+  year = {2026},
+  publisher = {The Association of Computer Science Departments at Minority Institutions 2026 Symposium},
+  address = {Orangeburg, SC},
+  note = {Poster submission; Student - Undergraduate},
+  url = {https://admiusa.github.io/2026symposium/sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_43.pdf},
+  abstract = {Abductive event reasoning in the wild requires selecting plausible explanations for an event from noisy, partially relevant multi document context. We present an evidence guided abductive scoring pipeline for SemEval 2026 Task 12 that separates evidence selection from explanation scoring. For each topic, we chunk documents and retrieve option conditioned evidence using dense embeddings, then apply a cross encoder reranker to form compact evidence packs per option. A constrained large language model scorer evaluates each option using only its evidence pack and outputs structured signals capturing evidence support, explanatory directness, and contradiction. We then apply deterministic decision rules to produce single or multi label predictions, including robust handling of none of the above style options through semantic detection rather than reliance on option position. This modular design reduces distraction from irrelevant documents, improves comparability across options, and enables controlled calibration for multi answer outputs. Our approach demonstrates that retrieval focused evidence compression combined with disciplined, signal based scoring can effectively support abductive reasoning without explicit knowledge graphs or end to end prompting over full document context.}
+}

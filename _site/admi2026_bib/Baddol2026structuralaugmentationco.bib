@@ -1,0 +1,11 @@
+@inproceedings{Baddol2026structuralaugmentationco,
+  author = {Lashaun Baddol and Saurav Aryal and Lashaun Baddol},
+  title = {Structural Augmentation for Conspiracy Detection: A ModernBERT Approach to PsyCoMark 2026 Subtask 2},
+  booktitle = {Proceedings of the ADMI 2026 Symposium on Computing at Minority Institutions},
+  year = {2026},
+  publisher = {The Association of Computer Science Departments at Minority Institutions 2026 Symposium},
+  address = {Orangeburg, SC},
+  note = {Poster submission; Student - Undergraduate},
+  url = {https://admiusa.github.io/2026symposium/sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_81.pdf},
+  abstract = {The PsyCoMark 2026 shared task emphasizes modeling the psycholinguistic structure underlying conspiracy belief expression rather than relying solely on topical cues. In this work, we address Subtask 2, which requires classifying Reddit comments as conspiracy-related or non-conspiracy-related across diverse domains. We implement a syntactically augmented transformer-based classifier using ModernBERT-base. To introduce lightweight structural information aligned with PsyCoMark’s theoretical framing, we extract Part-of-Speech (POS) tags using spaCy and concatenate the resulting syntactic sequence with the original comment text via a separator token. This approach allows the model to jointly encode lexical semantics and shallow grammatical structure without architectural modification. The model is fine-tuned for binary classification using cross-entropy loss, with early stopping applied to reduce overfitting. Preliminary experiments on the official development split yield a macro-averaged F1 score of 0.46. While performance remains modest, these results establish a functional baseline for structurally augmented classification and provide initial insight into the contribution of shallow syntactic signals for conspiracy detection in topic-diverse online discussions. This work contributes an empirically grounded starting point for exploring psycholinguistically informed transformer models within the PsyCoMark framework.}
+}

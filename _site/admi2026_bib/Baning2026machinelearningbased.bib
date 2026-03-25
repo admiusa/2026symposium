@@ -1,0 +1,11 @@
+@inproceedings{Baning2026machinelearningbased,
+  author = {Philip Baning},
+  title = {Machine Learning-Based Detection of Business Email Compromise: A Comparative Analysis of Gradient Boosting Techniques},
+  booktitle = {Proceedings of the ADMI 2026 Symposium on Computing at Minority Institutions},
+  year = {2026},
+  publisher = {The Association of Computer Science Departments at Minority Institutions 2026 Symposium},
+  address = {Orangeburg, SC},
+  note = {Full-Oral submission; Student - Undergraduate},
+  url = {https://admiusa.github.io/2026symposium/sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_1.pdf},
+  abstract = {Business Email Compromise (BEC) attacks constitute one of the most financially damaging cyber threats, resulting in global losses exceeding 2.7 billion USD annually according to the FBI Internet Crime Complaint Center. Unlike conventional phishing attacks that deploy malicious payloads or URLs, BEC employs sophisticated social engineering via carefully crafted language, posing substantial challenges to traditional signaturebased detection systems. This work develops a robust machine learning framework for automated BEC detection, incorporating 58 specialized features extracted from email content, metadata, and behavioral attributes. We provide a formal mathematical formulation of the feature extraction process and evaluate five gradient boosting algorithms—XGBoost, LightGBM, CatBoost, Random Forest, and a stacking ensemble on the Kaggle Fraud Email Dataset (9,239 samples). The dataset undergoes an 80/20 stratified split to preserve class distribution. CatBoost attains the highest performance, with 97.29 percent accuracy, 97.29 percent F1 score, and 99.55 percent AUC ROC. We employ McNemar’s test to confirm statistical significance (χ2 = 7.52, p < 0.01) and utilize SHAP (SHapley Additive exPlanations) to isolate linguistic metrics specifically text entropy and readability—as primary discriminators. Furthermore, we present a computational complexity analysis demonstrating that our pipeline operates with O(L) linear complexity relative to email length, achieving sub 10 ms inference latency suitable for real time SIEM integration. The framework outperforms existing benchmarks by 8.8 percent in F1 score, establishing a new baseline for content centric threat detection.}
+}

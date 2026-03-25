@@ -1,10 +1,125 @@
----
-layout: default
-title: Speakers
-permalink: /admi26_speakers
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speakers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+  <style>
+    :root {
+      --border: #d0d7de;
+      --text: #111827;
+      --muted: #4b5563;
+      --link: #0969da;
+      --nav-bg: #0f172a;
+      --nav-text: #f8fafc;
+      --nav-hover: #1e293b;
+      --content-max: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background: #ffffff;
+    }
+
+    .site-header {
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .site-header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .site-nav {
+      background: var(--nav-bg);
+      border-bottom: 1px solid #0b1220;
+    }
+
+    .site-nav-inner {
+      max-width: var(--content-max);
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .site-nav a {
+      display: inline-block;
+      color: var(--nav-text);
+      text-decoration: none;
+      padding: 0.95rem 0.9rem;
+      font-size: 0.96rem;
+      line-height: 1;
+      border-radius: 8px;
+      margin: 0.35rem 0;
+    }
+
+    .site-nav a:hover {
+      background: var(--nav-hover);
+    }
+
+    .site-nav a.active {
+      background: #1d4ed8;
+    }
+
+    .content {
+      max-width: var(--content-max);
+      margin: 0 auto;
+      padding: 1.5rem 1rem 2.5rem 1rem;
+    }
+
+    .page-title {
+      margin: 0 0 1.25rem 0;
+    }
+
+    @media (max-width: 720px) {
+      .site-nav-inner {
+        gap: 0.25rem;
+      }
+
+      .site-nav a {
+        padding: 0.8rem 0.75rem;
+        font-size: 0.92rem;
+      }
+
+      .content {
+        padding-top: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="site-header">
+    <img src="Text_with_ADMI_logo_background_header.png" alt="ADMI Symposium 2026">
+  </div>
+
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+      <a href="/2026symposium/" >Home</a>
+      <a href="/2026symposium/admi26_president_letter" >President’s Letter</a>
+      <a href="/2026symposium/admi26_program" >Schedule</a>
+      <a href="/2026symposium/admi26_speakers" class="active">Speakers</a>
+      <a href="/2026symposium/admi26_sponsors" >Sponsors</a>
+      <a href="/2026symposium/admi26_papers" >Papers &amp; Posters</a>
+    </div>
+  </nav>
+
+  <main class="content">
+    <style>
 .page-intro {
   max-width: 860px;
   margin: 0 0 1.5rem 0;
@@ -102,8 +217,7 @@ permalink: /admi26_speakers
 }
 </style>
 
-
-<div class='speaker-grid'>
+<div class="speaker-grid">
 
 <div class="speaker-card" id="cory-brooks">
   <div class="speaker-image">Image Coming Soon</div>
@@ -172,7 +286,7 @@ permalink: /admi26_speakers
     <div class="speaker-title">Professor/Chair Emerita</div>
     <div class="speaker-org">Winston-Salem State University</div>
     <div class="speaker-contact"><a href="mailto:jonese@wssu.edu">[Contact Information]</a></div>
-    <div class="speaker-bio"><p>Dr. Elva J. Jones<br>Dr. Jones is Professor Emeritus and Founding Chair at WinstonSalem State University. She obtained a bachelor’s degree from WSSU; a master’s degree from the UNCG; a master’s in operations research and the Ph.D. in Industrial &amp; Systems Engineering/Computer<br>Studies from NCSU, the first African American woman to attain a doctorate in the area from NCSU.<br>Dr. Jones’s accomplishments include a range of academic innovations; an active research, publication, and extramural funding record; and an exemplary record of service. The Elva J. Jones Computer Science building, a $13 million academic, research, and Information Resources facility, was dedicated in her honor, September 2005.  Dr. Jones has committed her life to teaching excellence, mentoring, recruiting and retaining young persons in the computing field, research, and “giving back” through professional and community service.</p></div>
+    <div class="speaker-bio"><p>Dr. Elva J. Jones<br />Dr. Jones is Professor Emeritus and Founding Chair at WinstonSalem State University. She obtained a bachelor’s degree from WSSU; a master’s degree from the UNCG; a master’s in operations research and the Ph.D. in Industrial &amp; Systems Engineering/Computer<br />Studies from NCSU, the first African American woman to attain a doctorate in the area from NCSU.<br />Dr. Jones’s accomplishments include a range of academic innovations; an active research, publication, and extramural funding record; and an exemplary record of service. The Elva J. Jones Computer Science building, a $13 million academic, research, and Information Resources facility, was dedicated in her honor, September 2005.  Dr. Jones has committed her life to teaching excellence, mentoring, recruiting and retaining young persons in the computing field, research, and “giving back” through professional and community service.</p></div>
   </div>
 </div>
 
@@ -184,7 +298,7 @@ permalink: /admi26_speakers
     <div class="speaker-title">Department Chair/Associate Professor</div>
     <div class="speaker-org">Claflin University</div>
     <div class="speaker-contact"><a href="mailto:kliles@claflin.edu">[Contact Information]</a></div>
-    <div class="speaker-bio"><p>Dr. Karina Liles is the Chair of the Department the Mathematics and Computer Science and an Associate Professor of Computer Science at Claflin University. Dr. Liles received her PhD and ME in Computer Science and Engineering from University of South Carolina, MEd in Educational Technology from University of South Carolina and BS in Computer Science from Spelman College. Dr. Liles is the owner and founder of STEM Truck which is a mobile STEM lab delivering STEM resources to rural areas. She owns a patent for a turn safety apparatus.<br>Dr. Karina Liles is a distinguished academic and innovator at Claflin University, where she plays a pivotal role in program development and community engagement through technology. Her multifaceted role at Claflin University includes curriculum development and campus innovation. She is a key figure in the university&#x27;s partnerships with Google and Zoom bridging connections between industry and academia and forging opportunities for students, and she is the co-chair of the Generative Artificial Intelligence Task Force. Early in her career, she developed Programming Languages and Robotics Fundamentals courses, significantly enhancing the computer science curriculum. Additionally, Dr. Liles developed a Bachelor’s and Master’s program and graduate certificate in Cybersecurity to meet the growing demand for skilled professionals in this critical field.<br>Dr. Liles designed and launched the Claflin University SmartHOME, a groundbreaking initiative aimed at combating health disparities among African Americans and other minority communities through advanced technology. Through her campus innovation initiatives, she was instrumental in the digital transformation of the H.V. Manning Library, equipping it with state-of-the-art resources to better serve academic needs. She collaborated with the Office of Enrollment to create and implement an electronic scavenger hunt, designed to guide prospective students and visitors on an interactive tour of the campus. She also founded the Claflin Data Science Team, which supports the Athletics Department with innovative data analytics, enhancing the performance and strategic capabilities of the basketball teams. Dr. Liles enhancing campus recruitment through the development and implementation of a suite of innovative approaches to engage prospective students and partners, including NFC tag digital business cards, an interactive smart home display and robot presentations.<br>Dr. Liles&#x27; dedication to merging technology with education and community welfare has positioned Claflin University as a leader in both academic excellence and community service. Her vision continues to drive significant advancements in education technology and health initiatives, making a lasting impact on students and the broader community.</p></div>
+    <div class="speaker-bio"><p>Dr. Karina Liles is the Chair of the Department the Mathematics and Computer Science and an Associate Professor of Computer Science at Claflin University. Dr. Liles received her PhD and ME in Computer Science and Engineering from University of South Carolina, MEd in Educational Technology from University of South Carolina and BS in Computer Science from Spelman College. Dr. Liles is the owner and founder of STEM Truck which is a mobile STEM lab delivering STEM resources to rural areas. She owns a patent for a turn safety apparatus.<br />Dr. Karina Liles is a distinguished academic and innovator at Claflin University, where she plays a pivotal role in program development and community engagement through technology. Her multifaceted role at Claflin University includes curriculum development and campus innovation. She is a key figure in the university&#x27;s partnerships with Google and Zoom bridging connections between industry and academia and forging opportunities for students, and she is the co-chair of the Generative Artificial Intelligence Task Force. Early in her career, she developed Programming Languages and Robotics Fundamentals courses, significantly enhancing the computer science curriculum. Additionally, Dr. Liles developed a Bachelor’s and Master’s program and graduate certificate in Cybersecurity to meet the growing demand for skilled professionals in this critical field.<br />Dr. Liles designed and launched the Claflin University SmartHOME, a groundbreaking initiative aimed at combating health disparities among African Americans and other minority communities through advanced technology. Through her campus innovation initiatives, she was instrumental in the digital transformation of the H.V. Manning Library, equipping it with state-of-the-art resources to better serve academic needs. She collaborated with the Office of Enrollment to create and implement an electronic scavenger hunt, designed to guide prospective students and visitors on an interactive tour of the campus. She also founded the Claflin Data Science Team, which supports the Athletics Department with innovative data analytics, enhancing the performance and strategic capabilities of the basketball teams. Dr. Liles enhancing campus recruitment through the development and implementation of a suite of innovative approaches to engage prospective students and partners, including NFC tag digital business cards, an interactive smart home display and robot presentations.<br />Dr. Liles&#x27; dedication to merging technology with education and community welfare has positioned Claflin University as a leader in both academic excellence and community service. Her vision continues to drive significant advancements in education technology and health initiatives, making a lasting impact on students and the broader community.</p></div>
   </div>
 </div>
 
@@ -249,3 +363,8 @@ permalink: /admi26_speakers
 </div>
 
 </div>
+
+  </main>
+
+</body>
+</html>

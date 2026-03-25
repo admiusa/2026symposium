@@ -1,10 +1,125 @@
----
-layout: default
-title: Program
-permalink: /admi26_program
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Program</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-# ADMI 2026 Symposium Program
+  <style>
+    :root {
+      --border: #d0d7de;
+      --text: #111827;
+      --muted: #4b5563;
+      --link: #0969da;
+      --nav-bg: #0f172a;
+      --nav-text: #f8fafc;
+      --nav-hover: #1e293b;
+      --content-max: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background: #ffffff;
+    }
+
+    .site-header {
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .site-header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .site-nav {
+      background: var(--nav-bg);
+      border-bottom: 1px solid #0b1220;
+    }
+
+    .site-nav-inner {
+      max-width: var(--content-max);
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .site-nav a {
+      display: inline-block;
+      color: var(--nav-text);
+      text-decoration: none;
+      padding: 0.95rem 0.9rem;
+      font-size: 0.96rem;
+      line-height: 1;
+      border-radius: 8px;
+      margin: 0.35rem 0;
+    }
+
+    .site-nav a:hover {
+      background: var(--nav-hover);
+    }
+
+    .site-nav a.active {
+      background: #1d4ed8;
+    }
+
+    .content {
+      max-width: var(--content-max);
+      margin: 0 auto;
+      padding: 1.5rem 1rem 2.5rem 1rem;
+    }
+
+    .page-title {
+      margin: 0 0 1.25rem 0;
+    }
+
+    @media (max-width: 720px) {
+      .site-nav-inner {
+        gap: 0.25rem;
+      }
+
+      .site-nav a {
+        padding: 0.8rem 0.75rem;
+        font-size: 0.92rem;
+      }
+
+      .content {
+        padding-top: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="site-header">
+    <img src="Text_with_ADMI_logo_background_header.png" alt="ADMI Symposium 2026">
+  </div>
+
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+      <a href="/2026symposium/" >Home</a>
+      <a href="/2026symposium/admi26_president_letter" >President’s Letter</a>
+      <a href="/2026symposium/admi26_program" class="active">Schedule</a>
+      <a href="/2026symposium/admi26_speakers" >Speakers</a>
+      <a href="/2026symposium/admi26_sponsors" >Sponsors</a>
+      <a href="/2026symposium/admi26_papers" >Papers &amp; Posters</a>
+    </div>
+  </nav>
+
+  <main class="content">
+    <h1 id="admi-2026-symposium-program">ADMI 2026 Symposium Program</h1>
 
 <style>
 .program-day {
@@ -53,8 +168,7 @@ permalink: /admi26_program
 }
 </style>
 
-The schedule below includes the session times, rooms, and event details currently listed for the ADMI 2026 Symposium.
-
+<p>The schedule below includes the session times, rooms, and event details currently listed for the ADMI 2026 Symposium.</p>
 
 <div class="program-day">
 <h2>Thursday, March 26, 2026</h2>
@@ -88,22 +202,22 @@ The schedule below includes the session times, rooms, and event details currentl
 <div class="program-card program-highlight">
 <div class="program-time">8:40 A.M. – 9:40 A.M.</div>
 <div class="program-room">Room: Claflin Theatre</div>
-<div class="program-event">Keynote Address<br>
-Professor Jaycee Holmes-Nguyen, Contributing Faculty,GenAI in CS Education Consortium and Professor, Spelman College<br>
+<div class="program-event">Keynote Address<br />
+Professor Jaycee Holmes-Nguyen, Contributing Faculty,GenAI in CS Education Consortium and Professor, Spelman College<br />
 Break</div>
 </div>
 
 <div class="program-card">
 <div class="program-time">9:55 A.M. – 10:55 A.M.</div>
 <div class="program-room">Room: Ballroom A</div>
-<div class="program-event">Student Track I: Internship Roundtable<br>
+<div class="program-event">Student Track I: Internship Roundtable<br />
 <a href="/2026symposium/admi26_speakers#elva-jones">Dr. Elva Jones</a>, Computer Science Chair Emeritus, Winston Salem State University</div>
 </div>
 
 <div class="program-card">
 <div class="program-time">9:55 A.M. – 10:55 A.M.</div>
 <div class="program-room">Room: Ballroom C</div>
-<div class="program-event">Student Track II: Graduate School<br>
+<div class="program-event">Student Track II: Graduate School<br />
 <a href="/2026symposium/admi26_speakers#cheryl-seals">Dr. Cheryl Seals</a>, Charles Barkley Endowed Professor of Computer Science and Software Engineering, Auburn University</div>
 </div>
 
@@ -134,16 +248,16 @@ Break</div>
 <div class="program-card">
 <div class="program-time">1:00 P.M. - 2:00 P.M.</div>
 <div class="program-room">Room: Claflin Theatre</div>
-<div class="program-event">Faculty Paper Track III<br>
+<div class="program-event">Faculty Paper Track III<br />
 Student Poster Session</div>
 </div>
 
 <div class="program-card">
 <div class="program-time">2:00 P.M. – 4:00 P.M.</div>
 <div class="program-room">Room: Conference Room A</div>
-<div class="program-event">Faculty Session<br>
-Presentation 1: AI Modifications in Curriculum Panel, Facilitator:  <a href="/2026symposium/admi26_speakers#linda-hayden">Dr. Linda Hayden</a><br>
-Presentation 2: Hampton’s Pathway to AI Degree<br>
+<div class="program-event">Faculty Session<br />
+Presentation 1: AI Modifications in Curriculum Panel, Facilitator:  <a href="/2026symposium/admi26_speakers#linda-hayden">Dr. Linda Hayden</a><br />
+Presentation 2: Hampton’s Pathway to AI Degree<br />
 Dr. Jean Muhammad, Chair and Professor of Computer Science, Hampton University</div>
 </div>
 
@@ -156,7 +270,7 @@ Dr. Jean Muhammad, Chair and Professor of Computer Science, Hampton University</
 <div class="program-card">
 <div class="program-time">2:00 P.M. – 4:00 P.M.</div>
 <div class="program-room">Room: Ballroom C</div>
-<div class="program-event">Student Competition: Cybersecurity<br>
+<div class="program-event">Student Competition: Cybersecurity<br />
 <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College</div>
 </div>
 
@@ -169,9 +283,9 @@ Dr. Jean Muhammad, Chair and Professor of Computer Science, Hampton University</
 <div class="program-card">
 <div class="program-time">4:00 P.M. – 6:00 P.M.</div>
 <div class="program-room">Room: 3rd floor lounge</div>
-<div class="program-event">Networking -- Sponsors<br>
-Sponsor Spotlights<br>
-CUE Student Meet & Greet<br>
+<div class="program-event">Networking -- Sponsors<br />
+Sponsor Spotlights<br />
+CUE Student Meet &amp; Greet<br />
 Movie Night and Activities</div>
 </div>
 
@@ -194,23 +308,23 @@ Movie Night and Activities</div>
 <div class="program-card">
 <div class="program-time">8:30 A.M. – 10:30 A.M.</div>
 <div class="program-room">Room: Ballroom A</div>
-<div class="program-event">Student and Faculty Session IA<br>
-<strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
+<div class="program-event">Student and Faculty Session IA<br />
+<strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br />
 <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College</div>
 </div>
 
 <div class="program-card">
 <div class="program-time">8:30 A.M. – 10:30 A.M.</div>
 <div class="program-room">Room: Ballroom C</div>
-<div class="program-event">Student and Faculty Session IB<br>
-<strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
-<a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College<br>
+<div class="program-event">Student and Faculty Session IB<br />
+<strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br />
+<a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College<br />
 Break</div>
 </div>
 
 <div class="program-card">
 <div class="program-time">10:45 A.M. – 11:45 A.M.</div>
-<div class="program-event">Student and Faculty Session II<br>
+<div class="program-event">Student and Faculty Session II<br />
 <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College</div>
 </div>
 
@@ -246,11 +360,16 @@ Break</div>
 <div class="program-card program-highlight">
 <div class="program-time">6:30 P.M. – 8:30 P.M.</div>
 <div class="program-room">Room: Ballroom A, B, C</div>
-<div class="program-event">Awards Banquet<br>
-Alumni Spotlight: <a href="/2026symposium/admi26_speakers#karina-liles">Dr. Karina Liles</a>, Chair and Associate Professor, Department of Mathematics and Computer Science, Claflin University<br>
-Sponsor Highlights<br>
-(UCSD -REACH)<br>
+<div class="program-event">Awards Banquet<br />
+Alumni Spotlight: <a href="/2026symposium/admi26_speakers#karina-liles">Dr. Karina Liles</a>, Chair and Associate Professor, Department of Mathematics and Computer Science, Claflin University<br />
+Sponsor Highlights<br />
+(UCSD -REACH)<br />
 Competition Awards</div>
 </div>
 
 </div>
+
+  </main>
+
+</body>
+</html>

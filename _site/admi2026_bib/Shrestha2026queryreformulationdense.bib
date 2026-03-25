@@ -1,0 +1,11 @@
+@inproceedings{Shrestha2026queryreformulationdense,
+  author = {Sijan Shrestha and Saurav Aryal},
+  title = {Query Reformulation and Dense-Lexical Retrieval Fusion for Multi-Turn Retrieval-Augmented Generation},
+  booktitle = {Proceedings of the ADMI 2026 Symposium on Computing at Minority Institutions},
+  year = {2026},
+  publisher = {The Association of Computer Science Departments at Minority Institutions 2026 Symposium},
+  address = {Orangeburg, SC},
+  note = {Poster submission; Student - Undergraduate},
+  url = {https://admiusa.github.io/2026symposium/sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_70.pdf},
+  abstract = {While large language models increasingly serve as chat-based assistants, grounding their responses in retrieved evidence across multi-turn conversations remains a significant challenge, particularly when questions reference earlier turns, when the system must recognize unanswerable queries rather than hallucinate, and when relevant passages shift as the conversation evolves. We address these challenges on the MTRAG benchmark across four domain-specific corpora: ClapNQ (Wikipedia), Cloud (technical documentation), FiQA (financial), and Govt (government web pages). Our system employs a hybrid retrieve-then-rerank architecture. Queries are first augmented through LLM-driven query rewriting, breaking down entities and query itself, and generating hypothetical embeddings (HyDE) for semantic matching. Results from dense vector search and lexical matching are then fused via Reciprocal Rank Fusion and reranked though cross-encoder. Llama-3.3-70B-Instruct then generates responses based strictly on the most relevant text passages. The system achieves an nDCG@5 of 0.4098 on passage retrieval, a harmonic mean of 0.7462 on reference-grounded generation, and 0.5796 on end-to-end RAG.}
+}

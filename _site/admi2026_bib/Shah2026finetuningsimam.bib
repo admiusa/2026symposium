@@ -1,0 +1,11 @@
+@inproceedings{Shah2026finetuningsimam,
+  author = {Araj Shah and Saurav Keshari Aryal and Howard Prioleau and Gloria Washington},
+  title = {Fine-Tuning SimAM-ResNet34 and WavLM-Base for Cross-Lingual Speaker Verification},
+  booktitle = {Proceedings of the ADMI 2026 Symposium on Computing at Minority Institutions},
+  year = {2026},
+  publisher = {The Association of Computer Science Departments at Minority Institutions 2026 Symposium},
+  address = {Orangeburg, SC},
+  note = {Poster submission; Student - Undergraduate},
+  url = {https://admiusa.github.io/2026symposium/sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_64.pdf},
+  abstract = {We present a lightweight, reproducible submission for the TidyVoice 2026 cross-lingual speaker verification challenge implemented in the WeSpeaker toolkit under single-GPU Google Colab constraints. Our primary system, S1, uses the official SimAM-ResNet34 checkpoint pretrained on VoxBlink2 and VoxCeleb2 and fine-tuned on TidyVoiceX, which we further fine-tune for five epochs with large-margin classification. In parallel, we implement a secondary self-supervised system, S2, using a frozen WavLM-Base frontend with a compact statistics pooling speaker head, trained for four epochs. Both systems use standard speech augmentation during training with MUSAN noise and RIRS reverberation, while inference uses clean embeddings and cosine scoring. To combine systems, we perform score-level fusion calibrated on a labeled Tune-S development split. We z-normalize each system’s Tune-S scores using their mean and standard deviation, grid-search a convex fusion weight alpha in the range 0 to 1 with step 0.01 to minimize EER, and apply the frozen normalization and alpha to fuse Eval-A (Task 1) and Eval-U (Task 2) score files for submission. On Tune-S, S1 substantially outperforms S2, so the selected fusion weight is alpha equals 1.0.}
+}
