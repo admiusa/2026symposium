@@ -147,17 +147,7 @@ permalink: /admi26_speakers
 }
 </style>
 
-{% assign speaker_affiliations = site.data.speakers | map: "org" | compact | uniq | sort %}
 
-<div class="speaker-affiliations">
-  <h2>Affiliations represented</h2>
-  <p class="speaker-affiliations-intro">Organizations and institutions represented by this year’s speakers (deduplicated, alphabetical).</p>
-  <ul>
-{% for org in speaker_affiliations %}
-    <li>{{ org }}</li>
-{% endfor %}
-  </ul>
-</div>
 
 <div class="speaker-grid">
 {% for speaker in site.data.speakers %}
