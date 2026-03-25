@@ -1,0 +1,269 @@
+# ADMI 2026 program — drives admi26_program.md
+# time_start / time_end: ISO 8601 datetimes with US Eastern offset (sortable lexicographically by start).
+#   March 2026 symposium dates use Eastern Daylight Time (EDT, UTC−4) per America/New_York.
+# time: human-readable label shown on the page (may differ from strict 12h formatting, e.g. NOON).
+timezone: America/New_York
+timezone_note: All times are US Eastern. These March 2026 dates use Eastern Daylight Time (EDT, UTC−4).
+intro: The schedule below includes the session times, rooms, and event details currently listed for the ADMI 2026 Symposium.
+
+# Legend for session_track colors on the program page (order = display order).
+legend:
+  - track: student
+    label: Student sessions
+  - track: faculty
+    label: Faculty sessions
+  - track: both
+    label: Student & faculty sessions
+
+days:
+  - anchor_id: thursday-march-26-2026
+    tone: a
+    heading: Thursday, March 26, 2026
+    nav_label: Thursday, Mar 26
+    events:
+      - id: program-event-01
+        time_start: "2026-03-26T18:00:00-04:00"
+        time_end: "2026-03-26T20:00:00-04:00"
+        time: "6:00 P.M. – 8:00 P.M."
+        description_html: Board Meeting (ADMI Board Members only)
+
+  - anchor_id: friday-march-27-2026
+    tone: b
+    heading: Friday, March 27, 2026
+    nav_label: Friday, Mar 27
+    events:
+      - id: program-event-02
+        time_start: "2026-03-27T07:00:00-04:00"
+        time_end: "2026-03-27T08:15:00-04:00"
+        time: "7:00 A.M. – 8:15 A.M."
+        room: Hotel
+        description_html: Breakfast
+      - id: program-event-03
+        time_start: "2026-03-27T07:30:00-04:00"
+        time_end: "2026-03-27T17:00:00-04:00"
+        time: "7:30 A.M. – 5:00 P.M."
+        room: 1st floor lobby
+        description_html: Registration
+      - id: program-event-04
+        time_start: "2026-03-27T08:30:00-04:00"
+        time_end: "2026-03-27T08:40:00-04:00"
+        time: "8:30 A.M. – 8:40 A.M."
+        room: Claflin Theatre
+        highlight: true
+        description_html: |
+          Opening Session/Welcome --<a href="/2026symposium/admi26_speakers#alfred-watkins">Dr. Alfred Watkins</a>,  ADMI President
+      - id: program-event-05
+        time_start: "2026-03-27T08:40:00-04:00"
+        time_end: "2026-03-27T09:40:00-04:00"
+        time: "8:40 A.M. – 9:40 A.M."
+        room: Claflin Theatre
+        highlight: true
+        description_html: |
+          Keynote Address<br>
+          <a href="/2026symposium/admi26_speakers#jaycee-holmes-nguyen">Professor Jaycee Holmes-Nguyen</a>, Contributing Faculty, GenAI in CS Education Consortium and Professor, Spelman College
+      - id: program-event-friday-break-mar27
+        time_start: "2026-03-27T09:40:00-04:00"
+        time_end: "2026-03-27T09:55:00-04:00"
+        time: "9:40 A.M. – 9:55 A.M."
+        break_card: true
+        description_html: Break
+      - id: program-event-06
+        session_track: student
+        time_start: "2026-03-27T09:55:00-04:00"
+        time_end: "2026-03-27T10:55:00-04:00"
+        time: "9:55 A.M. – 10:55 A.M."
+        room: Ballroom A
+        description_html: |
+          Student Track I: Internship Roundtable<br>
+          <a href="/2026symposium/admi26_speakers#elva-jones">Dr. Elva Jones</a>, Computer Science Chair Emeritus, Winston Salem State University
+      - id: program-event-07
+        session_track: student
+        time_start: "2026-03-27T09:55:00-04:00"
+        time_end: "2026-03-27T10:55:00-04:00"
+        time: "9:55 A.M. – 10:55 A.M."
+        room: Ballroom C
+        description_html: |
+          Student Track II: Graduate School<br>
+          <a href="/2026symposium/admi26_speakers#cheryl-seals">Dr. Cheryl Seals</a>, Charles Barkley Endowed Professor of Computer Science and Software Engineering, Auburn University
+      - id: program-event-08
+        session_track: faculty
+        time_start: "2026-03-27T09:55:00-04:00"
+        time_end: "2026-03-27T10:55:00-04:00"
+        time: "9:55 A.M. – 10:55 A.M."
+        room: Conference Room A
+        description_html: Faculty Paper Track I
+      - id: program-event-09
+        session_track: student
+        time_start: "2026-03-27T11:00:00-04:00"
+        time_end: "2026-03-27T12:00:00-04:00"
+        time: "11:00 A.M. – NOON"
+        room: Ballroom A
+        description_html: |
+          Student Session: <a href="/2026symposium/admi26_speakers#togo-odbadrakh">Tuguldur (Togo) Odbadrakh</a>, HPC Engineer, Oak Ridge National Laboratory , <a href="/2026symposium/admi26_speakers#elijah-maccarthy">Elijah A. MacCarthy</a>, HPC Engineer, Oak Ridge National Laboratory , <strong>Title:</strong> HPC Crash Course (Virtual Session)
+      - id: program-event-10
+        session_track: faculty
+        time_start: "2026-03-27T11:00:00-04:00"
+        time_end: "2026-03-27T12:00:00-04:00"
+        time: "11:00 A.M. – NOON"
+        room: Conference Room A
+        description_html: Faculty Paper Track II
+      - id: program-event-11
+        time_start: "2026-03-27T12:00:00-04:00"
+        time_end: "2026-03-27T12:45:00-04:00"
+        time: "NOON – 12:45 P.M."
+        room: Ballroom B
+        highlight: true
+        description_html: |
+          Luncheon  Speaker - <a href="/2026symposium/admi26_speakers#janett-walters-williams">Dr. Janett Walters-Williams</a>, Hampton University,  <strong>Title:</strong>  Ethics in AI
+      - id: program-event-12
+        session_track: both
+        time_start: "2026-03-27T13:00:00-04:00"
+        time_end: "2026-03-27T14:00:00-04:00"
+        time: "1:00 P.M. - 2:00 P.M."
+        room: Claflin Theatre
+        description_html: |
+          Faculty Paper Track III<br>
+          Student Poster Session
+      - id: program-event-13
+        session_track: faculty
+        time_start: "2026-03-27T14:00:00-04:00"
+        time_end: "2026-03-27T16:00:00-04:00"
+        time: "2:00 P.M. – 4:00 P.M."
+        room: Conference Room A
+        description_html: |
+          Faculty Session<br>
+          Presentation 1: AI Modifications in Curriculum Panel, Facilitator:  <a href="/2026symposium/admi26_speakers#linda-hayden">Dr. Linda Hayden</a><br>
+          Presentation 2: Hampton’s Pathway to AI Degree<br>
+          <a href="/2026symposium/admi26_speakers#jean-muhammad">Dr. Jean Muhammad</a>, Chair and Professor of Computer Science, Hampton University
+      - id: program-event-14
+        session_track: student
+        time_start: "2026-03-27T14:00:00-04:00"
+        time_end: "2026-03-27T16:00:00-04:00"
+        time: "2:00 P.M. – 4:00 P.M."
+        room: Ballroom A
+        description_html: |
+          Student Competition: Code-a-thon – <a href="/2026symposium/admi26_speakers#jeaime-powell">Je’aime Powell</a>, Systems Analyst Omnibond Systems, LLC; <a href="/2026symposium/admi26_speakers#charlie-dey">S. Charlie Dey</a>, Texas Advanced Computing Center
+      - id: program-event-15
+        session_track: student
+        time_start: "2026-03-27T14:00:00-04:00"
+        time_end: "2026-03-27T16:00:00-04:00"
+        time: "2:00 P.M. – 4:00 P.M."
+        room: Ballroom C
+        description_html: |
+          Student Competition: Cybersecurity<br>
+          <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College
+      - id: program-event-16
+        time_start: "2026-03-27T16:00:00-04:00"
+        time_end: "2026-03-27T18:00:00-04:00"
+        time: "4:00 P.M. – 6:00 P.M."
+        room: 1st floor lobby
+        description_html: Graduate School Fair
+      - id: program-event-17
+        time_start: "2026-03-27T16:00:00-04:00"
+        time_end: "2026-03-27T18:00:00-04:00"
+        time: "4:00 P.M. – 6:00 P.M."
+        room: 3rd floor lounge
+        description_html: |
+          Networking -- Sponsors<br>
+          Sponsor Spotlights<br>
+          CUE Student Meet & Greet<br>
+          Movie Night and Activities
+
+  - anchor_id: saturday-march-28-2026
+    tone: c
+    heading: Saturday, March 28, 2026
+    nav_label: Saturday, Mar 28
+    events:
+      - id: program-event-18
+        time_start: "2026-03-28T07:30:00-04:00"
+        time_end: "2026-03-28T08:15:00-04:00"
+        time: "7:30 A.M. – 8:15 A.M."
+        room: Hotel
+        description_html: Breakfast
+      - id: program-event-19
+        time_start: "2026-03-28T07:30:00-04:00"
+        time_end: "2026-03-28T12:00:00-04:00"
+        time: "7:30 A.M. – 12:00 P.M."
+        room: 1st floor lobby
+        description_html: Registration
+      - id: program-event-20
+        session_track: both
+        time_start: "2026-03-28T08:30:00-04:00"
+        time_end: "2026-03-28T10:30:00-04:00"
+        time: "8:30 A.M. – 10:30 A.M."
+        room: Ballroom A
+        description_html: |
+          Student and Faculty Session IA<br>
+          <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
+          <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College
+      - id: program-event-21
+        session_track: both
+        time_start: "2026-03-28T08:30:00-04:00"
+        time_end: "2026-03-28T10:30:00-04:00"
+        time: "8:30 A.M. – 10:30 A.M."
+        room: Ballroom C
+        description_html: |
+          Student and Faculty Session IB<br>
+          <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
+          <a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College
+      - id: program-event-saturday-break-mar28
+        time_start: "2026-03-28T10:30:00-04:00"
+        time_end: "2026-03-28T10:45:00-04:00"
+        time: "10:30 A.M. – 10:45 A.M."
+        break_card: true
+        description_html: Break
+      - id: program-event-22
+        session_track: both
+        time_start: "2026-03-28T10:45:00-04:00"
+        time_end: "2026-03-28T11:45:00-04:00"
+        time: "10:45 A.M. – 11:45 A.M."
+        description_html: |
+          Student and Faculty Session II<br>
+          <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College
+      - id: program-event-23
+        time_start: "2026-03-28T11:45:00-04:00"
+        time_end: "2026-03-28T12:45:00-04:00"
+        time: "11:45 A.M. – 12:45 P.M."
+        room: Ballroom B
+        highlight: true
+        description_html: |
+          Lunch Speaker:  <a href="/2026symposium/admi26_speakers#napoleon-paxton">Dr. Napoleon Paxton</a>, Chief Innovation Officer, AISquared
+      - id: program-event-24
+        session_track: student
+        time_start: "2026-03-28T13:00:00-04:00"
+        time_end: "2026-03-28T14:30:00-04:00"
+        time: "1:00 P.M. – 2:30 PM"
+        room: 3rd floor lounge
+        description_html: Undergraduate Poster Session
+      - id: program-event-25
+        session_track: student
+        time_start: "2026-03-28T14:30:00-04:00"
+        time_end: "2026-03-28T17:00:00-04:00"
+        time: "2:30 P.M. – 5:00 P.M."
+        room: Conference Room A
+        description_html: Undergraduate Student Papers
+      - id: program-event-26
+        session_track: student
+        time_start: "2026-03-28T14:30:00-04:00"
+        time_end: "2026-03-28T17:00:00-04:00"
+        time: "2:30 P.M. – 5:00 P.M."
+        room: Conference Room B
+        description_html: Graduate Student Papers
+      - id: program-event-27
+        time_start: "2026-03-28T17:00:00-04:00"
+        time_end: "2026-03-28T18:30:00-04:00"
+        time: "5:00 P.M. – 6:30 P.M."
+        break_card: true
+        description_html: Break
+      - id: program-event-28
+        time_start: "2026-03-28T18:30:00-04:00"
+        time_end: "2026-03-28T20:30:00-04:00"
+        time: "6:30 P.M. – 8:30 P.M."
+        room: Ballroom A, B, C
+        highlight: true
+        description_html: |
+          Awards Banquet<br>
+          Alumni Spotlight: <a href="/2026symposium/admi26_speakers#karina-liles">Dr. Karina Liles</a>, Chair and Associate Professor, Department of Mathematics and Computer Science, Claflin University<br>
+          Sponsor Highlights<br>
+          (UCSD -REACH)<br>
+          Competition Awards

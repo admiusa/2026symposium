@@ -4,6 +4,36 @@ Jekyll loads every file in this folder as **`site.data.<filename_without_extensi
 
 ---
 
+## `schedule.yml`
+
+**Used by:** `admi26_program.md` via `site.data.schedule`
+
+**Shape:** `intro` (string), **`timezone`** (IANA name, `America/New_York`), optional **`timezone_note`** (shown under the intro on the program page), **`legend`** (list of `{ track, label }` for the session-type legend), plus **`days`** (array). Each day has:
+
+| Field | Description |
+|--------|-------------|
+| `anchor_id` | HTML `id` for the day section and jump links (for example `friday-march-27-2026`). |
+| `tone` | `a`, `b`, or `c` — maps to `program-day-tone-a` / `-b` / `-c` on the page. |
+| `heading` | Full day title (for example `Friday, March 27, 2026`). |
+| `nav_label` | Short label for the “Jump to” nav (for example `Friday, Mar 27`). |
+| `events` | Ordered list of session cards. |
+
+Each **event**:
+
+| Field | Description |
+|--------|-------------|
+| `id` | Stable slug for the card and share links (`program-event-06`, `program-event-friday-break-mar27`, …). |
+| `time_start` | ISO 8601 datetime with offset (for example `2026-03-27T09:55:00-04:00` for US Eastern in March, EDT). Used for ordering; sorts correctly as a string when all events share the same offset. |
+| `time_end` | ISO 8601 datetime with offset for the end of the slot. |
+| `time` | Human-readable range shown on the page (for example `9:55 A.M. – 10:55 A.M.` or `11:00 A.M. – NOON`). |
+| `room` | Optional; omit when there is no room line. Rendered as `Room: …` before the description. |
+| `description_html` | HTML for the session title, speakers, and links (same `<a href="/2026symposium/admi26_speakers#…">` patterns as elsewhere). Use a YAML `|` block for multi-line content. |
+| `highlight` | Optional; when `true`, adds the blue `program-highlight` card style. |
+| `break_card` | Optional; when `true`, adds the grey `program-card-break` style for scheduled breaks. |
+| `session_track` | Optional; `student`, `faculty`, or `both` — adds a colored top border and tint for that card (see **`legend`**). Omit for general events (meals, keynotes, breaks, etc.). |
+
+---
+
 ## `speakers.yml`
 
 **Used by:** `admi26_speakers.md` via `site.data.speakers`
