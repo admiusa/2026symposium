@@ -164,6 +164,7 @@
   title: Chief Innovation Officer
   org: UC Berkeley
   email: nc.paxton@gmail.com
+  linkedin: https://www.linkedin.com/in/napoleon-paxton/
   image: 
   bio: "<p>Dr. Napoleon Paxton is the Chief Innovation Officer at AI Squared and he
     is a Senior Level technologist with over 30 years of experience as a developer
@@ -211,11 +212,90 @@
     underrepresented minorities in technology. Previously, she worked as a program
     manager at Microsoft and has led projects at the intersection of interactive
     media, game development, and computing education.</p>"
+- id: janett-walters-williams
+  name: Dr. Janett Walters-Williams
+  title: Associate Professor, Computer Science
+  org: Hampton University
+  email: janett.williams@hamptonu.edu
+  image: images/janettWW.jpg
+  bio: "<p>Dr. Janett Walters-Williams joined the Department of Computer Science,
+    School of Science, at Hampton University in Fall 2018 as an Assistant Professor.
+    She earned her Ph.D. in Computer Science from the University of Southern Queensland
+    in Australia in 2012; MS and BS in Computer Science from the University of the
+    West Indies (Mona) in 2001 and 1994 respectively.</p><p>Dr. Walters-Williams has
+    worked as an educator of Computer Science at the university level for over 25
+    years and has taught programming languages such as C/C++, Java, Prolog, SQL and
+    Assembly Language working in the three most popular operating systems—Microsoft,
+    Unix/Linux, and MacOS. She has also taught networking, cybersecurity, web and mobile
+    programming.</p><p>Her love for Artificial Intelligence and its applications
+    has guided her research interests which lie in signal processing, neural networks,
+    machine/deep learning and data science. She also has interest in computer security
+    and cloud computing. Dr. Walters-Williams&#x27;s research is guided by the question
+    &quot;How can I use computer science to improve the lives of others?&quot;</p><p>Dr.
+    Walters-Williams has a passion for getting under-represented minorities and women
+    involved in STEM, especially computer science. Her passion also focuses on K–12
+    students and teacher training for the STEM fields.</p>"
+- id: jean-muhammad
+  name: Dr. Jean Muhammad
+  title: Endowed Professor and Chair, Department of Computer Science, School of Science
+  org: Hampton University
+  email: jeana.muhammad@hamptonu.edu
+  image: images/JeanM.jpg
+  bio: "<p>Dr. Jean Muhammad is an endowed professor and Chair of the Department
+    of Computer Science in the School of Science at Hampton University, where she
+    leads programs in software engineering, computer science education, and cybersecurity
+    education. She has chaired the department since 2006, spearheading curriculum
+    reform, research capacity building, and partnerships that broaden opportunities
+    for students in computing.</p><p>Dr. Muhammad earned her Ph.D. in Computer Science
+    from Florida State University, an M.S. in Computer Science from the Illinois Institute
+    of Technology, and a B.S. in Computer Science from Chicago State University. A
+    former software engineer at AT&amp;T Bell Labs and AirNet Communications, she brings
+    deep industry experience to her academic leadership and teaching. Her research
+    and grant portfolio spans NSF, ONR, and industry-funded projects focused on artificial
+    intelligence integration, cybersecurity research training, and strengthening
+    computer science pathways at HBCUs. A dedicated mentor and board member of Black
+    Data Processing Associates, she is committed to developing the next generation
+    of diverse computing professionals.</p>"
+- id: togo-odbadrakh
+  name: Tuguldur (Togo) Odbadrakh
+  title: HPC Engineer
+  org: Oak Ridge National Laboratory
+  email: odbadrakhtt@ornl.gov
+  image: images/Odbadrakh_0.jpg
+  bio: "<p>Tuguldur (Togo) Odbadrakh was born in Darkhan, Mongolia. He received his
+    B.S. in Chemistry from West Virginia University, where he conducted undergraduate
+    research in synthetic organic chemistry under the guidance of Prof. Xiaodong Shi.
+    He then received his Ph.D. at the University of Pittsburgh studying the accommodation
+    of excess charges in water clusters under the guidance of Prof. Kenneth D. Jordan.</p><p>Afterwards,
+    Togo completed a Postdoctoral Fellowship at Furman University working on the formation
+    of atmospheric aerosol pre-nucleation clusters with Prof. George C. Shields. During
+    this time, he trained undergraduate students in computational chemistry and supported
+    the operation of two small-scale HPC clusters employed by the MERCURY Consortium.</p>"
+- id: elijah-maccarthy
+  name: Elijah A. MacCarthy
+  title: HPC Engineer
+  org: Oak Ridge National Laboratory
+  email: maccarthyea@ornl.gov
+  linkedin: https://www.linkedin.com/in/elijah-maccarthy-6176b293/
+  image: images/ElijahAMaccarthy.jpeg
+  bio: "<p>Dr. Elijah A. MacCarthy is an HPC Engineer in the Systems Acceptance and User
+    Environment group at the National Center for Computational Sciences at Oak Ridge National
+    Laboratory, where he supports system acceptance, user environments, and application
+    readiness for leadership-class supercomputing systems at the Oak Ridge Leadership
+    Computing Facility. His technical interests include software containers, GPU programming,
+    program optimization, and scalable workflows that enable scientists to leverage
+    cutting-edge architectures for large-scale simulation and data analysis.</p><p>Dr.
+    MacCarthy holds a Ph.D. in Computational Science and Engineering from North Carolina
+    A&amp;T State University, where his research included GPU-accelerated methods and
+    computational modeling, including infectious disease dynamics and biomolecular
+    applications. He is also active in HPC education and workforce initiatives, including
+    crash courses and faculty-focused training events.</p>"
 - id: jeaime-powell
   name: "Mr. Je'aime H. Powell"
   title: Product Analyst / Researcher
   org: Omnibond / ECSU
   email: jeaime@omnibond.com
+  linkedin: https://www.linkedin.com/in/jeaimehp/
   image: images/jeaime-sc26-headshot.jpeg
   bio: "<p>Je’aime Powell is a workforce development researcher and technology strategist
     working at the intersection of artificial intelligence (AI), high-performance
