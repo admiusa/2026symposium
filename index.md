@@ -161,6 +161,49 @@ permalink: /
   color: #0550ae;
 }
 
+#participating-locations-map #map {
+  height: 600px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 1rem;
+  border: 1px solid #d0d7de;
+  z-index: 0;
+}
+#participating-locations-map .participating-map-intro {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.98rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+.participating-map-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0 0 0.85rem 0;
+}
+.participating-map-filter-field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+.participating-map-filter label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #374151;
+}
+#map-group-filter,
+#map-affiliation-filter {
+  min-width: min(100%, 26rem);
+  max-width: 100%;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.95rem;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  background: #fff;
+  color: #111827;
+}
+
 .main-site-banner {
   border: 1px solid #d0d7de;
   border-radius: 14px;
@@ -348,19 +391,6 @@ permalink: /
   </p>
 </div>
 
-<div class="section-card" id="participating-institutions">
-{% assign participating_data = site.data['participating-orgs'] %}
-<h2 class="participating-section-heading participating-title">{% if participating_data.title_icon %}<span class="participating-icon" aria-hidden="true">{{ participating_data.title_icon }}</span>{% endif %}{{ participating_data.title }}</h2>
-{% for sub in participating_data.subsections %}
-<h3 class="participating-section-heading participating-subheading">{% if sub.icon %}<span class="participating-icon" aria-hidden="true">{{ sub.icon }}</span>{% endif %}{{ sub.heading }}</h3>
-<ul class="participating-list">
-{% for item in sub.items %}
-  <li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></li>
-{% endfor %}
-</ul>
-{% endfor %}
-</div>
-
 <div class="section-card index-sponsors" id="sponsors">
   <h2>Thank You to Our Sponsors</h2>
   <p class="index-sponsors-intro">
@@ -380,5 +410,189 @@ permalink: /
     </a>
 {% endfor %}
   </div>
+</div>
+
+
+
+<div class="section-card" id="participating-locations-map">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<h2 class="participating-section-heading participating-title">Participating institutions map</h2>
+<p class="participating-map-intro">Approximate locations of participating institutions, research centers, and partners (OpenStreetMap).</p>
+<div class="participating-map-filter">
+  <div class="participating-map-filter-field">
+    <label for="map-group-filter">Filter by category</label>
+    <select id="map-group-filter" aria-label="Filter map markers by organization category">
+      <option value="">All categories</option>
+      <option value="academic">Academic Institutions</option>
+      <option value="research">Research Centers, Institutes, and National Labs</option>
+      <option value="industry">Industry &amp; Partners</option>
+    </select>
+  </div>
+  <div class="participating-map-filter-field">
+    <label for="map-affiliation-filter">Jump to affiliation</label>
+    <select id="map-affiliation-filter" aria-label="Select an affiliation to show on the map">
+      <option value="">All locations (overview)</option>
+    </select>
+  </div>
+</div>
+<div id="map" role="application" aria-label="Map of participating organization locations"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+{% raw %}
+<script>
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+var map = L.map('map').setView([37.8, -96], 4);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+// [display name, lat, lng, website URL, group id] — URLs & groups align with _data/participating-orgs.yml
+const locations = [
+  ["Bowie State University", 39.0458, -76.7594, "https://www.bowiestate.edu", "academic"],
+  ["Claflin University", 33.4956, -80.8556, "https://www.claflin.edu", "academic"],
+  ["Clemson University", 34.6767, -82.8374, "https://www.clemson.edu", "academic"],
+  ["Elizabeth City State University", 36.2965, -76.2226, "https://www.ecsu.edu", "academic"],
+  ["Florida A&M University", 30.4241, -84.2850, "https://www.famu.edu", "academic"],
+  ["Florida State University", 30.4419, -84.2985, "https://www.fsu.edu", "academic"],
+  ["Grambling State University", 32.5277, -92.7163, "https://www.gram.edu", "academic"],
+  ["Hampton University", 37.0229, -76.3356, "https://home.hamptonu.edu", "academic"],
+  ["Howard University", 38.9227, -77.0194, "https://www.howard.edu", "academic"],
+  ["Johnson C. Smith University", 35.2436, -80.8556, "https://www.jcsu.edu", "academic"],
+  ["Mississippi Valley State University", 33.5127, -90.3417, "https://www.mvsu.edu", "academic"],
+  ["Moraine Valley Community College", 41.6066, -87.8603, "https://www.morainevalley.edu", "academic"],
+  ["Morehouse College", 33.7488, -84.4133, "https://www.morehouse.edu", "academic"],
+  ["Morgan State University", 39.3443, -76.5843, "https://www.morgan.edu", "academic"],
+  ["Sinclair Community College", 39.7589, -84.1916, "https://www.sinclair.edu", "academic"],
+  ["South Carolina State University", 33.4985, -80.8556, "https://www.scsu.edu", "academic"],
+  ["Spelman College", 33.7455, -84.4115, "https://www.spelman.edu", "academic"],
+  ["Stanford University", 37.4275, -122.1697, "https://www.stanford.edu", "academic"],
+  ["Texas Southern University", 29.7216, -95.3597, "https://www.tsu.edu", "academic"],
+  ["Tuskegee University", 32.4302, -85.7080, "https://www.tuskegee.edu", "academic"],
+  ["UC Berkeley", 37.8715, -122.2730, "https://www.berkeley.edu", "academic"],
+  ["University of Florida", 29.6516, -82.3248, "https://www.ufl.edu", "academic"],
+  ["University of the District of Columbia", 38.9430, -77.0657, "https://www.udc.edu", "academic"],
+  ["Voorhees University", 33.4951, -80.8546, "https://voorhees.edu", "academic"],
+  ["Wilberforce University", 39.7167, -83.8791, "https://wilberforce.edu", "academic"],
+  ["Winston-Salem State University", 36.0894, -80.2410, "https://www.wssu.edu", "academic"],
+  ["Auburn University (CSSE)", 32.6035, -85.4890, "https://eng.auburn.edu/csse", "academic"],
+  ["Oak Ridge National Laboratory", 35.9306, -84.3104, "https://www.ornl.gov", "research"],
+  ["Texas Advanced Computing Center", 30.2861, -97.7366, "https://www.tacc.utexas.edu", "research"],
+  ["AUC Data Science Initiative", 33.7488, -84.4120, "https://datascience.aucenter.edu", "research"],
+  ["Howard HCAI", 38.9227, -77.0194, "https://sites.google.com/view/hcaiathoward", "research"],
+  ["Omnibond Systems", 28.5383, -81.3792, "https://www.omnibond.com", "industry"],
+  ["Stats Perform", 41.8781, -87.6298, "https://www.statsperform.com", "industry"]
+];
+
+var markers = [];
+locations.forEach(function (loc) {
+  var label = escapeHtml(loc[0]);
+  var href = loc[3];
+  var popup =
+    '<b><a href="' +
+    href +
+    '" target="_blank" rel="noopener noreferrer">' +
+    label +
+    "</a></b>";
+  var marker = L.marker([loc[1], loc[2]]).addTo(map).bindPopup(popup);
+  markers.push(marker);
+});
+
+var groupSelect = document.getElementById("map-group-filter");
+var filterSelect = document.getElementById("map-affiliation-filter");
+
+function visibleIndicesForGroup(g) {
+  var out = [];
+  locations.forEach(function (loc, i) {
+    if (g === "" || loc[4] === g) out.push(i);
+  });
+  return out;
+}
+
+function fitOverviewOrGroup() {
+  var g = groupSelect.value;
+  map.closePopup();
+  if (g === "") {
+    map.flyTo([37.8, -96], 4, { duration: 0.6 });
+    return;
+  }
+  var vis = visibleIndicesForGroup(g);
+  if (!vis.length) return;
+  var layer = L.featureGroup(vis.map(function (i) { return markers[i]; }));
+  map.flyToBounds(layer.getBounds().pad(0.12), { duration: 0.6, maxZoom: 12 });
+}
+
+function applyMarkerVisibility() {
+  var g = groupSelect.value;
+  locations.forEach(function (loc, i) {
+    var show = g === "" || loc[4] === g;
+    if (show) {
+      if (!map.hasLayer(markers[i])) markers[i].addTo(map);
+    } else {
+      if (map.hasLayer(markers[i])) map.removeLayer(markers[i]);
+    }
+  });
+}
+
+function rebuildAffiliationOptions() {
+  while (filterSelect.children.length > 1) {
+    filterSelect.removeChild(filterSelect.lastChild);
+  }
+  var g = groupSelect.value;
+  locations.forEach(function (loc, index) {
+    if (g !== "" && loc[4] !== g) return;
+    var opt = document.createElement("option");
+    opt.value = String(index);
+    opt.textContent = loc[0];
+    filterSelect.appendChild(opt);
+  });
+}
+
+groupSelect.addEventListener("change", function () {
+  filterSelect.value = "";
+  applyMarkerVisibility();
+  rebuildAffiliationOptions();
+  fitOverviewOrGroup();
+});
+
+filterSelect.addEventListener("change", function () {
+  var v = filterSelect.value;
+  if (v === "") {
+    fitOverviewOrGroup();
+    return;
+  }
+  var i = parseInt(v, 10);
+  if (isNaN(i) || i < 0 || i >= locations.length) return;
+  var loc = locations[i];
+  var g = groupSelect.value;
+  if (g !== "" && loc[4] !== g) return;
+  var latlng = L.latLng(loc[1], loc[2]);
+  map.flyTo(latlng, 11, { duration: 0.6 });
+  markers[i].openPopup();
+});
+
+rebuildAffiliationOptions();
+</script>
+{% endraw %}
+</div>
+
+<div class="section-card" id="participating-institutions">
+{% assign participating_data = site.data['participating-orgs'] %}
+<h2 class="participating-section-heading participating-title">{% if participating_data.title_icon %}<span class="participating-icon" aria-hidden="true">{{ participating_data.title_icon }}</span>{% endif %}{{ participating_data.title }}</h2>
+{% for sub in participating_data.subsections %}
+<h3 class="participating-section-heading participating-subheading">{% if sub.icon %}<span class="participating-icon" aria-hidden="true">{{ sub.icon }}</span>{% endif %}{{ sub.heading }}</h3>
+<ul class="participating-list">
+{% for item in sub.items %}
+  <li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
 </div>
 
