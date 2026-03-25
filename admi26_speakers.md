@@ -41,16 +41,22 @@ permalink: /admi26_speakers
   justify-content: center;
   text-align: center;
   padding: 0.75rem;
-  color: #6b7280;
-  font-size: 0.95rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
 }
 
-.speaker-image img {
+.speaker-image img.speaker-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.speaker-image img.speaker-image-placeholder {
+  width: 52%;
+  max-width: 200px;
+  height: auto;
+  max-height: 88%;
+  object-fit: contain;
+  opacity: 0.38;
+  filter: grayscale(1);
 }
 
 .speaker-content {
@@ -107,9 +113,9 @@ permalink: /admi26_speakers
 <div class="speaker-card" id="{{ speaker.id }}">
   <div class="speaker-image">
     {% if speaker.image %}
-    <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name | xml_escape }}">
+    <img class="speaker-photo" src="{{ speaker.image | relative_url }}" alt="{{ speaker.name | xml_escape }}">
     {% else %}
-    Image Coming Soon
+    <img class="speaker-image-placeholder" src="{{ '/images/speaker-placeholder.svg' | relative_url }}" alt="" role="presentation" width="64" height="64" decoding="async">
     {% endif %}
   </div>
   <div class="speaker-content">

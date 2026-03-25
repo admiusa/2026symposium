@@ -18,7 +18,7 @@ Jekyll loads every file in this folder as **`site.data.<filename_without_extensi
 | `org` | Institution or affiliation. |
 | `email` | Used for the mailto link. May be left empty if only other contact fields are provided. |
 | `linkedin` | Optional profile URL (shown as a LinkedIn link when set). |
-| `image` | Optional path to a headshot, relative to the site root (for example `images/speakers/cory-brooks.jpg`). Leave empty to show the “Image Coming Soon” placeholder. |
+| `image` | Optional path to a headshot, relative to the site root (for example `images/speakers/cory-brooks.jpg`). Leave empty to show the default silhouette graphic (`images/speaker-placeholder.svg`) on the Speakers page. |
 | `bio` | HTML string for the biography (typically one or more `<p>` tags). |
 
 ---
