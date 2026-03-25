@@ -4,7 +4,7 @@
 
 Rebuilds **`_data/papers.yml`** and **`_data/posters.yml`** from the HTML tables in **`papers_source.md`**.
 
-The Papers & Posters page (`admi26_papers.md`) reads those YAML files at build time. Under normal maintenance you can **edit the YAML directly** and do not need this script.
+The Papers & Posters page (`admi26_papers.html`) reads those YAML files at build time. Under normal maintenance you can **edit the YAML directly** and do not need this script.
 
 ### When to use it
 
@@ -25,7 +25,7 @@ The Papers & Posters page (`admi26_papers.md`) reads those YAML files at build t
 To refresh this file from an older committed version of the page:
 
 ```bash
-git show <commit>:admi26_papers.md > scripts/papers_source.md
+git show <commit>:admi26_papers.html > scripts/papers_source.md
 ```
 
 Replace `<commit>` with a hash that still had the monolithic HTML tables.

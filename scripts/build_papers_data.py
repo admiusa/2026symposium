@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse admi26_papers.md tables into _data/papers.json and _data/posters.json; then run Ruby to emit YAML."""
+"""Parse admi26_papers.html (or papers_source.md snapshot) tables into _data/papers.json and _data/posters.json; then run Ruby to emit YAML."""
 import json
 import re
 import subprocess

@@ -8,6 +8,7 @@ sections:
   items:
   - title: Addressing Fairness and Trustworthiness in The Workplace Using Scalable
       Blockchain Survey Solutions
+    submission_id: 57
     pdf: sorted_papers/Poster/Student%20-%20Graduate/ADMI_2026_paper_57.pdf
     bib: admi2026_bib/Kabia2026addressingfairnesstrustw.bib
     submission_type: Poster
@@ -33,6 +34,7 @@ sections:
   items:
   - title: 'PeerConnect: Optimizing Peer Tutoring with Predictive Analytics and Intelligent
       Matching'
+    submission_id: 11
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_11.pdf
     bib: admi2026_bib/Oluwaseyitan2026peerconnectoptimizingpee.bib
     submission_type: Poster
@@ -65,6 +67,7 @@ sections:
       in higher education
   - title: Deep Learning in Network Traffic Analysis Using Synthetic Data for Privacy
       Protection and Cyber Attack Mitigation
+    submission_id: 14
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_14.pdf
     bib: admi2026_bib/Neupane2026deeplearningnetwork.bib
     submission_type: Poster
@@ -102,6 +105,7 @@ sections:
       techniques to ensure fairness across rare attack classes.'
   - title: Semantic Search for Healthcare Patient Data using Sentence Transformers
       and ChromaDB
+    submission_id: 15
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_15.pdf
     bib: admi2026_bib/Rabb2026semanticsearchhealthcare.bib
     submission_type: Poster
@@ -129,6 +133,7 @@ sections:
       health record systems. Overall, this project shows how machine learning tools
       like sentence embeddings can make healthcare data smarter and more useful.
   - title: 'Deep Learning for Skin Lesion Detection: A CNN Approach'
+    submission_id: 16
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_16.pdf
     bib: admi2026_bib/Swain2026deeplearningskin.bib
     submission_type: Poster
@@ -159,6 +164,7 @@ sections:
       and non-dermoscopic images. With continued refinement, this system could significantly
       enhance screening, diagnosis, and treatment planning in modern dermatology.'
   - title: Cardiovascular Disease Prediction Using Machine Learning
+    submission_id: 17
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_17.pdf
     bib: admi2026_bib/Swain2026cardiovasculardiseasepre.bib
     submission_type: Poster
@@ -189,6 +195,7 @@ sections:
       for identifying at-risk individuals.
   - title: Machine Learning Diagnosis of Peripheral Arterial Disease from CT-Angiography
       (CTA) Images
+    submission_id: 2
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_2.pdf
     bib: admi2026_bib/Singh2026machinelearningdiagnosis.bib
     submission_type: Poster
@@ -225,6 +232,7 @@ sections:
       Verlie and Pawar Shrikant.'
   - title: Enhancing Undergraduate Research Recruitment through NLP-Driven Application
       Matching
+    submission_id: 26
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_26.pdf
     bib: admi2026_bib/Bennett2026enhancingundergraduatere.bib
     submission_type: Poster
@@ -273,6 +281,7 @@ sections:
       (LLMs) such as Gemini or GPT-4 to provide nuanced summaries of student applications
       and support multilingual sentiment analysis for interdisciplinary projects.'
   - title: AI-Enabled Construction of Aligned Collagen Using Two-Photon Techniques
+    submission_id: 3
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_3.pdf
     bib: admi2026_bib/Beckford2026aienabledconstruction.bib
     submission_type: Poster
@@ -333,6 +342,7 @@ sections:
       (Grants for Applications in Industry and Networking Collaborative Research Program),
       Claflin University Sub-awardee Pawar Shrikant.'
   - title: Assessing Video LLM Performance in Detecting Child Safety Risks
+    submission_id: 30
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_30.pdf
     bib: admi2026_bib/Keys2026assessingvideollm.bib
     submission_type: Poster
@@ -361,6 +371,7 @@ sections:
       observers to further refine accuracy and precision in preparation for deployment
       to a fully operational device.'
   - title: Understanding Object Detection Vulnerabilities in the Age of YOLO v11
+    submission_id: 31
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_31.pdf
     bib: admi2026_bib/Banks2026understandingobjectdetec.bib
     submission_type: Poster
@@ -405,6 +416,7 @@ sections:
       patch into the environmental background, testing these stealthier boundaries
       through physical experiments to improve the security of high-stakes technologies.'
   - title: 'Limitless: The future of Personalized AI power sports advertisements'
+    submission_id: 32
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_32.pdf
     bib: admi2026_bib/Glanton2026limitlessfuturepersonali.bib
     submission_type: Poster
@@ -446,6 +458,7 @@ sections:
       advertising ethical.
   - title: 'Optimizing Lineup Styles: A Data-Driven Approach to Team Performance and
       Win Probability'
+    submission_id: 33
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_33.pdf
     bib: admi2026_bib/Soto2026optimizinglineupstyles.bib
     submission_type: Poster
@@ -483,6 +496,7 @@ sections:
       lineup styles.'
   - title: 'Perfect Path: An AI-Powered Pose Detection System for Personalized Golf
       Swing Visualization and Inclusive Sports Engagement'
+    submission_id: 34
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_34.pdf
     bib: admi2026_bib/Lewis2026perfectpathai.bib
     submission_type: Poster
@@ -522,6 +536,7 @@ sections:
       usability while maintaining a clear, interpretable analytics framework.
   - title: Fine-Tuning DistilBERT, DeBERTa and ModernBERT for Valence–Arousal Prediction
       and Change Estimation
+    submission_id: 36
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_36.pdf
     bib: admi2026_bib/Shah2026finetuningdistilbert.bib
     submission_type: Poster
@@ -551,6 +566,7 @@ sections:
       longitudinal emotion dynamics.'
   - title: Time-Aware Two-Dimensional Packing for Throughput Optimization in Slicing-Aware
       3D Printing
+    submission_id: 38
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_38.pdf
     bib: admi2026_bib/Christian2026timeawaretwo.bib
     submission_type: Poster
@@ -569,6 +585,7 @@ sections:
       5.7% throughput improvement (95% CI [4.7%, 7.3%], N = 329), with median savings
       of 19.5 minutes per build.
   - title: Disaster Relief AI Chatbot
+    submission_id: 39
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_39.pdf
     bib: admi2026_bib/Chimezie2026disasterreliefai.bib
     submission_type: Poster
@@ -593,6 +610,7 @@ sections:
       improving system robustness, expanding fault tolerance, and preparing the platform
       for scalable deployment.
   - title: Exploring Prompt Strategies for Joke Generation Under Input Constraints
+    submission_id: 40
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_40.pdf
     bib: admi2026_bib/Lawal2026exploringpromptstrategie.bib
     submission_type: Poster
@@ -621,6 +639,7 @@ sections:
       also shows the value of using personas when guiding models toward more diverse
       and naturally funny jokes.
   - title: Speech-Based Detection and Severity Assessment of Alzheimer’s Disease
+    submission_id: 41
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_41.pdf
     bib: admi2026_bib/Ezikeoha2026speechbaseddetection.bib
     submission_type: Poster
@@ -644,6 +663,7 @@ sections:
       detection. By using both audio and linguistic signals, it moves towards a more
       accessible approach to identifying cognitive decline.
   - title: A.N.T.S. (Autonomous, Navigation, Technician, Swarm)
+    submission_id: 42
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_42.pdf
     bib: admi2026_bib/Gourdine2026nts.bib
     submission_type: Poster
@@ -672,6 +692,7 @@ sections:
       defect trials.
   - title: Evidence Guided Abductive Scoring with Option Conditioned Retrieval and
       Constrained LLM Evaluation
+    submission_id: 43
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_43.pdf
     bib: admi2026_bib/Ayandosu2026evidenceguidedabductive.bib
     submission_type: Poster
@@ -695,6 +716,7 @@ sections:
       support abductive reasoning without explicit knowledge graphs or end to end
       prompting over full document context.
   - title: 'Unsupervised People’s Speech Challenge: BiMamba2 Masked Spectrogram Model'
+    submission_id: 44
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_44.pdf
     bib: admi2026_bib/Subedi2026unsupervisedpeoplesspeec.bib
     submission_type: Poster
@@ -725,6 +747,7 @@ sections:
       on the challenge metrics.
   - title: 'Evaluating Dialect Bias in Commercial Automatic Speech Recognition Systems:
       A Comparative Analysis of AAVE, Clean, and Noisy Speech'
+    submission_id: 46
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_46.pdf
     bib: admi2026_bib/Gregg2026evaluatingdialectbias.bib
     submission_type: Poster
@@ -752,6 +775,7 @@ sections:
       https://medium.com/@manuedavakandam/from-audio-to-words-a-python-guide-to-measuring-transcription-accurracy-f9dd9e70651f'
   - title: Improving Multilingual Medieval Handwriting Recognition through Multimodal
       Language Modeling
+    submission_id: 48
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_48.pdf
     bib: admi2026_bib/Igwe2026improvingmultilingualmed.bib
     submission_type: Poster
@@ -778,6 +802,7 @@ sections:
       real-world retrodigitization challenges and improving large-scale digitization
       efforts in the digital humanities.
   - title: Black Press + AI
+    submission_id: 49
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_49.pdf
     bib: admi2026_bib/Davies2026blackpressai.bib
     submission_type: Poster
@@ -802,6 +827,7 @@ sections:
       and preservation.
   - title: Augmenting Naval Ship Images for Viewing Distance using Adobe Generative
       Fill
+    submission_id: 52
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_52.pdf
     bib: admi2026_bib/Nesbeth2026augmentingnavalship.bib
     submission_type: Poster
@@ -824,6 +850,7 @@ sections:
       that were not present in the original image. Space was also made for comments
       to be made on the generated images.
   - title: Advanced Methods for Top-View RGB-D Person Re-ID (TVRID)
+    submission_id: 53
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_53.pdf
     bib: admi2026_bib/Gyawali2026advancedmethodstop.bib
     submission_type: Poster
@@ -840,6 +867,7 @@ sections:
       framework, our method achieves strong discriminability across same-camera and
       cross-passage scenarios.'
   - title: Knowledge-Grounded Adverse Drug Event Detection from Clinical Narratives
+    submission_id: 54
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_54.pdf
     bib: admi2026_bib/FidelIbeabuchi2026knowledgegroundedadverse.bib
     submission_type: Poster
@@ -865,6 +893,7 @@ sections:
       by bridging curated molecular–drug knowledge and patient-level clinical evidence.
   - title: Onboard Multimodal Learning for Data-Driven Decision-Making in Humanoid
       Robotics
+    submission_id: 60
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_60.pdf
     bib: admi2026_bib/Rollins2026onboardmultimodallearnin.bib
     submission_type: Poster
@@ -892,6 +921,7 @@ sections:
       systems, enabling real-time, sensor-informed decision-making and advancing the
       integration of learning-based intelligence in embodied agents.
   - title: 'Beyond Accuracy: Forensic Evaluation of Trust and Grounding in LLM Outputs'
+    submission_id: 62
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_62.pdf
     bib: admi2026_bib/Watson2026beyondaccuracyforensic.bib
     submission_type: Poster
@@ -915,6 +945,7 @@ sections:
       the design of language-enabled decision support systems that better align with
       human judgment in high-stakes contexts.'
   - title: Fine-Tuning SimAM-ResNet34 and WavLM-Base for Cross-Lingual Speaker Verification
+    submission_id: 64
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_64.pdf
     bib: admi2026_bib/Shah2026finetuningsimam.bib
     submission_type: Poster
@@ -938,6 +969,7 @@ sections:
       S2, so the selected fusion weight is alpha equals 1.0.
   - title: 'Ensemble Voting and Meta-Learning for Homonym Disambiguation: A Hybrid
       Approach to SemEval 2026 Task 5'
+    submission_id: 65
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_65.pdf
     bib: admi2026_bib/Asare2026ensemblevotingmeta.bib
     submission_type: Poster
@@ -969,6 +1001,7 @@ sections:
       Future work will explore refined retrieval mechanisms and ensemble optimization
       strategies.'
   - title: Clustering + Adversarial AI
+    submission_id: 67
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_67.pdf
     bib: admi2026_bib/SarkiUmar2026clusteringadversarialai.bib
     submission_type: Poster
@@ -994,6 +1027,7 @@ sections:
       to determine which personality profiles most effectively bypass AI safety guardrails.
   - title: 'THE LANGUAGE FAMILY EFFECT: IMPROVING AFRICAN SENTIMENT MODELS THROUGH
       LINGUISTIC RELATEDNESS'
+    submission_id: 68
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_68.pdf
     bib: admi2026_bib/Kalitsi2026languagefamilyeffect.bib
     submission_type: Poster
@@ -1023,6 +1057,7 @@ sections:
       and sustainable NLP systems for African languages.'
   - title: 'Beyond Visible Spectrum: Developing Computer Vision Techniques for Agricultural
       Hyperspectral Image Categorization'
+    submission_id: 69
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_69.pdf
     bib: admi2026_bib/Perkins2026beyondvisiblespectrum.bib
     submission_type: Poster
@@ -1046,6 +1081,7 @@ sections:
       and pathlib to accomplish this.
   - title: Query Reformulation and Dense-Lexical Retrieval Fusion for Multi-Turn Retrieval-Augmented
       Generation
+    submission_id: 70
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_70.pdf
     bib: admi2026_bib/Shrestha2026queryreformulationdense.bib
     submission_type: Poster
@@ -1067,6 +1103,7 @@ sections:
       The system achieves an nDCG@5 of 0.4098 on passage retrieval, a harmonic mean
       of 0.7462 on reference-grounded generation, and 0.5796 on end-to-end RAG.'
   - title: Artificial Intelligence and the Expanding Digital Divide
+    submission_id: 71
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_71.pdf
     bib: admi2026_bib/Rapheal2026artificialintelligenceex.bib
     submission_type: Poster
@@ -1098,6 +1135,7 @@ sections:
       intelligence. It also explores policy and educational strategies designed to
       promote equitable access to AI technologies and workforce opportunities.
   - title: Denoising and Object Tracking in Adverse Conditions
+    submission_id: 72
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_72.pdf
     bib: admi2026_bib/Harrigan2026denoisingobjecttracking.bib
     submission_type: Poster
@@ -1120,6 +1158,7 @@ sections:
       per second.
   - title: The Impact of AI-Integrated Pre-College Bridge Program on First-Year Student
       Success
+    submission_id: 75
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_75.pdf
     bib: admi2026_bib/Borden2026impactaiintegrated.bib
     submission_type: Poster
@@ -1146,6 +1185,7 @@ sections:
       academic success and student confidence during the transition to college.
   - title: CULTURALLY AWARE MULTILINGUAL MODEL ROUTING THROUGH A MIXTURE-OF-SPECIALISTS
       FRAMEWORK
+    submission_id: 76
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_76.pdf
     bib: admi2026_bib/Adjei2026culturallyawaremultiling.bib
     submission_type: Poster
@@ -1177,6 +1217,7 @@ sections:
       even before full specialist integration. Overall, this work establishes a scalable
       foundation for developing globally adaptive and culturally grounded NLP systems.
   - title: ASR Benchmarking for AAVE
+    submission_id: 77
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_77.pdf
     bib: admi2026_bib/Akomoize2026asrbenchmarkingaave.bib
     submission_type: Poster
@@ -1200,6 +1241,7 @@ sections:
       speech recognition technologies
   - title: 'The Importance of Adversarial Patch Detection in Cybersecurity Attacks:
       A Critical Analysis of Machine Learning Vulnerabilities and Defense Mechanisms'
+    submission_id: 78
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_78.pdf
     bib: admi2026_bib/Johnson2026importanceadversarialpat.bib
     submission_type: Poster
@@ -1232,6 +1274,7 @@ sections:
       insidious attacks, thereby enhancing the safety and reliability of critical
       infrastructure in a rapidly evolving digital landscape.
   - title: Detecting Physical Adversarial Patch Attacks with Object Detectors
+    submission_id: 80
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_80.pdf
     bib: admi2026_bib/Washington2026detectingphysicaladversa.bib
     submission_type: Poster
@@ -1262,6 +1305,7 @@ sections:
       adversarial patch attacks using object detection-based defense strategies.
   - title: 'Structural Augmentation for Conspiracy Detection: A ModernBERT Approach
       to PsyCoMark 2026 Subtask 2'
+    submission_id: 81
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_81.pdf
     bib: admi2026_bib/Baddol2026structuralaugmentationco.bib
     submission_type: Poster
@@ -1287,6 +1331,7 @@ sections:
       exploring psycholinguistically informed transformer models within the PsyCoMark
       framework.
   - title: Evaluating Perceptions of Naturalness in AI-Generated Speech
+    submission_id: 82
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_82.pdf
     bib: admi2026_bib/Anyamele2026evaluatingperceptionsnat.bib
     submission_type: Poster
@@ -1317,6 +1362,7 @@ sections:
       data quantity relates to perceived naturalness in synthetic speech, offering
       a foundation for further refinement in voice cloning applications.'
   - title: Cross-Silo Federated Learning for Radiomics
+    submission_id: 84
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_84.pdf
     bib: admi2026_bib/Tucker2026crosssilofederated.bib
     submission_type: Poster
@@ -1344,6 +1390,7 @@ sections:
       enhance the performance of the model while being HIPAA compliant.
   - title: 'AI4PC-Howard University at SemEval-2026 Task 9: Multilingual Polarization
       Detection via Large Language Model Inference'
+    submission_id: 89
     pdf: sorted_papers/Poster/Student%20-%20Undergraduate/ADMI_2026_paper_89.pdf
     bib: admi2026_bib/Aryal2026ai4pchowarduniversity.bib
     submission_type: Poster

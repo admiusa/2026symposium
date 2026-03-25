@@ -59,7 +59,7 @@ To make this permanent for local work, you can add **`baseurl: "/2026symposium"`
 
 ## What to edit
 
-- **Pages:** Markdown files in the repo root (for example `index.md`, `admi26_papers.md`).
+- **Pages:** Markdown/HTML files in the repo root (for example `index.md`, `admi26_papers.html`).
 - **Layouts:** `_layouts/`.
 - **Data:** `_data/*.yml` (see `_data/README.md`).
 - **Regenerating papers/posters from HTML tables:** `scripts/README.md`.

@@ -1,0 +1,204 @@
+---
+layout: default
+title: Papers & Posters
+permalink: /admi26_papers
+---
+
+<p>Browse the ADMI 2026 collection by submission type and author category. Titles link directly to the PDF when the file is present in the repository under <code>sorted_papers/</code>.</p>
+
+<style>
+.papers-table {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+  border: 1px solid #d0d7de;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow-x: auto;
+}
+.papers-row-head {
+  display: grid;
+  grid-template-columns: 4.25rem minmax(7rem, 1fr) 6.25rem 10.5rem minmax(9rem, 1.2fr);
+  font-weight: 700;
+  background: #f6f8fa;
+  border-bottom: 1px solid #d0d7de;
+  color: #111827;
+}
+.papers-row-head span {
+  padding: 0.6rem 0.75rem;
+  border-right: 1px solid #d0d7de;
+  text-align: left;
+}
+.papers-row-head span:last-child {
+  border-right: none;
+}
+.paper-entry {
+  border-bottom: 2px solid #d0d7de;
+}
+.paper-entry:last-child {
+  border-bottom: 1px solid #d0d7de;
+}
+.papers-row-title {
+  background: #f6f8fa;
+  font-size: 1.05rem;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #d0d7de;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.papers-row-meta {
+  display: grid;
+  grid-template-columns: 4.25rem minmax(7rem, 1fr) 6.25rem 10.5rem minmax(9rem, 1.2fr);
+  border-bottom: 1px solid #d0d7de;
+}
+.papers-row-meta span {
+  padding: 0.6rem 0.75rem;
+  border-right: 1px solid #d0d7de;
+  vertical-align: top;
+}
+.papers-row-meta span:last-child {
+  border-right: none;
+}
+.papers-row-abstract {
+  padding: 0.6rem 0.75rem 1.35rem 0.75rem;
+  white-space: normal;
+  color: #374151;
+  line-height: 1.65;
+  border-bottom: none;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.paper-entry:not(:first-of-type) .papers-row-title {
+  padding-top: 1.35rem;
+}
+.paper-entry:hover .papers-row-title {
+  background: #e8eef7;
+}
+.paper-entry:hover .papers-row-meta span,
+.paper-entry:hover .papers-row-abstract {
+  background: #f5f9ff;
+}
+.paper-entry:hover .papers-row-meta span:first-child {
+  box-shadow: inset 3px 0 0 #0969da;
+}
+@media (prefers-reduced-motion: reduce) {
+  .papers-row-title,
+  .papers-row-meta span,
+  .papers-row-abstract {
+    transition: none;
+  }
+}
+</style>
+
+<h2 id="quick-navigation">Quick Navigation</h2>
+
+<ul>
+  <li><a href="#full-oral-papers">Full-Oral Papers</a>
+    <ul>
+      <li><a href="#full-oral-papers-faculty">Faculty</a></li>
+      <li><a href="#full-oral-papers-student-graduate">Student - Graduate</a></li>
+      <li><a href="#full-oral-papers-student-undergraduate">Student - Undergraduate</a></li>
+    </ul>
+  </li>
+  <li><a href="#posters">Poster</a>
+    <ul>
+      <li><a href="#posters-student-graduate">Student - Graduate</a></li>
+      <li><a href="#posters-student-undergraduate">Student - Undergraduate</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="section-tags">Section Tags</h2>
+
+<p>
+  <a href="#full-oral-papers"><code>Full-Oral Papers</code></a>
+  <a href="#posters"><code>Posters</code></a>
+  <a href="#full-oral-papers-faculty"><code>Faculty</code></a>
+  <a href="#full-oral-papers-student-graduate"><code>Graduate</code></a>
+  <a href="#full-oral-papers-student-undergraduate"><code>Undergraduate Papers</code></a>
+  <a href="#posters-student-graduate"><code>Graduate Posters</code></a>
+  <a href="#posters-student-undergraduate"><code>Undergraduate Posters</code></a>
+</p>
+
+<h2 id="at-a-glance">At a Glance</h2>
+
+{% assign oral_total = 0 %}
+{% for s in site.data.papers.sections %}
+  {% assign oral_total = oral_total | plus: s.items.size %}
+{% endfor %}
+{% assign poster_total = 0 %}
+{% for s in site.data.posters.sections %}
+  {% assign poster_total = poster_total | plus: s.items.size %}
+{% endfor %}
+{% assign all_total = oral_total | plus: poster_total %}
+
+<ul>
+  <li><strong>Total linked PDFs:</strong> {{ all_total }}</li>
+  <li><strong>Full-Oral papers:</strong> {{ oral_total }}</li>
+  <li><strong>Posters:</strong> {{ poster_total }}</li>
+</ul>
+
+<h2 id="full-oral-papers">Full-Oral Papers</h2>
+
+{% for section in site.data.papers.sections %}
+<h3 id="{{ section.anchor_id }}">{{ section.heading }}</h3>
+
+<p><strong>Submission category:</strong> <code>{{ section.submission_category }}</code><br>
+<strong>Author category:</strong> <code>{{ section.author_category }}</code><br>
+<strong>Count:</strong> {{ section.count }}</p>
+
+<div class="papers-table" role="table" aria-label="Full-oral papers, {{ section.heading | xml_escape }}">
+  <div class="papers-row-head" role="row">
+    <span role="columnheader">Id</span>
+    <span role="columnheader">Link</span>
+    <span role="columnheader">Type</span>
+    <span role="columnheader">Author Category</span>
+    <span role="columnheader">Authors</span>
+  </div>
+{% for item in section.items %}
+  <section class="paper-entry" role="rowgroup">
+    <div class="papers-row-title" role="row"><div role="cell"><strong>{{ item.title }}</strong></div></div>
+    <div class="papers-row-meta" role="row">
+      <span role="cell">{% if item.submission_id %}{{ item.submission_id }}{% else %}—{% endif %}</span>
+      <span role="cell">{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}{% if item.pdf and item.bib %} | {% endif %}{% if item.bib %}<a href="{{ item.bib | relative_url }}">BIB</a>{% endif %}</span>
+      <span role="cell">{{ item.submission_type }}</span>
+      <span role="cell">{{ item.author_category }}</span>
+      <span role="cell">{{ item.authors }}</span>
+    </div>
+    <div class="papers-row-abstract" role="row"><div role="cell">{{ item.abstract }}</div></div>
+  </section>
+{% endfor %}
+</div>
+
+{% endfor %}
+
+<h2 id="posters">Posters</h2>
+
+{% for section in site.data.posters.sections %}
+<h3 id="{{ section.anchor_id }}">{{ section.heading }}</h3>
+
+<p><strong>Submission category:</strong> <code>{{ section.submission_category }}</code><br>
+<strong>Author category:</strong> <code>{{ section.author_category }}</code><br>
+<strong>Count:</strong> {{ section.count }}</p>
+
+<div class="papers-table" role="table" aria-label="Posters, {{ section.heading | xml_escape }}">
+  <div class="papers-row-head" role="row">
+    <span role="columnheader">Id</span>
+    <span role="columnheader">Link</span>
+    <span role="columnheader">Type</span>
+    <span role="columnheader">Author Category</span>
+    <span role="columnheader">Authors</span>
+  </div>
+{% for item in section.items %}
+  <section class="paper-entry" role="rowgroup">
+    <div class="papers-row-title" role="row"><div role="cell"><strong>{{ item.title }}</strong></div></div>
+    <div class="papers-row-meta" role="row">
+      <span role="cell">{% if item.submission_id %}{{ item.submission_id }}{% else %}—{% endif %}</span>
+      <span role="cell">{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}{% if item.pdf and item.bib %} | {% endif %}{% if item.bib %}<a href="{{ item.bib | relative_url }}">BIB</a>{% endif %}</span>
+      <span role="cell">{{ item.submission_type }}</span>
+      <span role="cell">{{ item.author_category }}</span>
+      <span role="cell">{{ item.authors }}</span>
+    </div>
+    <div class="papers-row-abstract" role="row"><div role="cell">{{ item.abstract }}</div></div>
+  </section>
+{% endfor %}
+</div>
+
+{% endfor %}

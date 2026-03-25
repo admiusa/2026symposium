@@ -55,7 +55,7 @@ Each **event**:
 
 ## `papers.yml`
 
-**Used by:** `admi26_papers.md` via `site.data.papers`
+**Used by:** `admi26_papers.html` via `site.data.papers`
 
 **Shape:** One object with a **`sections`** array. Each section is a **Full-Oral** group (Faculty, Student - Graduate, Student - Undergraduate).
 
@@ -76,6 +76,7 @@ Each **item**:
 | Field | Description |
 |--------|-------------|
 | `title` | Paper title. |
+| `submission_id` | Integer submission number from the symposium system; matches `ADMI_2026_paper_<id>.pdf` and is shown in the **Id** column on the Papers & Posters page. |
 | `pdf` | Path to the PDF under the repo (for example `sorted_papers/Full-Oral/Faculty/...pdf`). |
 | `bib` | Path to the `.bib` file under `admi2026_bib/` (optional but usual). |
 | `submission_type` | `Full-Oral`. |
@@ -87,7 +88,7 @@ Each **item**:
 
 ## `posters.yml`
 
-**Used by:** `admi26_papers.md` via `site.data.posters`
+**Used by:** `admi26_papers.html` via `site.data.posters`
 
 **Shape:** Same as **`papers.yml`** (`sections` with `items`), but for **Poster** submissions (Student - Graduate and Student - Undergraduate).
 
