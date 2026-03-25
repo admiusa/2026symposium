@@ -1,0 +1,30 @@
+# Display order on admi26_sponsors — top-level list (site.data.sponsors)
+- name: GenAI in CS Education Consortium
+  url: https://www.teachcswithai.org
+  image: sponsorlogos/GenAIinCSEdClogo.svg
+  alt: GenAI in CS Education Consortium logo
+
+- name: AUC Data Science Initiative
+  url: https://datascience.aucenter.edu
+  image: sponsorlogos/AUCC_SCI_LOGO.png
+  alt: AUC Data Science Initiative logo
+
+- name: NCyTE Center
+  url: https://www.ncyte.net
+  image: sponsorlogos/ncyte_logo.png
+  alt: NCyTE Center logo
+
+- name: SGX3
+  url: https://sciencegateways.org
+  image: sponsorlogos/sciencegateways.png
+  alt: SGX3 logo
+
+- name: Stats Perform
+  url: https://www.statsperform.com
+  image: sponsorlogos/stats-perform-logo.png
+  alt: Stats Perform logo
+
+- name: Auburn University
+  url: https://www.auburn.edu
+  image: sponsorlogos/auburn_formal_v_fullcolor_digital.svg
+  alt: Auburn University logo

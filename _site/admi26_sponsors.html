@@ -147,6 +147,63 @@
         padding-top: 1.1rem;
       }
     }
+
+    .site-footer {
+      max-width: var(--content-max);
+      margin: 2.5rem auto 0 auto;
+      padding: 1.75rem 1rem 1.25rem 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .site-footer-inner {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem 1.25rem;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .site-footer-logo {
+      flex-shrink: 0;
+      display: block;
+      margin: 0;
+      height: auto;
+      width: auto;
+      max-height: 3em;
+      max-width: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    .site-footer-copy {
+      flex: 0 1 auto;
+      max-width: 42rem;
+      text-align: center;
+    }
+
+    .site-footer-copy .footer-note {
+      margin: 0;
+    }
+
+    .site-footer-copy .footer-note + .footer-note {
+      margin-top: 0.35rem;
+    }
+
+    .site-footer-copy a {
+      color: var(--link);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .site-footer-copy a:hover {
+      color: #0550ae;
+    }
   </style>
 </head>
 <body>
@@ -292,7 +349,7 @@
 
     <a class="sponsor-card" href="https://www.teachcswithai.org" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="sponsorlogos/GenAIinCSEdClogo.svg" alt="GenAI in CS Education Consortium logo" />
+        <img src="/2026symposium/sponsorlogos/GenAIinCSEdClogo.svg" alt="GenAI in CS Education Consortium logo" />
       </div>
       <div class="sponsor-name">GenAI in CS Education Consortium</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -300,7 +357,7 @@
 
     <a class="sponsor-card" href="https://datascience.aucenter.edu" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="sponsorlogos/AUCC_SCI_LOGO.png" alt="AUC Data Science Initiative logo" />
+        <img src="/2026symposium/sponsorlogos/AUCC_SCI_LOGO.png" alt="AUC Data Science Initiative logo" />
       </div>
       <div class="sponsor-name">AUC Data Science Initiative</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -308,7 +365,7 @@
 
     <a class="sponsor-card" href="https://www.ncyte.net" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="sponsorlogos/ncyte_logo.png" alt="NCyTE Center logo" />
+        <img src="/2026symposium/sponsorlogos/ncyte_logo.png" alt="NCyTE Center logo" />
       </div>
       <div class="sponsor-name">NCyTE Center</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -316,7 +373,7 @@
 
     <a class="sponsor-card" href="https://sciencegateways.org" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="sponsorlogos/sciencegateways.png" alt="SGX3 logo" />
+        <img src="/2026symposium/sponsorlogos/sciencegateways.png" alt="SGX3 logo" />
       </div>
       <div class="sponsor-name">SGX3</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -324,7 +381,7 @@
 
     <a class="sponsor-card" href="https://www.statsperform.com" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="sponsorlogos/stats-perform-logo.png" alt="Stats Perform logo" />
+        <img src="/2026symposium/sponsorlogos/stats-perform-logo.png" alt="Stats Perform logo" />
       </div>
       <div class="sponsor-name">Stats Perform</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
@@ -332,11 +389,12 @@
 
     <a class="sponsor-card" href="https://www.auburn.edu" target="_blank" rel="noopener noreferrer">
       <div class="sponsor-logo-wrap">
-        <img src="sponsorlogos/auburn_formal_v_fullcolor_digital.svg" alt="Auburn University logo" />
+        <img src="/2026symposium/sponsorlogos/auburn_formal_v_fullcolor_digital.svg" alt="Auburn University logo" />
       </div>
       <div class="sponsor-name">Auburn University</div>
       <div class="sponsor-link">Visit Sponsor ↗</div>
     </a>
+
 </div>
 
 <p class="section-note">
@@ -344,6 +402,19 @@
 </p>
 
   </main>
+
+  <footer class="site-footer">
+  <div class="site-footer-inner">
+    <img class="site-footer-logo" src="/2026symposium/ADMI-Logos/ADMI-text-border.svg" alt="ADMI — Association of Computer Science Departments at Minority Institutions" loading="lazy" decoding="async">
+    <div class="site-footer-copy">
+      <p class="footer-note">
+        © 2026 <a href="https://admiusa.org/" target="_blank" rel="noopener noreferrer">The Association of Computer Science Departments at Minority Institutions (ADMI)</a>
+      </p>
+      <p class="footer-note">All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
 
 </body>
 </html>
