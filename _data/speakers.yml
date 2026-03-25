@@ -4,7 +4,7 @@
   title: Adjunct Professor
   org: Morehouse College
   email: cory.brooks@morehouse.edu
-  image: 
+  image: images/CoryBrooks.jpeg
   bio: "<p>After graduating his B.S. in C.S.  Georgia Tech, Cory worked at Amazon/AWS
     as a software engineer for 6 years. Most of his time was spent working on AI based
     projects (natural language processing) and financial computation. He has returned
@@ -16,7 +16,7 @@
     Program Director, National Community College Cybersecurity Fellowship Program
   org: Moraine Valley Community College
   email: christensen@morainevalley.edu
-  image: 
+  image: images/Christensen_Kristine.jpg
   bio: "<p>Dr. Kristine Christensen is a Professor in the Computer Information Systems
     department at Moraine Valley Community College and serves as the Director of Faculty
     Development. With more than two decades of teaching experience, she focuses on
@@ -41,7 +41,7 @@
   org: Texas Advanced Computing Center
   email: charlie@tacc.utexas.edu
   linkedin: https://www.linkedin.com/in/charlie-dey-0031317a/
-  image: images/charlieD.jpeg
+  image: images/CharlieDey.jpg
   bio: "<p>Charlie Dey is a Research Computing Advocate and Educator within the User
     Services group at the Texas Advanced Computing Center (TACC). With a background
     in web development, scientific computing, and cybersecurity, Charlie leads TACC’s
@@ -67,7 +67,7 @@
   title: Faculty Fellow | Visiting Assistant Professor
   org: AUC DSI | Morehouse College
   email: ddixon@aucenter.edu
-  image: 
+  image: images/Dewayne-Dixon.jpg
   bio: "<p>Dr. Dewayne A. Dixon is a Faculty Fellow for the AUC Data Science Initiative
     and a Visiting Assistant Professor of Computer Science at Morehouse College whose
     work bridges mathematics, computer science, and explainable artificial intelligence.
@@ -87,7 +87,7 @@
   title: Director
   org: Elizabeth City State University
   email: haydenl@mindspring.com
-  image: 
+  image: images/Hayden-Alfred_Watkins.jpg
   bio: "<p>Dr. Linda Bailey Hayden directs Workforce Development for the NSF Center
     of Excellence to Extend Access, Expand the Community, and Exemplify Good Practices
     for CI Through Science Gateways(SGX3 - NSF award #2231406).  She is Director of
@@ -106,7 +106,7 @@
   title: Professor/Chair Emerita
   org: Winston-Salem State University
   email: jonese@wssu.edu
-  image: 
+  image: images/EJJones.JPG
   bio: "<p>Dr. Elva J. Jones<br>Dr. Jones is Professor Emeritus and Founding Chair
     at WinstonSalem State University. She obtained a bachelor’s degree from WSSU;
     a master’s degree from the UNCG; a master’s in operations research and the Ph.D.
@@ -124,7 +124,7 @@
   title: Department Chair/Associate Professor
   org: Claflin University
   email: kliles@claflin.edu
-  image: 
+  image: images/KarinaLiles.JPG
   bio: "<p>Dr. Karina Liles is the Chair of the Department the Mathematics and Computer
     Science and an Associate Professor of Computer Science at Claflin University.
     Dr. Liles received her PhD and ME in Computer Science and Engineering from University
@@ -166,7 +166,7 @@
   org: UC Berkeley
   email: nc.paxton@gmail.com
   linkedin: https://www.linkedin.com/in/napoleon-paxton/
-  image: 
+  image: images/NapoleonPaxton.png
   bio: "<p>Dr. Napoleon Paxton is the Chief Innovation Officer at AI Squared and he
     is a Senior Level technologist with over 30 years of experience as a developer
     and leader of product development teams. Before joining AI Squared, Dr. Paxton
@@ -322,7 +322,7 @@
   title: Professor, Information Technology &amp; Cybersecurity
   org: Sinclair Community College
   email: eric.renegar@sinclair.edu
-  image: 
+  image: images/Renegar_Headshot - Kristine Christensen.png
   bio: "<p>Eric Renegar is a Professor of Information Technology and Cybersecurity
     at Sinclair Community College in Dayton, Ohio. He teaches courses in networking,
     cybersecurity, and Internet of Things (IoT) technologies, helping students develop
@@ -342,7 +342,7 @@
   title: Charles Barkley Professor of Computer Science &amp; Software Engineering
   org: Auburn University / CSSE
   email: sealscd@auburn.edu
-  image: 
+  image: images/CherylSeals.jpg
   bio: "<p>Dr. Cheryl Seals is a Charles Barkley Endowed Professor of Computer Science
     and Software Engineering at Auburn University with over 25 years of experience
     in academia and industry, including roles at Bellcore/Telcordia and IBM. Her research

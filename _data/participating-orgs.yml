@@ -1,0 +1,84 @@
+# Index — site.data['participating-orgs']
+title: Participating Institutions & Organizations
+title_icon: "🌐"
+subsections:
+  - id: academic
+    heading: Academic Institutions
+    icon: "🏫"
+    items:
+      - name: Bowie State University
+        url: https://www.bowiestate.edu
+      - name: Claflin University
+        url: https://www.claflin.edu
+      - name: Clemson University
+        url: https://www.clemson.edu
+      - name: Elizabeth City State University
+        url: https://www.ecsu.edu
+      - name: Florida A&M University
+        url: https://www.famu.edu
+      - name: Florida State University
+        url: https://www.fsu.edu
+      - name: Grambling State University
+        url: https://www.gram.edu
+      - name: Hampton University
+        url: https://home.hamptonu.edu
+      - name: Howard University
+        url: https://www.howard.edu
+      - name: Johnson C. Smith University
+        url: https://www.jcsu.edu
+      - name: Mississippi Valley State University
+        url: https://www.mvsu.edu
+      - name: Moraine Valley Community College
+        url: https://www.morainevalley.edu
+      - name: Morehouse College
+        url: https://www.morehouse.edu
+      - name: Morgan State University
+        url: https://www.morgan.edu
+      - name: Sinclair Community College
+        url: https://www.sinclair.edu
+      - name: South Carolina State University
+        url: https://www.scsu.edu
+      - name: Spelman College
+        url: https://www.spelman.edu
+      - name: Stanford University
+        url: https://www.stanford.edu
+      - name: Texas Southern University
+        url: https://www.tsu.edu
+      - name: Tuskegee University
+        url: https://www.tuskegee.edu
+      - name: University of California, Berkeley
+        url: https://www.berkeley.edu
+      - name: University of Florida
+        url: https://www.ufl.edu
+      - name: University of the District of Columbia
+        url: https://www.udc.edu
+      - name: Voorhees University
+        url: https://voorhees.edu
+      - name: Wilberforce University
+        url: https://wilberforce.edu
+      - name: Winston-Salem State University
+        url: https://www.wssu.edu
+      - name: Auburn University (Computer Science and Software Engineering)
+        url: https://eng.auburn.edu/csse
+
+  - id: research
+    heading: Research Centers, Institutes, and National Labs
+    icon: "🧪"
+    items:
+      - name: "Howard's Human Centered Artificial Intelligence Institute (HCAI)"
+        url: https://sites.google.com/view/hcaiathoward
+      - name: AUC Data Science Initiative (DSI)
+        url: https://datascience.aucenter.edu
+      - name: Texas Advanced Computing Center (TACC)
+        url: https://www.tacc.utexas.edu
+      - name: Oak Ridge National Laboratory
+        url: https://www.ornl.gov
+
+  - id: industry
+    heading: Industry & Partners
+    icon: "🏢"
+    items:
+      - name: Omnibond Systems
+        url: https://www.omnibond.com
+      - name: Stats Perform
+        url: https://www.statsperform.com

@@ -111,6 +111,56 @@ permalink: /
   line-height: 1.75;
 }
 
+.participating-list {
+  margin: 0.65rem 0 0 0;
+  padding-left: 1.35rem;
+  line-height: 1.65;
+  color: #374151;
+  font-size: 0.98rem;
+}
+@media (min-width: 700px) {
+  .participating-list {
+    column-count: 2;
+    column-gap: 2.5rem;
+  }
+  .participating-list li {
+    break-inside: avoid;
+    padding-right: 0.5rem;
+  }
+}
+.participating-section-heading {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: #111827;
+}
+.participating-section-heading .participating-icon {
+  margin-right: 0.35rem;
+}
+#participating-institutions .participating-title {
+  margin-bottom: 0.85rem;
+  font-size: 1.28rem;
+}
+#participating-institutions .participating-subheading {
+  margin: 1.35rem 0 0.5rem 0;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #111827;
+}
+#participating-institutions .participating-subheading:first-of-type {
+  margin-top: 0.5rem;
+}
+.participating-list a {
+  color: #0969da;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.participating-list a:hover {
+  color: #0550ae;
+}
+
 .main-site-banner {
   border: 1px solid #d0d7de;
   border-radius: 14px;
@@ -296,6 +346,19 @@ permalink: /
     professionals—equipped not only with technical expertise, but also with the ethical awareness, collaborative mindset,
     and real-world experience needed to shape the future of technology.
   </p>
+</div>
+
+<div class="section-card" id="participating-institutions">
+{% assign participating_data = site.data['participating-orgs'] %}
+<h2 class="participating-section-heading participating-title">{% if participating_data.title_icon %}<span class="participating-icon" aria-hidden="true">{{ participating_data.title_icon }}</span>{% endif %}{{ participating_data.title }}</h2>
+{% for sub in participating_data.subsections %}
+<h3 class="participating-section-heading participating-subheading">{% if sub.icon %}<span class="participating-icon" aria-hidden="true">{{ sub.icon }}</span>{% endif %}{{ sub.heading }}</h3>
+<ul class="participating-list">
+{% for item in sub.items %}
+  <li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
 </div>
 
 <div class="section-card index-sponsors" id="sponsors">

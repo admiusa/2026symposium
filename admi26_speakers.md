@@ -106,7 +106,58 @@ permalink: /admi26_speakers
     height: 220px;
   }
 }
+
+.speaker-org {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+  line-height: 1.45;
+}
+
+.speaker-affiliations {
+  max-width: 860px;
+  margin: 0 0 2rem 0;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid #d0d7de;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+.speaker-affiliations h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111827;
+}
+.speaker-affiliations-intro {
+  margin: 0 0 0.85rem 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.55;
+}
+.speaker-affiliations ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.96rem;
+  line-height: 1.65;
+  color: #374151;
+}
+.speaker-affiliations li {
+  margin-bottom: 0.25rem;
+}
 </style>
+
+{% assign speaker_affiliations = site.data.speakers | map: "org" | compact | uniq | sort %}
+
+<div class="speaker-affiliations">
+  <h2>Affiliations represented</h2>
+  <p class="speaker-affiliations-intro">Organizations and institutions represented by this year’s speakers (deduplicated, alphabetical).</p>
+  <ul>
+{% for org in speaker_affiliations %}
+    <li>{{ org }}</li>
+{% endfor %}
+  </ul>
+</div>
 
 <div class="speaker-grid">
 {% for speaker in site.data.speakers %}
