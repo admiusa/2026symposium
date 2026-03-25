@@ -1,0 +1,610 @@
+---
+sections:
+- id: faculty
+  heading: Faculty
+  submission_category: Full-Oral
+  author_category: Faculty
+  count: 11
+  items:
+  - title: EXPLORING CALCULUS CONCEPTS WITH MAPLE
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_12.pdf
+    bib: admi2026_bib/Velummylum2026exploringcalculusconcept.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Somasundaram Velummylum
+    abstract: In calculus, we study techniques for finding the maximum and minimum
+      values of functions, as well as evaluating and visualizing volumes of solids
+      of revolution formed by rotating regions bounded by graphs over given intervals
+      about horizontal or vertical axes. These concepts will be explored through illustrative
+      examples using MAPLE.
+  - title: An Optimized Artificial Intelligence Powered iOS Mobile App for Weed Identification
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_13.pdf
+    bib: admi2026_bib/Biswal2026optimizedartificialintel.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Biswajit Biswal and Jackson Edwards
+    abstract: Weeds are a major burden in small and local farming communities in the
+      United States due to the lack of technology, awareness, and education. Weed
+      control is one of the biggest factors that affects crop production. Manual weeding
+      gives maximum unique control of the weeds in the field. However, manual weeding
+      has high labor intensity and high labor costs. This makes weed management difficult
+      for small and local farmers in the state of South Carolina, resulting in loss
+      of crop yield and poor quality production. In this work, the AI-based iOS mobile
+      app is used to identify weed plants. In our work, we have successfully implemented
+      an iOS mobile app to capture a weed image and identifies weed-type using CNN,
+      CreateML, Xcode and Swift programming language. Our model was tested with our
+      database of weed plants with a precision of 96%. Our results show that the iOS
+      mobile app developed successfully identifies the weed plant. Our future work
+      will include testing the iOS mobile app with more weed plant data to provide
+      precise weed identification.
+  - title: Enhancing Computer Science Education through AI-Driven Scaffolding
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_24.pdf
+    bib: admi2026_bib/Czejdo2026enhancingcomputerscience.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Denny Czejdo
+    abstract: This paper presents a methodology for utilizing Large Language Models
+      (LLMs) to create AI-driven scaffolding materials in Computer Science. As enrollment
+      in online and hybrid courses grows, the capacity for instructors to provide
+      individual guidance to learners diminishes. This study introduces the &quot;A-H
+      Pedagogical Framework,&quot; grounded in cognitive load theory and scaffolding
+      principles. The methodology utilizes a Human-in-the-Loop AI workflow to analyze
+      legacy educational materials (e.g., Jupyter Notebooks, PDFs), identify content
+      and delivery method, and then propose improvements based on the &quot;A-H Pedagogical
+      Framework.&quot; Through a case study of GIS Data-Processing assignments, this
+      framework demonstrates how AI can enhance student learning by providing step-by-step,
+      scaffolded guidance while reducing instructors&#x27; workload. The AI-driven
+      approach enables scalable education and fosters learning experiences that are
+      otherwise unattainable in large online classes.
+  - title: Robust Noise-Resilient Feature Extract and 3D-CNN classification for Hyperspectral
+      imagery
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_25.pdf
+    bib: admi2026_bib/Xu2026robustnoiseresilient.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Yan Xu
+    abstract: Traditional hyperspectral image (HSI) classification relies on high-dimensional
+      spectral signatures, often leading to the curse of dimensionality and high computational
+      cost. Most existing methods attempt to mitigate this by selecting dozens of
+      bands; In this paper, we propose a highly efficient framework restricted to
+      only three spectral bands. To maximize the information extracted from this minimal
+      spectral subset, we employ a 3D Convolutional Neural Network (3D-CNN) to capture
+      joint spatial-spectral features. We investigate the efficacy of Noise-Adjusted
+      Principal Component Analysis (NAPCA) as a dimensionality reduction tool, comparing
+      it against standard Principal Component Analysis (PCA), Incremental PCA, unsupervised
+      and supervised band selection methods. Furthermore, we implement a spatial data
+      augmentation strategy by integrating rotations and flips to artificially expand
+      the training set and improve model generalization. Experimental results on three
+      real-world HSI datasets show the proposed approach shows superior performance
+      compared with other state-of-the-art methods. This approach indicates a robust
+      solution for resource-constrained remote sensing applications.
+  - title: Some experimental results for fingerprint image processing
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_27.pdf
+    bib: admi2026_bib/Zheng2026someexperimentalresults.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Xiqiang Zheng
+    abstract: Fingerprints offer a reliable and unique means of identification and
+      hence are crucial in fields such as law enforcement and personal identification.
+      However, fingerprint images are hardly of good quality. They may be corrupted
+      and degraded with elements of noise owing to many issues including deviations
+      in skin and impression circumstances. We test some commonly available fingerprint
+      image processing codes and show some experimental results to see the progress
+      and challenges of fingerprint image enhancement, segmentation and minutiae extraction.
+  - title: Robust Noise-Resilient Feature Extraction and 3D-CNN Classification for
+      Hyperspectral Imagery
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_50.pdf
+    bib: admi2026_bib/Xu2026robustnoiseresilient2.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Yan Xu
+    abstract: Hyperspectral image (HSI) classification relies on high-dimensional
+      spectral signatures, often leading to the curse of dimensionality and high computational
+      cost. Most existing methods attempt to mitigate this by selecting dozens of
+      bands; in this paper, we propose a highly efficient framework that uses only
+      three spectral bands. To maximize the information extracted from this minimal
+      spectral subset, we employ a 3D Convolutional Neural Network (3D-CNN) to capture
+      joint spatial-spectral features. We investigate the efficacy of Noise-Adjusted
+      Principal Component Analysis (NAPCA) as a dimensionality reduction tool, comparing
+      it against standard Principal Component Analysis (PCA), Incremental PCA, unsupervised
+      and supervised band selection methods. Furthermore, we implement a spatial data
+      augmentation strategy by integrating rotations and flips to artificially expand
+      the training set and improve model generalization. Experimental results on three
+      real-world HSI datasets show that the proposed approach outperforms other state-of-the-art
+      methods. This approach provides a robust solution for resource-constrained remote
+      sensing applications.
+  - title: Using Personalized Generative AI as a “First Responder” in C++ Education
+      to improve student learning
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_73.pdf
+    bib: admi2026_bib/Dennis2026personalizedgenerativeai.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Sonya Dennis and Juana Mendenhall
+    abstract: Using Generative AI in the classroom to improve student learning requires
+      deliberate, structured integration into course activities and assessments. This
+      paper explores the integration of a specialized Generative AI mentor, Dennis
+      AI, into three sections of an undergraduate Computer Programming II course.
+      The mentor was developed in conjunction with ibl.ai, a family-owned and operated
+      company located in the technological hub of New York that specializes in building
+      AI-driven, revenue-generating systems for the educational sector, serving learners
+      from over 400 universities. The research evaluates a pedagogical shift from
+      traditional passive learning to an active, generative model where AI serves
+      as a &quot;First Responder&quot; for complex technical concepts like memory
+      management and object-oriented design. By leveraging the ibl.ai platform to
+      synthesize course-specific data, the study demonstrates how structured prompt-based
+      inquiry and iterative code generation can bridge the &quot;complexity wall&quot;
+      often encountered in mid-level computer science curricula[1]. Furthermore, the
+      study illustrates how the integration of AI mentors and digital avatars---mapped
+      to Bloom&#x27;s Taxonomy 4.0---facilitates a scalable model for high-level architectural
+      mentoring and diagnostic practice[2]. Ultimately, this study posits that the
+      strategic deployment of specialized Generative AI tools creates a dynamic environment
+      that encourages deep inquiry, competitive innovation, and a rigorous validation
+      process that preserves academic integrity.
+  - title: 'The Importance of Course Redesign: Microlearning Strategies for Enhanced
+      Course Design: Insights from the JCSU CITL Summer Workshop'
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_74.pdf
+    bib: admi2026_bib/Worrell2026importancecourseredesign.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Sonya Worrell Sonya Worrell
+    abstract: This article explores innovative course design strategies aimed at enhancing
+      student engagement and learning retention, informed by insights gained during
+      the JCSU CITL Summer Course Design Workshop held from June 2nd to the 4th, 2025.
+      Specifically tailored for STEM faculty, the workshop emphasized integrating
+      microlearning techniques, modular course structures, and establishing instructor
+      presence. This paper discusses key takeaways, practical strategies, and the
+      implications of these approaches for improving educational experiences.
+  - title: Developing Effective Computer Science Program Curricula and AI-Driven Educational
+      Models to Enhance Learning Outcomes
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_79.pdf
+    bib: admi2026_bib/Nam2026developingeffectivecompu.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Deok Nam
+    abstract: The rapid evolution of artificial intelligence (AI) and computing technologies
+      has fundamentally reshaped workforce demands, necessitating a transformation
+      in how computer science (CS) education is designed and delivered. Traditional
+      CS curricula often struggle to keep pace with industry innovation, provide personalized
+      learning experiences, and equitably support diverse learner populations. This
+      paper presents a comprehensive framework for developing effective computer science
+      program curricula integrated with AI-driven educational models to enhance student
+      learning outcomes. The proposed approach aligns curriculum design with competency-based
+      education, industry relevance, and adaptive AI technologies such as intelligent
+      tutoring systems, learning analytics, and personalized content recommendation.
+      Through curriculum mapping, instructional design models, and AI-enabled assessment
+      strategies, the paper demonstrates how AI can improve student engagement, mastery,
+      retention, and employability. A case-based implementation model and evaluation
+      metrics are presented to guide institutions in adopting scalable, ethical, and
+      inclusive AI-enhanced CS education.
+  - title: Findings from a Feasibility Study on AI-Aligned Experiential Learning at
+      an HBCU
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_91.pdf
+    bib: admi2026_bib/Shumba2026findingsfeasibilitystudy.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Rose Shumba
+    abstract: Building a pathway from AI coursework to AI careers requires a clear
+      understanding of what students experience between the classroom and the job
+      market. This paper reports results from a feasibility study supported by the
+      University System of Maryland Elkins Transformation Award at Bowie State University
+      (BSU). The study examined barriers to student participation in AI-aligned experiential
+      learning and assessed institutional readiness for scaling career-connected learning.
+      The feasibility study gathered input from 200 students, 15 faculty members,
+      and 10 industry partners to assess constraints, capacity, and partnership needs
+      for expanding AI-aligned experiential learning. We describe the study methods
+      and key findings, then discuss what they suggest about the importance of experiential
+      learning centers as a strategy for strengthening AI workforce preparation at
+      HBCUs. The work builds on several years of experiential learning work, including
+      a Tech Pipeline Program featured in The New York Times describing how BSU developed
+      employer partnerships to strengthen student career outcomes.
+  - title: 'Building the Next Generation of Cyber AI Professionals: Lessons from Bowie
+      State University’s CyberAI Scholarship For Service Program'
+    pdf: sorted_papers/Full-Oral/Faculty/ADMI_2026_paper_92.pdf
+    bib: admi2026_bib/Shumba2026buildingnextgeneration.bib
+    submission_type: Full-Oral
+    author_category: Faculty
+    authors: Rose Shumba
+    abstract: The CyberAICorps Scholarship for Service (CyberAI SFS), formerly the
+      CyberCorps® Scholarship for Service (SFS), supports cybersecurity education
+      in exchange for post-graduation government service. This paper describes Bowie
+      State University’s CyberAI SFS program and shares early lessons from implementation
+      since 2023. The program has supported 14 scholars and has strengthened recruitment
+      by offering a funded, structured pathway into government cybersecurity careers.
+      We summarize the student experience and program operations, including cohort
+      support, mentoring, professional development, certifications preparation, research
+      and conference participation, and structured preparation for internships and
+      government employment. We report outcomes in aggregate, including internship
+      placements and early cybersecurity-related government employment, and highlight
+      the operational choices that helped students participate fully while meeting
+      program requirements. The paper concludes with takeaways for HBCUs exploring
+      CyberAI SFS participation and an invitation to an April 2026 virtual workshop
+      for institutions interested in joining as mentoring partners and building toward
+      future readiness.
+  anchor_id: full-oral-papers-faculty
+- id: student-graduate
+  heading: Student - Graduate
+  submission_category: Full-Oral
+  author_category: Student - Graduate
+  count: 7
+  items:
+  - title: A Hands-On Laboratory Approach to Supporting Student Learning in Computer
+      Vision Education
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_20.pdf
+    bib: admi2026_bib/Thomas2026handslaboratoryapproach.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Terrelle Thomas, Idongesit Mkpong-Ruffin, Chutima Boonthum-Denecke and
+      Deidre Evans
+    abstract: As artificial intelligence increases and is used in daily life activi-ties,
+      the need to understand and interact with artificial intelligence has become
+      important and is now emphasized in undergraduate and graduate programs. Even
+      though AI is being taught, some top-ics such as computer vision (DETR, YOLOv8,
+      Faster R-CNN, and SSD) remain difficult for students to understand and incorporate
+      into practice. Without a definite percentage indicating how many students are
+      affected, current discussions continue to show that computer vision is one of
+      the topics learners struggle to grasp [3]. To address these challenges, a structured
+      framework of hands-on labs in computer vision can support students in strengthening
+      their comprehension at both undergraduate and graduate levels. A hands-on lab
+      is a structured learning activity in which students actively perform tasks,
+      experiments, or problem-solving activities using tools, technologies, or data
+      rather than relying solely on lec-tures. This experiential approach requires
+      learners to interact with software, equipment, or real-world datasets to apply
+      theoretical concepts in a practical context. Hands-on labs help students un-derstand
+      complex AI and computer vision topics by transforming abstract concepts such
+      as convolution, feature extraction, and ob-ject detection pipelines into concrete,
+      interactive experiences that enhance understanding. By working directly with
+      detection mod-els like YOLO, SSD, Faster R-CNN, and DETR, students develop stronger
+      intuition, reduce cognitive overload, and build practical skills needed to apply
+      these systems in real-world scenarios. Prior research in computing and engineering
+      education indicates that project-based and hands-on learning approaches significantly
+      im-prove student comprehension, engagement, and overall learning outcomes [4].
+  - title: 'Investigating Motion-Focused Video Frame Interpolation: Efficiency vs.
+      Fidelity'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_23.pdf
+    bib: admi2026_bib/Mendoza2026investigatingmotionfocus.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Carlos Sac Mendoza, Lily Liang and Briana Wellman
+    abstract: A significant challenge in Video Frame Interpolation (VFI) is reducing
+      the processing time without significantly sacrificing visual quality. To address
+      it, we developed a computationally efficient motion-focused VFI methodology,
+      based on Google&#x27;s FILM (Frame Interpolation for Large Motion) model. Our
+      proposed approach, Motion-focused FILM, selectively interpolates only the most
+      dynamic areas of the video to reduce the computational load and processing time.
+      We also implemented a tensor bucketing strategy to reduce computational overhead.
+      We evaluated our approach on the DAVIS 2017 dataset. The results show a 95%
+      reduction in processing time compared to the full-frame method. It achieved
+      a Peak Signal-to-Noise Ratio (PSNR) score that was approximately 88% of the
+      baseline, indicating a discernible loss in pixel-level fidelity. However, it
+      retained over 87% of the structural similarity (SSIM) test, suggesting that
+      the overall structure of the interpolated image remains mostly intact. We also
+      investigated the impact of video resolution on our approach&#x27;s performance.
+  - title: Integrating Blockchain dApp Development in Cybersecurity Education via
+      Real-World Applications
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_51.pdf
+    bib: admi2026_bib/Carter2026integratingblockchaindap.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Javonte Carter, Inioluwa Kola-Adelakin, Jerry Miller and Hongmei Chi
+    abstract: This paper presents a structured pedagogical framework for integrating
+      blockchain decentralized application (dApp) development into cybersecurity education
+      through experiential, project-based learning. The framework is implemented via
+      a series of laboratory modules that immerse students in authentic, project-based
+      activities grounded in real-world use cases, including blockchain-based diploma
+      and transcript verification, cryptocurrency (Bitcoin) forensic analysis, and
+      secure supply chain management. Through these activities, students gain practical
+      exposure to distributed systems, smart contracts, and security mechanisms within
+      blockchain environments. Preliminary classroom outcomes demonstrate increased
+      student interesting in learning dApp development, enhanced conceptual understanding
+      of blockchain and cybersecurity principles, and improved preparedness for industry
+      and research-oriented roles. Overall, the proposed framework aims to (1) strengthen
+      students’ skills and awareness of blockchain source code vulnerabilities, along
+      with associated detection and mitigation techniques; (2) systematically integrate
+      blockchain vulnerability concepts into information technology and cybersecurity
+      curricula; and (3) prepare future IT professionals with a solid understanding
+      of blockchain attack surfaces and defensive strategies in real-world contexts.
+  - title: 'FORGETTING BY DESIGN: TESTING THE EFFECTIVENESS OF MACHINE UNLEARNING
+      IN RIGHT TO BE FORGOTTEN DATA DELETION'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_6.pdf
+    bib: admi2026_bib/Guy2026forgettingdesigntesting.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Jericka Guy and Chutima Boonthum-Denecke
+    abstract: The Right to Be Forgotten (RTBF) is a legal requirement that allows
+      individuals to request the deletion of their personal data from digital systems.
+      However, in modern machine learning environments, fully removing data is technically
+      challenging once it has been incorporated into trained models. This research
+      investigates whether machine unlearning can serve as an effective mechanism
+      for supporting RTBF by removing the influence of specific data from a trained
+      model. The study evaluates a pre-trained neural network using multiple forget
+      set sizes and applies Membership Inference Attacks (MIA) to measure whether
+      deleted data remains detectable after unlearning. Experimental results show
+      that while machine unlearning preserves performance on retained data, it does
+      not fully eliminate the influence of forgotten data, as residual information
+      remains detectable across all tested configurations. These findings demonstrate
+      that machine unlearning alone is insufficient to guarantee complete data deletion
+      and highlight the need for stronger verification methods and complementary strategies
+      to support RTBF compliance in AI systems.
+  - title: SQL Injection Prevention Techniques
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_7.pdf
+    bib: admi2026_bib/Darden2026sqlinjectionprevention.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Angela Darden and Chutima Boonthum-Denecke
+    abstract: SQL injections are one of the most common and dangerous vulnerabilities
+      found in web applications, even though they have been well documented for decades.
+      This paper explores the effectiveness of common prevention techniques against
+      SQL injection attacks, including input validation, parameterized queries, and
+      prepared statements. To demonstrate, a vulnerable web environment was created
+      using Damn Vulnerable Web Application (DVWA) to simulate attacks and observe
+      how each defense method withstands different injection attempts. The results
+      will show the strengths and weaknesses of each approach when tested against
+      real-world attack patterns. In addition to testing, this research highlights
+      the relevance of SQL injections in today’s cybersecurity environment, shown
+      by their inclusion in the OWASP Top 10 [4]. By demonstrating how easily unsecured
+      applications can become victims of attacks and how effective proper countermeasures
+      can be, this paper highlights the importance of implementing secure coding practices
+      in modern web development.
+  - title: Advancing Digital Forensics with the Integration of Cyber Threat Intelligence
+      Technologies
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_85.pdf
+    bib: admi2026_bib/Longfor2026advancingdigitalforensic.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Frank Junior Hoza Longfor, Yohn J Parra Bautista, Adi Chauhan and Hongmei
+      Chi
+    abstract: This research project explores a novel approach to bolstering digital
+      forensics by integrating AlienVault, a leading security platform, with blockchain
+      technology. By harnessing the capabilities of AlienVault for real-time threat
+      detection and incident response and leveraging the immutable nature of blockchain
+      for data integrity, this study proposes a framework for enhancing the reliability
+      of digital forensic investigations. The tools used include AlienVault’s Open-Source
+      Security Information Management (OSSIM) platform for security information and
+      event management (SIEM). Ethereum’s blockchain-based ledger is used to log events
+      detected by AlienVault OSSIM, ensuring each event log entry is time-stamped.
+      Data sources for this study include a controlled setup network and the Open
+      Threat Research (OTRF) Security Dataset of Windows event logs. These sources
+      provide a comprehensive and realistic range of cyber-attack scenarios. By utilizing
+      these datasets, the research evaluates how well the integrated system can detect
+      and store threat information. The system’s performance is assessed based on
+      its accuracy in identifying attacks, the speed of its incident response, and
+      the reliability of its forensic data. The expected result is a blockchain-enhanced
+      forensic framework that mitigates common challenges in digital forensics, such
+      as data tampering and chain of custody issues.
+  - title: 'Bridging Policy and Practice: The CLASS AlignED Framework for Responsible
+      AI Integration in Higher Education'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Graduate/ADMI_2026_paper_90.pdf
+    bib: admi2026_bib/Harrell2026bridgingpolicypractice.bib
+    submission_type: Full-Oral
+    author_category: Student - Graduate
+    authors: Joshua Harrell, Jeaime Powell, Dillon Moore, Qimora Mason, Suniyah Esey,
+      Abraham Ashade, Linda Hayden and Mohamed Elbakary
+    abstract: The rapid expansion of artificial intelligence (AI), high-performance
+      computing (HPC), and Science Gateway technologies in higher education has created
+      new opportunities for experiential learning while introducing complexity for
+      faculty seeking structured and policy-compliant integration. This paper presents
+      the CLASS AlignED (Course Learning &amp; Analytics Support System) Framework,
+      a faculty-centered, governance-aware architecture designed to support the incorporation
+      of AI, HPC, and Science Gateway technologies into undergraduate curricula. The
+      framework connects institutional AI policy, structured instructional workflows,
+      scalable computing infrastructure, and measurable learning analytics into a
+      unified alignment model. Using a design-based research approach, we describe
+      the conceptual model, system architecture, and planned prototype implementation.
+      The framework proposes embedding compliance logic and cyberinfrastructure guidance
+      directly within AI-assisted workflows to reduce faculty uncertainty and translate
+      institutional policy into actionable instructional practice. CLASS AlignED offers
+      a scalable model for institutions seeking to expand AI- and HPC-enabled instruction
+      while maintaining governance, reproducibility, and equitable access to advanced
+      cyberinfrastructure resources.
+  anchor_id: full-oral-papers-student-graduate
+- id: student-undergraduate
+  heading: Student - Undergraduate
+  submission_category: Full-Oral
+  author_category: Student - Undergraduate
+  count: 10
+  items:
+  - title: 'Machine Learning-Based Detection of Business Email Compromise: A Comparative
+      Analysis of Gradient Boosting Techniques'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_1.pdf
+    bib: admi2026_bib/Baning2026machinelearningbased.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Philip Baning
+    abstract: Business Email Compromise (BEC) attacks constitute one of the most financially
+      damaging cyber threats, resulting in global losses exceeding 2.7 billion USD
+      annually according to the FBI Internet Crime Complaint Center. Unlike conventional
+      phishing attacks that deploy malicious payloads or URLs, BEC employs sophisticated
+      social engineering via carefully crafted language, posing substantial challenges
+      to traditional signaturebased detection systems. This work develops a robust
+      machine learning framework for automated BEC detection, incorporating 58 specialized
+      features extracted from email content, metadata, and behavioral attributes.
+      We provide a formal mathematical formulation of the feature extraction process
+      and evaluate five gradient boosting algorithms—XGBoost, LightGBM, CatBoost,
+      Random Forest, and a stacking ensemble on the Kaggle Fraud Email Dataset (9,239
+      samples). The dataset undergoes an 80/20 stratified split to preserve class
+      distribution. CatBoost attains the highest performance, with 97.29 percent accuracy,
+      97.29 percent F1 score, and 99.55 percent AUC ROC. We employ McNemar’s test
+      to confirm statistical significance (χ2 = 7.52, p &lt; 0.01) and utilize SHAP
+      (SHapley Additive exPlanations) to isolate linguistic metrics specifically text
+      entropy and readability—as primary discriminators. Furthermore, we present a
+      computational complexity analysis demonstrating that our pipeline operates with
+      O(L) linear complexity relative to email length, achieving sub 10 ms inference
+      latency suitable for real time SIEM integration. The framework outperforms existing
+      benchmarks by 8.8 percent in F1 score, establishing a new baseline for content
+      centric threat detection.
+  - title: Robots for Outreach
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_22.pdf
+    bib: admi2026_bib/Stephens2026robotsoutreach.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Zora Stephens and Karina Liles
+    abstract: Using Claflin University’s robots, we will program them to support our
+      outreach efforts in computer science. The goal is to engage potential students
+      and visitors with our computer science department through interactive demonstrations.
+      A series of programs has been developed to illustrate the importance and diversity
+      of computer science using the NAO humanoid and Unitree Go2 robots. These activities
+      aim to instill basic computer science principles such as sequencing, conditional
+      statements, sensor-based decision-making, and human-robot interaction. During
+      outreach events, the robots perform demonstrations to help participants see
+      how code translates into physical actions, demystifying programming, and robotics.
+      By providing an interactive and visually engaging experience, computer science
+      can be made more accessible to individuals with varying levels of technical
+      background. This project demonstrates how robotics can be an effective tool
+      for computer science outreach, increasing engagement, encouraging curiosity,
+      and fostering interest in computing disciplines.
+  - title: Enabling safe Beyond Visual Line of Sight Drone Operations of Sight Drone
+      Operations Through AI-Powered Object Detection
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_28.pdf
+    bib: admi2026_bib/Hopson2026enablingsafebeyond.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Aniya Hopson and Chutima Boonthum-Denecke
+    abstract: As Artificial Intelligence (AI) becomes a powerful force within the
+      technological field it is being integrated into all fields. As AI improves,
+      optimizing it for everyday life is beneficial for the further development of
+      technology. In this paper, we present our research findings and literature on
+      adversarial examples and object detection. This research builds upon the previous
+      work by investigating and optimizing an unmanned aircraft to be flown with the
+      aid of Artificial Intelligence. We started with classifying and training AI
+      to recognize certain objects on YOLOv11 custom trained models. Then a follow-up
+      using the custom trained model with live drone footage to test the accuracy
+      of the model evaluating how it can be utilized in Beyond Visual Line of Sight
+      (BVLOS). Through this exploration it demonstrates the future of using unmanned
+      aircrafts with support from machine learning.
+  - title: AI and Automation in Sports
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_4.pdf
+    bib: admi2026_bib/Grimes2026aiautomationsports.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Ryan Grimes, Jean Muhammad and Chutima Boonthum-Denecke
+    abstract: Artificial Intelligence (AI) and automation has been one of the most
+      popular topics of the century. It has been integrated into education, medicine,
+      and transportation to make tasks easier and increase productivity. AI and automation
+      is constantly being discussed for being a double edged sword. On one side, it
+      makes tasks capable of being completed faster and oftentimes more accurate,
+      but the other side argues that it lacks accountability. Before AI and automation
+      is introduced to a system , it is integral to analyze the pros and cons of said
+      implementation. This research focuses on the integration of AI and automation
+      in sports and how its risks can affect athlete data, match outcomes, and device
+      reliability. Past research has examined accuracy and health benefits; however,
+      device security, data flow, and contingency planning in the event of an attack
+      or breach has not been acknowledged. This study investigates these gaps by examining
+      how AI-driven wearables and automated officiating systems function; how data
+      flow is mapped; and what vulnerabilities affect confidentiality, integrity,
+      and availability. Literature reviews and input from sports management and computer
+      science professionals, athletes, and trainers will illustrate what protections
+      are currently available and what they think of the trade-offs. The results will
+      highlight key risks, identify potential solutions, and offer guidance for sports
+      organizations and tech developers so that AI and automation in sports can be
+      both innovative and secure.
+  - title: Budget Aware Tracerouting
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_45.pdf
+    bib: admi2026_bib/Diyaolu2026budgetawaretracerouting.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Bakri Diyaolu, Adin Lindsey and Jeremiah Adderley
+    abstract: Traditional traceroute tools send a fixed number of probes per hop,
+      leading to redundant measurements and inefficient use of network resources.
+      This research introduces a budget-aware traceroute system (BAT) designed to
+      optimize probing efficiency while preserving accurate path discovery. Using
+      Scamper as the probing engine, BAT dynamically allocates probe “credits” across
+      hops based on per-hop confidence levels. This work highlights the potential
+      for adaptive network measurement systems that balance precision, responsiveness,
+      and bandwidth efficiency in large-scale Internet topology mapping.
+  - title: 'Social Media Misinformation: Trust, Perception, &amp; Public Awareness
+      in the Age of AI'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_5.pdf
+    bib: admi2026_bib/Council2026socialmediamisinformatio.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Kayla Council, Jean Muhammad and Chutima Boonthum-Denecke
+    abstract: Misinformation that spreads through social media platforms is becoming
+      very important since artificial intelligence (AI) is helping the spread of misinformation.
+      A lot of misinformation spreads through manipulated social media posts, and
+      this can cause people to reduce their trust in what they see online, and some
+      people may even be easily persuaded and believe what they see in these manipulated
+      posts. Since artificial intelligence is growing and becoming the newest big
+      thing, it’s being used to create posts that are manipulated, and this makes
+      it hard for people to distinguish between real and manipulated posts. This research
+      will analyze how well people can assess social media posts and what factors
+      play a role in their ability to determine what posts are real from the ones
+      that are manipulated. A survey was conducted where people had the opportunity
+      to choose what post they believe is manipulated, and then they were asked what
+      made them choose that choice, and then they rated their confidence level. After
+      gathering all of the results from the survey, the results will be compared with
+      tools that are already created for being able to detect misinformation that’s
+      generated by AI. Comparing the human results from the survey with the detection
+      tools will help determine if humans’ ability to spot misinformation is just
+      as good as the detection tools. This research will highlight the difficulties
+      of spotting misinformation in AI-manipulated posts, and it will also show how
+      the cybersecurity side of things can help people continue to trust what they
+      see online with the help of detection tools.
+  - title: 'Enhancing Black-Box Transparency with SHAP and LIME: A Comparative and
+      Practical Review of Explainable AI in Cybersecurity'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_55.pdf
+    bib: admi2026_bib/Ludy2026enhancingblackbox.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Danae Ludy and Janett Walters-Williams
+    abstract: As machine learning models are increasingly deployed in cybersecurity
+      systems, their black-box nature complicates trust, accountability, and post-incident
+      investigation. Explainable Artificial Intelligence (XAI) addresses these challenges
+      by providing human-interpretable insights into model behavior without sacrificing
+      predictive performance. Using a standard XAI taxonomy, the paper compares Shapley
+      Additive Explanations (SHAP) and Local Interpretable Model-agonistic Explanations
+      (LIME) in terms of theoretical grounding, stability, interaction awareness,
+      and operational suitability for forensic analysis and intrusion detection. The
+      discussion highlights governance and deployment considerations and outlines
+      future research directions that integrate complementary visualization techniques
+      to strengthen interpretability in cybersecurity workflows. The findings motivate
+      a complementary use of SHAP for global oversight and defensible local attribution,
+      with LIME applied selectively for rapid case-based analysis.
+  - title: Online Anonymity vs. Online Accountability
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_63.pdf
+    bib: admi2026_bib/Olds2026onlineanonymityvs.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Gabrielle Olds and Jean Muhammad
+    abstract: The main problem with the conflict between online anonymity and accountability
+      is that, although anonymity promotes privacy and free speech, it also makes
+      harmful behaviors like trolling and scams possible. In order to understand how
+      mandatory identification policies, like requiring government IDs or facial scans
+      for site access, affect this balance, this study will review previous research.
+      Privacy and security risks will be a major focus because private businesses
+      collect extremely sensitive data, increasing the risk of data breaches, long-term
+      identity theft, and user tracking. In order to make fair policy decisions, a
+      survey will also be carried out to find out how the public feels about these
+      intrusive verification techniques.
+  - title: 'Feature Effect Visualization in Cybersecurity: A Study of PDP and ICE'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_66.pdf
+    bib: admi2026_bib/Bostic2026featureeffectvisualizati.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Clarence Bostic and Janet Williams
+    abstract: 'The integration of Artificial Intelligence (AI) into cybersecurity
+      has significantly developed advanced threat detection and analysis. However,
+      due to the deep learning nature, the inherent opacity that comes with these
+      “black box” models creates doubts in the decisions of incident investigation.
+      Explainable Artificial Intelligence (XAI) is the backbone of the future of this
+      transparency gap, by utilizing visualization tools to make these decisions more
+      interpretable. This paper examines two feature-visualization tools in cybersecurity:
+      Partial Dependence Plots (PDPs) and Individual Conditional Ex- pectation (ICE)
+      plots. We analyse the differences between PDPs, which are global explanations,
+      by averaging the effects, and ICE plots, which offer local instance-level insights,
+      to show heteroge- neous attack patterns. By evaluating these methods with the
+      focus of improving cybersecurity intrusion detection and malware anal- ysis.
+      This study highlights the necessary balance between clarity and depth to enhance
+      operational reliability in AI-driven security systems.'
+  - title: 'Adversarial Patch: Autonomous Vehicles'
+    pdf: sorted_papers/Full-Oral/Student%20-%20Undergraduate/ADMI_2026_paper_9.pdf
+    bib: admi2026_bib/Constant2026adversarialpatchautonomo.bib
+    submission_type: Full-Oral
+    author_category: Student - Undergraduate
+    authors: Erick Constant and Chutima Boonthum-Denecke
+    abstract: When it comes to the safety of autonomous vehicles using computer vision,
+      we must first analysis the impact and risk that adversarial patches may present
+      to its occupants, other drivers and property on the road. By seeing the result
+      of the patch with the Ultralytics YOLO 11 model trained on things that an autonomous
+      vehicle might encounter on the road we can perform an analysis of what could’ve
+      been the impact without needing to run a simulation.
+  anchor_id: full-oral-papers-student-undergraduate

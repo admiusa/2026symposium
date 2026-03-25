@@ -30,15 +30,63 @@
 
     .site-header {
       width: 100%;
-      overflow: hidden;
-      line-height: 0;
       border-bottom: 1px solid var(--border);
     }
 
-    .site-header img {
+    .site-header-inner {
+      position: relative;
+      max-height: min(300px, 36vh);
+      min-height: 140px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0f172a;
+    }
+
+    .site-header-bg {
+      position: absolute;
+      inset: 0;
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 28%;
       display: block;
+    }
+
+    .site-header-overlay {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: var(--content-max);
+      margin: 0 auto;
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+
+    .site-header-logo {
+      max-width: min(88%, 680px);
+      width: auto;
+      height: auto;
+      max-height: min(128px, 18vh);
+      display: block;
+      filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.45))
+        drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+      pointer-events: auto;
+    }
+
+    @media (max-width: 720px) {
+      .site-header-inner {
+        max-height: min(220px, 32vh);
+        min-height: 120px;
+      }
+      .site-header-logo {
+        max-width: min(94%, 100%);
+        max-height: min(96px, 15vh);
+      }
     }
 
     .site-nav {
@@ -103,9 +151,14 @@
 </head>
 <body>
 
-  <div class="site-header">
-    <img src="Text_with_ADMI_logo_background_header.png" alt="ADMI Symposium 2026">
-  </div>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <img class="site-header-bg" src="/2026symposium/images/hero-background.png" alt="" width="1600" height="600" decoding="async" fetchpriority="high">
+      <div class="site-header-overlay">
+        <img class="site-header-logo" src="/2026symposium/images/ADMI-Logo-Header.svg" alt="ADMI Symposium 2026" width="1159" height="291" decoding="async">
+      </div>
+    </div>
+  </header>
 
   <nav class="site-nav">
     <div class="site-nav-inner">
@@ -220,7 +273,11 @@
 <div class="speaker-grid">
 
 <div class="speaker-card" id="cory-brooks">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Mr. Cory Brooks</div>
     <div class="speaker-title">Adjunct Professor</div>
@@ -230,9 +287,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="kristine-christensen">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Kristine Christensen</div>
     <div class="speaker-title">Professor, Computer Information Systems / Director, Faculty Development / Program Director, National Community College Cybersecurity Fellowship Program</div>
@@ -242,9 +302,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="charlie-dey">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Mr. S. Charlie Dey</div>
     <div class="speaker-title">Research Computing Advocate and Educator</div>
@@ -254,9 +317,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="dewayne-dixon">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Dewayne A. Dixon</div>
     <div class="speaker-title">Faculty Fellow | Visiting Assistant Professor</div>
@@ -266,9 +332,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="linda-hayden">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Linda B. Hayden</div>
     <div class="speaker-title">Director</div>
@@ -278,9 +347,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="elva-jones">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Elva J. Jones</div>
     <div class="speaker-title">Professor/Chair Emerita</div>
@@ -290,9 +362,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="karina-liles">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Karina R. Liles</div>
     <div class="speaker-title">Department Chair/Associate Professor</div>
@@ -302,9 +377,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="napoleon-paxton">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Napoleon Paxton</div>
     <div class="speaker-title">Chief Innovation Officer</div>
@@ -314,11 +392,14 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="jeaime-powell">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
-    <div class="speaker-name">Mr. Je&#x27;aime H. Powell</div>
+    <div class="speaker-name">Mr. Je'aime H. Powell</div>
     <div class="speaker-title">Product Analyst / Researcher</div>
     <div class="speaker-org">Omnibond / ECSU</div>
     <div class="speaker-contact"><a href="mailto:jeaime@omnibond.com">[Contact Information]</a></div>
@@ -326,9 +407,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="eric-renegar">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Mr. Eric Renegar</div>
     <div class="speaker-title">Professor, Information Technology &amp; Cybersecurity</div>
@@ -338,9 +422,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="cheryl-seals">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Cheryl D. Seals</div>
     <div class="speaker-title">Charles Barkley Professor of Computer Science &amp; Software Engineering</div>
@@ -350,9 +437,12 @@
   </div>
 </div>
 
-
 <div class="speaker-card" id="alfred-watkins">
-  <div class="speaker-image">Image Coming Soon</div>
+  <div class="speaker-image">
+    
+    Image Coming Soon
+    
+  </div>
   <div class="speaker-content">
     <div class="speaker-name">Dr. Alfred R. Watkins</div>
     <div class="speaker-title">Interim Senior Director</div>

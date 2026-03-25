@@ -1,178 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Papers & Posters</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: default
+title: Papers & Posters
+permalink: /admi26_papers
+---
 
-  <style>
-    :root {
-      --border: #d0d7de;
-      --text: #111827;
-      --muted: #4b5563;
-      --link: #0969da;
-      --nav-bg: #0f172a;
-      --nav-text: #f8fafc;
-      --nav-hover: #1e293b;
-      --content-max: 1100px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      color: var(--text);
-      background: #ffffff;
-    }
-
-    .site-header {
-      width: 100%;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .site-header-inner {
-      position: relative;
-      max-height: min(300px, 36vh);
-      min-height: 140px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #0f172a;
-    }
-
-    .site-header-bg {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 28%;
-      display: block;
-    }
-
-    .site-header-overlay {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-      max-width: var(--content-max);
-      margin: 0 auto;
-      padding: 0.85rem 1.25rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      pointer-events: none;
-    }
-
-    .site-header-logo {
-      max-width: min(88%, 680px);
-      width: auto;
-      height: auto;
-      max-height: min(128px, 18vh);
-      display: block;
-      filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.45))
-        drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
-      pointer-events: auto;
-    }
-
-    @media (max-width: 720px) {
-      .site-header-inner {
-        max-height: min(220px, 32vh);
-        min-height: 120px;
-      }
-      .site-header-logo {
-        max-width: min(94%, 100%);
-        max-height: min(96px, 15vh);
-      }
-    }
-
-    .site-nav {
-      background: var(--nav-bg);
-      border-bottom: 1px solid #0b1220;
-    }
-
-    .site-nav-inner {
-      max-width: var(--content-max);
-      margin: 0 auto;
-      padding: 0 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      align-items: center;
-    }
-
-    .site-nav a {
-      display: inline-block;
-      color: var(--nav-text);
-      text-decoration: none;
-      padding: 0.95rem 0.9rem;
-      font-size: 0.96rem;
-      line-height: 1;
-      border-radius: 8px;
-      margin: 0.35rem 0;
-    }
-
-    .site-nav a:hover {
-      background: var(--nav-hover);
-    }
-
-    .site-nav a.active {
-      background: #1d4ed8;
-    }
-
-    .content {
-      max-width: var(--content-max);
-      margin: 0 auto;
-      padding: 1.5rem 1rem 2.5rem 1rem;
-    }
-
-    .page-title {
-      margin: 0 0 1.25rem 0;
-    }
-
-    @media (max-width: 720px) {
-      .site-nav-inner {
-        gap: 0.25rem;
-      }
-
-      .site-nav a {
-        padding: 0.8rem 0.75rem;
-        font-size: 0.92rem;
-      }
-
-      .content {
-        padding-top: 1.1rem;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <header class="site-header">
-    <div class="site-header-inner">
-      <img class="site-header-bg" src="/2026symposium/images/hero-background.png" alt="" width="1600" height="600" decoding="async" fetchpriority="high">
-      <div class="site-header-overlay">
-        <img class="site-header-logo" src="/2026symposium/images/ADMI-Logo-Header.svg" alt="ADMI Symposium 2026" width="1159" height="291" decoding="async">
-      </div>
-    </div>
-  </header>
-
-  <nav class="site-nav">
-    <div class="site-nav-inner">
-      <a href="/2026symposium/" >Home</a>
-      <a href="/2026symposium/admi26_president_letter" >President’s Letter</a>
-      <a href="/2026symposium/admi26_program" >Schedule</a>
-      <a href="/2026symposium/admi26_speakers" >Speakers</a>
-      <a href="/2026symposium/admi26_sponsors" >Sponsors</a>
-      <a href="/2026symposium/admi26_papers" class="active">Papers &amp; Posters</a>
-    </div>
-  </nav>
-
-  <main class="content">
-    <p>Browse the ADMI 2026 collection by submission type and author category. Titles link directly to the PDF when the file is present in the repository under <code class="language-plaintext highlighter-rouge">sorted_papers/</code>.</p>
+Browse the ADMI 2026 collection by submission type and author category. Titles link directly to the PDF when the file is present in the repository under `sorted_papers/`.
 
 <style>
 table {
@@ -198,43 +30,33 @@ tbody tr:nth-child(3n+3) td {
 }
 </style>
 
-<h2 id="quick-navigation">Quick Navigation</h2>
+## Quick Navigation
 
-<ul>
-  <li><a href="#full-oral-papers">Full-Oral Papers</a>
-    <ul>
-      <li><a href="#full-oral-papers-faculty">Faculty</a></li>
-      <li><a href="#full-oral-papers-student-graduate">Student - Graduate</a></li>
-      <li><a href="#full-oral-papers-student-undergraduate">Student - Undergraduate</a></li>
-    </ul>
-  </li>
-  <li><a href="#posters">Poster</a>
-    <ul>
-      <li><a href="#posters-student-graduate">Student - Graduate</a></li>
-      <li><a href="#posters-student-undergraduate">Student - Undergraduate</a></li>
-    </ul>
-  </li>
-</ul>
+- [Full-Oral Papers](#full-oral-papers)
+  - [Faculty](#full-oral-papers-faculty)
+  - [Student - Graduate](#full-oral-papers-student-graduate)
+  - [Student - Undergraduate](#full-oral-papers-student-undergraduate)
+- [Poster](#posters)
+  - [Student - Graduate](#posters-student-graduate)
+  - [Student - Undergraduate](#posters-student-undergraduate)
 
-<h2 id="section-tags">Section Tags</h2>
+## Section Tags
 
-<p><a href="#full-oral-papers"><code class="language-plaintext highlighter-rouge">Full-Oral Papers</code></a> <a href="#posters"><code class="language-plaintext highlighter-rouge">Posters</code></a> <a href="#full-oral-papers-faculty"><code class="language-plaintext highlighter-rouge">Faculty</code></a> <a href="#full-oral-papers-student-graduate"><code class="language-plaintext highlighter-rouge">Graduate</code></a> <a href="#full-oral-papers-student-undergraduate"><code class="language-plaintext highlighter-rouge">Undergraduate Papers</code></a> <a href="#posters-student-graduate"><code class="language-plaintext highlighter-rouge">Graduate Posters</code></a> <a href="#posters-student-undergraduate"><code class="language-plaintext highlighter-rouge">Undergraduate Posters</code></a></p>
+[`Full-Oral Papers`](#full-oral-papers) [`Posters`](#posters) [`Faculty`](#full-oral-papers-faculty) [`Graduate`](#full-oral-papers-student-graduate) [`Undergraduate Papers`](#full-oral-papers-student-undergraduate) [`Graduate Posters`](#posters-student-graduate) [`Undergraduate Posters`](#posters-student-undergraduate)
 
-<h2 id="at-a-glance">At a Glance</h2>
+## At a Glance
 
-<ul>
-  <li><strong>Total linked PDFs:</strong> 75</li>
-  <li><strong>Full-Oral papers:</strong> 28</li>
-  <li><strong>Posters:</strong> 47</li>
-</ul>
+- **Total linked PDFs:** 75
+- **Full-Oral papers:** 28
+- **Posters:** 47
 
-<h2 id="full-oral-papers">Full-Oral Papers</h2>
+## Full-Oral Papers
 
-<h3 id="faculty">Faculty</h3>
+### Faculty
 
-<p><strong>Submission category:</strong> <code class="language-plaintext highlighter-rouge">Full-Oral</code><br />
-<strong>Author category:</strong> <code class="language-plaintext highlighter-rouge">Faculty</code><br />
-<strong>Count:</strong> 11</p>
+**Submission category:** `Full-Oral`  
+**Author category:** `Faculty`  
+**Count:** 11
 
 <table>
   <thead>
@@ -277,11 +99,12 @@ tbody tr:nth-child(3n+3) td {
   </tbody>
 </table>
 
-<h3 id="student---graduate">Student - Graduate</h3>
 
-<p><strong>Submission category:</strong> <code class="language-plaintext highlighter-rouge">Full-Oral</code><br />
-<strong>Author category:</strong> <code class="language-plaintext highlighter-rouge">Student - Graduate</code><br />
-<strong>Count:</strong> 7</p>
+### Student - Graduate
+
+**Submission category:** `Full-Oral`  
+**Author category:** `Student - Graduate`  
+**Count:** 7
 
 <table>
   <thead>
@@ -312,11 +135,12 @@ tbody tr:nth-child(3n+3) td {
   </tbody>
 </table>
 
-<h3 id="student---undergraduate">Student - Undergraduate</h3>
 
-<p><strong>Submission category:</strong> <code class="language-plaintext highlighter-rouge">Full-Oral</code><br />
-<strong>Author category:</strong> <code class="language-plaintext highlighter-rouge">Student - Undergraduate</code><br />
-<strong>Count:</strong> 10</p>
+### Student - Undergraduate
+
+**Submission category:** `Full-Oral`  
+**Author category:** `Student - Undergraduate`  
+**Count:** 10
 
 <table>
   <thead>
@@ -356,13 +180,14 @@ tbody tr:nth-child(3n+3) td {
   </tbody>
 </table>
 
-<h2 id="posters">Posters</h2>
 
-<h3 id="student---graduate-1">Student - Graduate</h3>
+## Posters
 
-<p><strong>Submission category:</strong> <code class="language-plaintext highlighter-rouge">Poster</code><br />
-<strong>Author category:</strong> <code class="language-plaintext highlighter-rouge">Student - Graduate</code><br />
-<strong>Count:</strong> 1</p>
+### Student - Graduate
+
+**Submission category:** `Poster`  
+**Author category:** `Student - Graduate`  
+**Count:** 1
 
 <table>
   <thead>
@@ -375,11 +200,12 @@ tbody tr:nth-child(3n+3) td {
   </tbody>
 </table>
 
-<h3 id="student---undergraduate-1">Student - Undergraduate</h3>
 
-<p><strong>Submission category:</strong> <code class="language-plaintext highlighter-rouge">Poster</code><br />
-<strong>Author category:</strong> <code class="language-plaintext highlighter-rouge">Student - Undergraduate</code><br />
-<strong>Count:</strong> 46</p>
+### Student - Undergraduate
+
+**Submission category:** `Poster`  
+**Author category:** `Student - Undergraduate`  
+**Count:** 46
 
 <table>
   <thead>
@@ -526,8 +352,3 @@ tbody tr:nth-child(3n+3) td {
     <tr><td colspan="4">This paper describes the PolarNLP system submitted to SemEval-2026 Task 9, Subtask 1, which focuses on detecting political polarization in multilingual text. The task spans 22 typologically diverse languages and poses challenges related to domain shift, class imbalance, and cross-lingual generalization. We explored two modeling strategies: (i) a weakly supervised teacher–student approach that uses a large language model (LLM) to generate pseudolabels for training a multilingual classifier, and (ii) direct LLM-based inference augmented with language-agnostic stylistic features. While the teacher–student approach achieved reasonable in-distribution performance, it failed to generalize to the heldout test set, collapsing toward the majority class. Consequently, our final submission relies on direct LLM inference. We present a detailed analysis of both approaches, highlighting the limitations of weak supervision for polarization detection and the relative robustness of direct LLM reasoning in multilingual settings.</td></tr>
   </tbody>
 </table>
-
-  </main>
-
-</body>
-</html>

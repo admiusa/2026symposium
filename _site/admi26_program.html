@@ -30,15 +30,63 @@
 
     .site-header {
       width: 100%;
-      overflow: hidden;
-      line-height: 0;
       border-bottom: 1px solid var(--border);
     }
 
-    .site-header img {
+    .site-header-inner {
+      position: relative;
+      max-height: min(300px, 36vh);
+      min-height: 140px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0f172a;
+    }
+
+    .site-header-bg {
+      position: absolute;
+      inset: 0;
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 28%;
       display: block;
+    }
+
+    .site-header-overlay {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: var(--content-max);
+      margin: 0 auto;
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+
+    .site-header-logo {
+      max-width: min(88%, 680px);
+      width: auto;
+      height: auto;
+      max-height: min(128px, 18vh);
+      display: block;
+      filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.45))
+        drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+      pointer-events: auto;
+    }
+
+    @media (max-width: 720px) {
+      .site-header-inner {
+        max-height: min(220px, 32vh);
+        min-height: 120px;
+      }
+      .site-header-logo {
+        max-width: min(94%, 100%);
+        max-height: min(96px, 15vh);
+      }
     }
 
     .site-nav {
@@ -103,9 +151,14 @@
 </head>
 <body>
 
-  <div class="site-header">
-    <img src="Text_with_ADMI_logo_background_header.png" alt="ADMI Symposium 2026">
-  </div>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <img class="site-header-bg" src="/2026symposium/images/hero-background.png" alt="" width="1600" height="600" decoding="async" fetchpriority="high">
+      <div class="site-header-overlay">
+        <img class="site-header-logo" src="/2026symposium/images/ADMI-Logo-Header.svg" alt="ADMI Symposium 2026" width="1159" height="291" decoding="async">
+      </div>
+    </div>
+  </header>
 
   <nav class="site-nav">
     <div class="site-nav-inner">

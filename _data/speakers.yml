@@ -1,0 +1,287 @@
+---
+- id: cory-brooks
+  name: Mr. Cory Brooks
+  title: Adjunct Professor
+  org: Morehouse College
+  email: cory.brooks@morehouse.edu
+  image: 
+  bio: "<p>After graduating his B.S. in C.S.  Georgia Tech, Cory worked at Amazon/AWS
+    as a software engineer for 6 years. Most of his time was spent working on AI based
+    projects (natural language processing) and financial computation. He has returned
+    to teaching, and teaches at various colleges and institutions to implement AI
+    into early level coding courses.</p>"
+- id: kristine-christensen
+  name: Dr. Kristine Christensen
+  title: Professor, Computer Information Systems / Director, Faculty Development /
+    Program Director, National Community College Cybersecurity Fellowship Program
+  org: Moraine Valley Community College
+  email: christensen@morainevalley.edu
+  image: 
+  bio: "<p>Dr. Kristine Christensen is a Professor in the Computer Information Systems
+    department at Moraine Valley Community College and serves as the Director of Faculty
+    Development. With more than two decades of teaching experience, she focuses on
+    cybersecurity, emerging technologies, and student-centered learning. Her work
+    centers on helping educators build the skills and confidence needed to prepare
+    students for careers in rapidly evolving technology fields.</p><p>Dr. Christensen
+    leads and contributes to several national initiatives aimed at strengthening the
+    cybersecurity workforce. She is involved in projects that support community college
+    faculty development, cybersecurity career exploration, and outreach to students
+    and educators. Her efforts include developing instructional resources, facilitating
+    professional development programs, and creating hands-on activities such as cybersecurity
+    games and capture-the-flag challenges that introduce learners to cybersecurity
+    in engaging and accessible ways.</p><p>She is especially passionate about expanding
+    pathways into cybersecurity and technology careers and helping students discover
+    opportunities they may not have previously considered. Through partnerships with
+    educators, industry professionals, and national organizations, Dr. Christensen
+    works to increase awareness of cybersecurity careers and support the educators
+    and advisors who guide students toward these fields.</p>"
+- id: charlie-dey
+  name: Mr. S. Charlie Dey
+  title: Research Computing Advocate and Educator
+  org: Texas Advanced Computing Center
+  email: charlie@tacc.utexas.edu
+  image: 
+  bio: "<p>Charlie Dey is a Research Computing Advocate and Educator within the User
+    Services group at the Texas Advanced Computing Center (TACC). With a background
+    in web development, scientific computing, and cybersecurity, Charlie leads TACC’s
+    strategic vision for higher education and professional training—designing programs
+    that prepare the next generation of researchers, educators, and professionals
+    to engage with advanced computing.</p><p>At TACC, Charlie develops and oversees
+    curriculum for academic courses taught in partnership with multiple departments
+    at The University of Texas at Austin, as well as for professional development
+    workshops and training events that serve a diverse national and international
+    audience. He is also a champion of community-driven education initiatives, frequently
+    integrating emerging technologies such as AI, high-performance computing, and
+    narrative computing into instructional design.</p><p>Before joining TACC, Charlie
+    worked as a Senior Application Developer at the Carle Foundation and taught computer
+    science at Parkland College in Champaign, Illinois. He was a member of a specialized
+    application development team at the University of Illinois and served as a research
+    consultant for NASA Ames Research Center, where he contributed to computational
+    immunology and bioinformatics projects.</p><p>Charlie holds a Bachelor’s degree
+    with concentrations in Computer Science and Biology and a Master’s degree in Cybersecurity
+    from Eastern Illinois University. He also holds certifications in 3D programming
+    and scientific visualization.</p>"
+- id: dewayne-dixon
+  name: Dr. Dewayne A. Dixon
+  title: Faculty Fellow | Visiting Assistant Professor
+  org: AUC DSI | Morehouse College
+  email: ddixon@aucenter.edu
+  image: 
+  bio: "<p>Dr. Dewayne A. Dixon is a Faculty Fellow for the AUC Data Science Initiative
+    and a Visiting Assistant Professor of Computer Science at Morehouse College whose
+    work bridges mathematics, computer science, and explainable artificial intelligence.
+    He earned his B.S. in Mathematics from Morehouse College, his M.S. in Mathematics
+    from Virginia State University, and his Ph.D. in Mathematics from Howard University.
+    His research centers on bioinformatics and genetics using machine learning, with
+    doctoral work focused on PTSD-related biomarker discovery and related computational
+    methods.</p><p>Dr. Dixon is equally committed to teaching and curriculum innovation.
+    He works to develop AI-integrated mathematics curriculum and his broader interest
+    in helping students engage emerging technologies through accessible, rigorous
+    instruction and research. He has also been recognized by Mathematically Gifted
+    &amp; Black and was selected as a 2025–2027 MGB-SIAM Early Career Fellow, reflecting
+    both his scholarly promise and his growing impact in the mathematical sciences
+    community.</p>"
+- id: linda-hayden
+  name: Dr. Linda B. Hayden
+  title: Director
+  org: Elizabeth City State University
+  email: haydenl@mindspring.com
+  image: 
+  bio: "<p>Dr. Linda Bailey Hayden directs Workforce Development for the NSF Center
+    of Excellence to Extend Access, Expand the Community, and Exemplify Good Practices
+    for CI Through Science Gateways(SGX3 - NSF award #2231406).  She is Director of
+    the Center of Excellence in Remote Sensing Education and Research (CERSER) at
+    Elizabeth City State University.  Dr. Hayden was presented the Presidential Award
+    for Excellence in Science, Mathematics, and Engineering Mentoring by the National
+    Science Foundation.</p><p> During the 2026 ADMI Symposium she will moderate a
+    panel discussion which highlights opportunities for faculty seeking support for
+    Artificial Intelligence and SGX3 High Performance Computing-related (HPC) curriculum
+    enhancement.   SGX3 will also sponsor a Codeathon for ADMI students. Assisting
+    with the panel and Codeathon are Je’aime Powell (Omnibond), Charlie Dey (TACC),
+    along with SGX3 trained faculty and students.</p><p> Dr. Hayden is a strong supporter
+    of ADMI and currently serves as the Vice President for Programs on the ADMI board.</p>"
+- id: elva-jones
+  name: Dr. Elva J. Jones
+  title: Professor/Chair Emerita
+  org: Winston-Salem State University
+  email: jonese@wssu.edu
+  image: 
+  bio: "<p>Dr. Elva J. Jones<br>Dr. Jones is Professor Emeritus and Founding Chair
+    at WinstonSalem State University. She obtained a bachelor’s degree from WSSU;
+    a master’s degree from the UNCG; a master’s in operations research and the Ph.D.
+    in Industrial &amp; Systems Engineering/Computer<br>Studies from NCSU, the first
+    African American woman to attain a doctorate in the area from NCSU.<br>Dr. Jones’s
+    accomplishments include a range of academic innovations; an active research, publication,
+    and extramural funding record; and an exemplary record of service. The Elva J.
+    Jones Computer Science building, a $13 million academic, research, and Information
+    Resources facility, was dedicated in her honor, September 2005.  Dr. Jones has
+    committed her life to teaching excellence, mentoring, recruiting and retaining
+    young persons in the computing field, research, and “giving back” through professional
+    and community service.</p>"
+- id: karina-liles
+  name: Dr. Karina R. Liles
+  title: Department Chair/Associate Professor
+  org: Claflin University
+  email: kliles@claflin.edu
+  image: 
+  bio: "<p>Dr. Karina Liles is the Chair of the Department the Mathematics and Computer
+    Science and an Associate Professor of Computer Science at Claflin University.
+    Dr. Liles received her PhD and ME in Computer Science and Engineering from University
+    of South Carolina, MEd in Educational Technology from University of South Carolina
+    and BS in Computer Science from Spelman College. Dr. Liles is the owner and founder
+    of STEM Truck which is a mobile STEM lab delivering STEM resources to rural areas.
+    She owns a patent for a turn safety apparatus.<br>Dr. Karina Liles is a distinguished
+    academic and innovator at Claflin University, where she plays a pivotal role in
+    program development and community engagement through technology. Her multifaceted
+    role at Claflin University includes curriculum development and campus innovation.
+    She is a key figure in the university&#x27;s partnerships with Google and Zoom
+    bridging connections between industry and academia and forging opportunities for
+    students, and she is the co-chair of the Generative Artificial Intelligence Task
+    Force. Early in her career, she developed Programming Languages and Robotics Fundamentals
+    courses, significantly enhancing the computer science curriculum. Additionally,
+    Dr. Liles developed a Bachelor’s and Master’s program and graduate certificate
+    in Cybersecurity to meet the growing demand for skilled professionals in this
+    critical field.<br>Dr. Liles designed and launched the Claflin University SmartHOME,
+    a groundbreaking initiative aimed at combating health disparities among African
+    Americans and other minority communities through advanced technology. Through
+    her campus innovation initiatives, she was instrumental in the digital transformation
+    of the H.V. Manning Library, equipping it with state-of-the-art resources to better
+    serve academic needs. She collaborated with the Office of Enrollment to create
+    and implement an electronic scavenger hunt, designed to guide prospective students
+    and visitors on an interactive tour of the campus. She also founded the Claflin
+    Data Science Team, which supports the Athletics Department with innovative data
+    analytics, enhancing the performance and strategic capabilities of the basketball
+    teams. Dr. Liles enhancing campus recruitment through the development and implementation
+    of a suite of innovative approaches to engage prospective students and partners,
+    including NFC tag digital business cards, an interactive smart home display and
+    robot presentations.<br>Dr. Liles&#x27; dedication to merging technology with
+    education and community welfare has positioned Claflin University as a leader
+    in both academic excellence and community service. Her vision continues to drive
+    significant advancements in education technology and health initiatives, making
+    a lasting impact on students and the broader community.</p>"
+- id: napoleon-paxton
+  name: Dr. Napoleon Paxton
+  title: Chief Innovation Officer
+  org: UC Berkeley
+  email: nc.paxton@gmail.com
+  image: 
+  bio: "<p>Dr. Napoleon Paxton is the Chief Innovation Officer at AI Squared and he
+    is a Senior Level technologist with over 30 years of experience as a developer
+    and leader of product development teams. Before joining AI Squared, Dr. Paxton
+    was a senior level contractor for Booz Allen Hamilton where he led and served
+    on many projects. This included being the deputy branch chief of the AI/MLOps
+    Branch of the ADVANA analytic platform which is the largest analytic platform
+    for the DoD. He was also a subject matter expert contributor to over $1.5B in
+    contract wins for Booz Allen including the DISA Thunderdome contract for zero
+    trust capabilities to the US Federal Government. </p><p>Before his contracting
+    duties to the US Federal Government, Napoleon was a Federal Employee at the Naval
+    Research Laboratory (NRL) in Washington DC where he served as a senior computer
+    scientist working on Cyber Security and pioneering AI capabilities before the
+    AI boom of today. During that time Dr. Paxton was granted a patent as the sole
+    inventor of a process that provided attribution of computer network traffic across
+    translational boundaries such as firewalls and virtual private networks. He has
+    also spoken at 100s of events and has over 20 peer-reviewed publications on various
+    computer related topics. This includes government sponsored events for NATO.</p><p>Dr.
+    Paxton’s formal AI education began with an MIT Certificate in from Sloan Executive
+    Education (Artificial Intelligence: Implications for Business Strategy.  Dr. Paxton
+    also holds a master&#x27;s degree in data science from UC Berkeley and holds a
+    Ph.D. in Information Technology from The University of North Carolina at Charlotte
+    with a focus on cyber security (2011). His bachelor’s degree is in Computer Science
+    from Elizabeth City State University (ECSU), and he also holds an associate degree
+    from Campbell University, which was completed while serving in the United States
+    Marine Corps. </p><p>During his educational and professional journey, he has had
+    the opportunity to interact with and provide services for a variety of stakeholders
+    which has given him a unique perspective on customer needs in both the public
+    and private sector. In addition to bringing this perspective to AI Squared he
+    also teaches various AI/ML, Cyber Security, and Data Science courses at UC Berkeley
+    and Stanford. Finally, Dr. Paxton created and leads a UC Berkeley AI panel that
+    focuses on the human side of AI and what it&#x27;s pioneers were thinking when
+    they developed the tools we now use everyday.</p>"
+- id: jeaime-powell
+  name: "Mr. Je'aime H. Powell"
+  title: Product Analyst / Researcher
+  org: Omnibond / ECSU
+  email: jeaime@omnibond.com
+  image: 
+  bio: "<p>Je’aime Powell is a workforce development researcher and technology strategist
+    working at the intersection of artificial intelligence (AI), high-performance
+    computing (HPC), and science gateways. As a Product &amp; Systems Analyst at Omnibond
+    Systems, Je’aime contributes to the development and deployment of advanced cyberinfrastructure
+    platforms such as projectEUREKA!, helping universities and research organizations
+    access scalable computing resources for AI, simulation, and data-driven discovery.</p><p>Je’aime
+    is deeply engaged in building inclusive pathways into advanced computing, frequently
+    organizing hackathons, training programs, and collaborative initiatives that introduce
+    undergraduate students—particularly those from Minority-Serving Institutions—to
+    HPC and AI technologies. Through partnerships with organizations such as the Science
+    Gateways Community Institute (SGX3) and events like HackHPC@ADMI, Je’aime helps
+    design experiential learning opportunities that blend technical skill development
+    with real-world research challenges.</p><p>Beyond research and infrastructure
+    work, Je’aime also contributes to technical storytelling and community engagement,
+    producing articles, conference materials, and social media content that highlight
+    emerging cyberinfrastructure projects and the people behind them. Their work bridges
+    technical systems, academic collaboration, and public communication—helping translate
+    complex computing ecosystems into accessible opportunities for the next generation
+    of researchers and innovators.</p>"
+- id: eric-renegar
+  name: Mr. Eric Renegar
+  title: Professor, Information Technology &amp; Cybersecurity
+  org: Sinclair Community College
+  email: eric.renegar@sinclair.edu
+  image: 
+  bio: "<p>Eric Renegar is a Professor of Information Technology and Cybersecurity
+    at Sinclair Community College in Dayton, Ohio. He teaches courses in networking,
+    cybersecurity, and Internet of Things (IoT) technologies, helping students develop
+    the practical skills needed for today’s technology workforce. Eric is known for
+    creating hands-on learning experiences that connect classroom concepts to real-world
+    applications, including labs in networking, packet analysis, embedded systems,
+    and cybersecurity competitions.</p><p>In addition to teaching, Eric is active
+    in curriculum development, workforce initiatives, and technology outreach. He
+    frequently collaborates with industry and educational partners to expand opportunities
+    for students in emerging technology fields. His work often focuses on practical,
+    project-based learning that prepares students for certifications and careers in
+    IT and cybersecurity.</p><p>Outside the classroom, Eric enjoys building technology
+    projects, working with amateur radio, and exploring ways to make complex technical
+    topics accessible and engaging for learners of all ages.</p>"
+- id: cheryl-seals
+  name: Dr. Cheryl D. Seals
+  title: Charles Barkley Professor of Computer Science &amp; Software Engineering
+  org: Auburn University / CSSE
+  email: sealscd@auburn.edu
+  image: 
+  bio: "<p>Dr. Cheryl Seals is a Charles Barkley Endowed Professor of Computer Science
+    and Software Engineering at Auburn University with over 25 years of experience
+    in academia and industry, including roles at Bellcore/Telcordia and IBM. Her research
+    focuses on advanced learning technologies, HCAI, UI/UX, and immersive environments,
+    with nearly $20M in collaborative funding and 130+ publications. Dr. Seals has
+    mentored over 200 students, graduated 23 PhD and 80 master’s students, and has
+    co-led NSF-funded initiatives such as IAAMCS and STARS to broaden participation,
+    mentorship, and leadership in computing. Seals is an alumnus of Grambling State
+    University, NC A&amp;T State University and Virginia Tech. She is the Auburn University
+    Faculty Advisor for SWE, NSBE, STARS and TigerDev - Game Development Club.</p>"
+- id: alfred-watkins
+  name: Dr. Alfred R. Watkins
+  title: Interim Senior Director
+  org: AUC Data Science Initiative
+  email: awatkins@aucenter.edu
+  image: 
+  bio: "<p>Alfred R. Watkins serves as the Interim Senior Director of the Atlanta
+    University Center (AUC) Data Science Initiative, an organization dedicated to
+    expanding the curriculum, research, and impact of data science across the AUC
+    Consortium member institutions, specifically Clark Atlanta University, Morehouse
+    College, Morehouse School of Medicine, and Spelman College.</p><p>He began his
+    career in the telecommunications and information technology industries at Bell
+    Labs. He has also been a quality management consultant with AT&amp;T, helping
+    organizations improve their business processes and co-authoring two books on Process
+    Quality Management and Improvement.</p><p>He is a passionate educator specializing
+    in entrepreneurship, leadership and computer science education. He has taught
+    a variety of computer science courses and conducted research at Morehouse College,
+    Spelman College and Georgia Tech in high performance computing and database management.
+    He has led the establishment of a Data Science &amp; Analytics Minor Program at
+    Morehouse College.  The Data and the African Diaspora, Data Science I, AI in Sports,
+    AI in FinTech, and the Explorations in Game Development courses were developed
+    and launched at Morehouse under his leadership.</p><p>Dr. Watkins earned his Ph.D.
+    degree in Computer Science from Georgia Institute of Technology in Atlanta, Georgia.
+    He earned his Master of Science degree in Computer Science from Howard University
+    in Washington D.C., his Bachelor of Electrical Engineering degree from Georgia
+    Institute of Technology in Atlanta, Georgia, and his Bachelor of Computer Science
+    from Morehouse College in Atlanta, Georgia.</p>"
