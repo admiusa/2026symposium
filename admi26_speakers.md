@@ -116,7 +116,15 @@ permalink: /admi26_speakers
     <div class="speaker-name">{{ speaker.name }}</div>
     <div class="speaker-title">{{ speaker.title }}</div>
     <div class="speaker-org">{{ speaker.org }}</div>
-    <div class="speaker-contact"><a href="mailto:{{ speaker.email }}">[Contact Information]</a></div>
+    <div class="speaker-contact">
+      {% if speaker.email or speaker.linkedin %}
+      {% if speaker.email %}<a href="mailto:{{ speaker.email }}">[Contact Information]</a>{% endif %}
+      {% if speaker.email and speaker.linkedin %} · {% endif %}
+      {% if speaker.linkedin %}<a href="{{ speaker.linkedin }}" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+      {% else %}
+      <span>[Contact Information]</span>
+      {% endif %}
+    </div>
     <div class="speaker-bio">{{ speaker.bio }}</div>
   </div>
 </div>

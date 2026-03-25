@@ -197,12 +197,26 @@
     and Stanford. Finally, Dr. Paxton created and leads a UC Berkeley AI panel that
     focuses on the human side of AI and what it&#x27;s pioneers were thinking when
     they developed the tools we now use everyday.</p>"
+- id: jaycee-holmes-nguyen
+  name: Professor Jaycee Holmes-Nguyen
+  title: Contributing Faculty, GenAI in CS Education Consortium and Professor
+  org: Spelman College
+  email: 
+  linkedin: https://www.linkedin.com/in/jayceeholmes/
+  image: images/jayceeHN.jpeg
+  bio: "<p>Jaycee Holmes-Nguyen is a professor of Interactive Media &amp; Game Development
+    at Spelman College and co-director of Spelman Innovation and the Arthur M. Blank
+    Innovation Lab in Atlanta, Georgia. A Forbes 30 Under 30 honoree, she is also
+    the co-founder of CODEHOUSE, a nonprofit dedicated to increasing the number of
+    underrepresented minorities in technology. Previously, she worked as a program
+    manager at Microsoft and has led projects at the intersection of interactive
+    media, game development, and computing education.</p>"
 - id: jeaime-powell
   name: "Mr. Je'aime H. Powell"
   title: Product Analyst / Researcher
   org: Omnibond / ECSU
   email: jeaime@omnibond.com
-  image: 
+  image: images/jeaime-sc26-headshot.jpeg
   bio: "<p>Je’aime Powell is a workforce development researcher and technology strategist
     working at the intersection of artificial intelligence (AI), high-performance
     computing (HPC), and science gateways. As a Product &amp; Systems Analyst at Omnibond
@@ -263,7 +277,7 @@
   title: Interim Senior Director
   org: AUC Data Science Initiative
   email: awatkins@aucenter.edu
-  image: 
+  image: images/Al_Watkins.png
   bio: "<p>Alfred R. Watkins serves as the Interim Senior Director of the Atlanta
     University Center (AUC) Data Science Initiative, an organization dedicated to
     expanding the curriculum, research, and impact of data science across the AUC

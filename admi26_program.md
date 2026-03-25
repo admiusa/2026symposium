@@ -89,7 +89,7 @@ The schedule below includes the session times, rooms, and event details currentl
 <div class="program-time">8:40 A.M. – 9:40 A.M.</div>
 <div class="program-room">Room: Claflin Theatre</div>
 <div class="program-event">Keynote Address<br>
-Professor Jaycee Holmes-Nguyen, Contributing Faculty,GenAI in CS Education Consortium and Professor, Spelman College<br>
+<a href="/2026symposium/admi26_speakers#jaycee-holmes-nguyen">Professor Jaycee Holmes-Nguyen</a>, Contributing Faculty, GenAI in CS Education Consortium and Professor, Spelman College<br>
 Break</div>
 </div>
 
@@ -150,7 +150,7 @@ Dr. Jean Muhammad, Chair and Professor of Computer Science, Hampton University</
 <div class="program-card">
 <div class="program-time">2:00 P.M. – 4:00 P.M.</div>
 <div class="program-room">Room: Ballroom A</div>
-<div class="program-event">Student Competition: Code-a-thon – <a href="/2026symposium/admi26_speakers#jeaime-powell">Je’aime Powell</a>, Systems Analyst Omnibond Systems, LLC</div>
+<div class="program-event">Student Competition: Code-a-thon – <a href="/2026symposium/admi26_speakers#jeaime-powell">Je’aime Powell</a>, Systems Analyst Omnibond Systems, LLC; <a href="/2026symposium/admi26_speakers#charlie-dey">S. Charlie Dey</a>, Texas Advanced Computing Center</div>
 </div>
 
 <div class="program-card">
