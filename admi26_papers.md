@@ -21,21 +21,43 @@ thead th {
   background: #f6f8fa;
   text-align: left;
 }
-tbody tr:nth-child(3n+1) td {
+.paper-entry tr:first-child td {
   background: #f6f8fa;
   font-size: 1.05rem;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
-tbody tr:nth-child(3n+1):not(:first-child) td {
+.paper-entry:not(:first-of-type) tr:first-child td {
   padding-top: 1.35rem;
 }
-tbody tr:nth-child(3n+3) td {
+.paper-entry tr:nth-child(3) td {
   white-space: normal;
   border-bottom: 2px solid #d0d7de;
   padding-bottom: 1.35rem;
 }
-tbody tr:last-child td {
+.paper-entry:last-of-type tr:nth-child(3) td {
   border-bottom: 1px solid #d0d7de;
   padding-bottom: 0.6rem;
+}
+.paper-entry tr:nth-child(2) td,
+.paper-entry tr:nth-child(3) td {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.paper-entry:hover tr:first-child td {
+  background: #e8eef7;
+}
+.paper-entry:hover tr:nth-child(2) td,
+.paper-entry:hover tr:nth-child(3) td {
+  background: #f5f9ff;
+}
+.paper-entry:hover tr td:first-child {
+  box-shadow: inset 3px 0 0 #0969da;
+}
+@media (prefers-reduced-motion: reduce) {
+  .paper-entry tr:first-child td,
+  .paper-entry tr:nth-child(2) td,
+  .paper-entry tr:nth-child(3) td {
+    transition: none;
+  }
 }
 </style>
 
@@ -82,13 +104,13 @@ tbody tr:last-child td {
   <thead>
     <tr><th>Link</th><th>Type</th><th>Author Category</th><th>Authors</th></tr>
   </thead>
-  <tbody>
 {% for item in section.items %}
+  <tbody class="paper-entry">
     <tr><td colspan="4"><strong>{{ item.title }}</strong></td></tr>
     <tr><td>{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}{% if item.pdf and item.bib %} | {% endif %}{% if item.bib %}<a href="{{ item.bib | relative_url }}">BIB</a>{% endif %}</td><td>{{ item.submission_type }}</td><td>{{ item.author_category }}</td><td>{{ item.authors }}</td></tr>
     <tr><td colspan="4">{{ item.abstract }}</td></tr>
-{% endfor %}
   </tbody>
+{% endfor %}
 </table>
 
 {% endfor %}
@@ -106,13 +128,13 @@ tbody tr:last-child td {
   <thead>
     <tr><th>Link</th><th>Type</th><th>Author Category</th><th>Authors</th></tr>
   </thead>
-  <tbody>
 {% for item in section.items %}
+  <tbody class="paper-entry">
     <tr><td colspan="4"><strong>{{ item.title }}</strong></td></tr>
     <tr><td>{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}{% if item.pdf and item.bib %} | {% endif %}{% if item.bib %}<a href="{{ item.bib | relative_url }}">BIB</a>{% endif %}</td><td>{{ item.submission_type }}</td><td>{{ item.author_category }}</td><td>{{ item.authors }}</td></tr>
     <tr><td colspan="4">{{ item.abstract }}</td></tr>
-{% endfor %}
   </tbody>
+{% endfor %}
 </table>
 
 {% endfor %}

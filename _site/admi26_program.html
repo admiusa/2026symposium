@@ -177,9 +177,25 @@
 <style>
 .program-day {
   margin-top: 2.25rem;
+  scroll-margin-top: 5rem;
+  border-radius: 16px;
+  padding: 1.1rem 1.15rem 1.35rem 1.15rem;
+  border: 1px solid transparent;
+}
+.program-day-tone-a {
+  background: #eef2ff;
+  border-color: #e0e7ff;
+}
+.program-day-tone-b {
+  background: #f0fdf4;
+  border-color: #d1fae5;
+}
+.program-day-tone-c {
+  background: #fff8f1;
+  border-color: #ffe8d9;
 }
 .program-day h2 {
-  border-bottom: 2px solid #d0d7de;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
   padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
@@ -190,10 +206,29 @@
   margin: 1rem 0;
   background: #ffffff;
   box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+.program-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.1);
+  border-color: #8cb4ff;
 }
 .program-highlight {
   border-left: 4px solid #0969da;
   background: #f8fbff;
+}
+.program-highlight:hover {
+  background: #eef6ff;
+  box-shadow: 0 10px 28px rgba(9, 105, 218, 0.14);
+  border-color: #54a0ff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .program-card {
+    transition: none;
+  }
+  .program-card:hover {
+    transform: none;
+  }
 }
 .program-time {
   font-weight: 700;
@@ -219,11 +254,46 @@
 .program-event a:hover {
   color: #0550ae;
 }
+.program-quicklinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.75rem;
+  margin: 1rem 0 1.75rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  background: #f6f8fa;
+  font-size: 0.98rem;
+}
+.program-quicklinks-label {
+  font-weight: 700;
+  color: #111827;
+  margin-right: 0.25rem;
+}
+.program-quicklinks a {
+  color: #0969da;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.program-quicklinks a:hover {
+  color: #0550ae;
+}
 </style>
 
 <p>The schedule below includes the session times, rooms, and event details currently listed for the ADMI 2026 Symposium.</p>
 
-<div class="program-day">
+<nav class="program-quicklinks" aria-label="Jump to conference day">
+  <span class="program-quicklinks-label">Jump to:</span>
+  <a href="#thursday-march-26-2026">Thursday, Mar 26</a>
+  <span aria-hidden="true">·</span>
+  <a href="#friday-march-27-2026">Friday, Mar 27</a>
+  <span aria-hidden="true">·</span>
+  <a href="#saturday-march-28-2026">Saturday, Mar 28</a>
+</nav>
+
+<div class="program-day program-day-tone-a" id="thursday-march-26-2026">
 <h2>Thursday, March 26, 2026</h2>
 <div class="program-card">
 <div class="program-time">6:00 P.M. – 8:00 P.M.</div>
@@ -232,7 +302,7 @@
 
 </div>
 
-<div class="program-day">
+<div class="program-day program-day-tone-b" id="friday-march-27-2026">
 <h2>Friday, March 27, 2026</h2>
 <div class="program-card">
 <div class="program-time">7:00 A.M. – 8:15 A.M.</div>
@@ -344,7 +414,7 @@ Movie Night and Activities</div>
 
 </div>
 
-<div class="program-day">
+<div class="program-day program-day-tone-c" id="saturday-march-28-2026">
 <h2>Saturday, March 28, 2026</h2>
 <div class="program-card">
 <div class="program-time">7:30 A.M. – 8:15 A.M.</div>
