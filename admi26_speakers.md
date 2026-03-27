@@ -103,7 +103,8 @@ permalink: /admi26_speakers
     width: 100%;
     flex: 0 0 auto;
     min-height: 0;
-    height: 220px;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 }
 
