@@ -141,7 +141,7 @@ days:
         time_start: "2026-03-27T14:00:00-04:00"
         time_end: "2026-03-27T16:00:00-04:00"
         time: "2:00 P.M. – 4:00 P.M."
-        room: Ballroom A (3rd floor)
+        room: Ballroom C (3rd floor)
         description_html: |
           Student Competition: Code-a-thon – <a href="/2026symposium/admi26_speakers#jeaime-powell">Je’aime Powell</a>, Systems Analyst Omnibond Systems, LLC; <a href="/2026symposium/admi26_speakers#charlie-dey">S. Charlie Dey</a>, Texas Advanced Computing Center
       - id: program-event-15
