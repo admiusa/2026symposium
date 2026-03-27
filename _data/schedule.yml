@@ -48,7 +48,7 @@ days:
         time_start: "2026-03-27T08:30:00-04:00"
         time_end: "2026-03-27T08:40:00-04:00"
         time: "8:30 A.M. – 8:40 A.M."
-        room: Ballroom A
+        room: Ballroom A (3rd floor)
         highlight: true
         description_html: |
           Opening Session/Welcome --<a href="/2026symposium/admi26_speakers#alfred-watkins">Dr. Alfred Watkins</a>,  ADMI President
@@ -56,7 +56,7 @@ days:
         time_start: "2026-03-27T08:40:00-04:00"
         time_end: "2026-03-27T09:40:00-04:00"
         time: "8:40 A.M. – 9:40 A.M."
-        room: Ballroom A
+        room: Ballroom A (3rd floor)
         highlight: true
         description_html: |
           Keynote Address<br>
@@ -72,7 +72,7 @@ days:
         time_start: "2026-03-27T09:55:00-04:00"
         time_end: "2026-03-27T10:55:00-04:00"
         time: "9:55 A.M. – 10:55 A.M."
-        room: Ballroom C
+        room: Ballroom C (3rd floor)
         description_html: |
           Student Track I: Internship Roundtable<br>
           <a href="/2026symposium/admi26_speakers#elva-jones">Dr. Elva Jones</a>, Computer Science Chair Emeritus, Winston Salem State University
@@ -81,7 +81,7 @@ days:
         time_start: "2026-03-27T09:55:00-04:00"
         time_end: "2026-03-27T10:55:00-04:00"
         time: "9:55 A.M. – 10:55 A.M."
-        room: Ballroom A
+        room: Ballroom A (3rd floor)
         description_html: |
           Student Track II: Graduate School<br>
           <a href="/2026symposium/admi26_speakers#cheryl-seals">Dr. Cheryl Seals</a>, Charles Barkley Endowed Professor of Computer Science and Software Engineering, Auburn University
@@ -90,14 +90,14 @@ days:
         time_start: "2026-03-27T09:55:00-04:00"
         time_end: "2026-03-27T10:55:00-04:00"
         time: "9:55 A.M. – 10:55 A.M."
-        room: Conference Room A
+        room: Conference Room A (2nd floor)
         description_html: Faculty Paper Track I
       - id: program-event-09
         session_track: student
         time_start: "2026-03-27T11:00:00-04:00"
         time_end: "2026-03-27T12:00:00-04:00"
         time: "11:00 A.M. – NOON"
-        room: Ballroom C
+        room: Ballroom C (3rd floor)
         description_html: |
           Student Session: <a href="/2026symposium/admi26_speakers#togo-odbadrakh">Tuguldur (Togo) Odbadrakh</a>, HPC Engineer, Oak Ridge National Laboratory , <a href="/2026symposium/admi26_speakers#elijah-maccarthy">Elijah A. MacCarthy</a>, HPC Engineer, Oak Ridge National Laboratory , <strong>Title:</strong> HPC Crash Course (Virtual Session)<br>
           <a href="/2026symposium/slide_decks/ADMI_2026_HPCC_Crash_Course_slides.pdf">Slide Deck (PDF)</a>
@@ -106,13 +106,13 @@ days:
         time_start: "2026-03-27T11:00:00-04:00"
         time_end: "2026-03-27T12:00:00-04:00"
         time: "11:00 A.M. – NOON"
-        room: Conference Room A
+        room: Conference Room A (2nd floor)
         description_html: Faculty Paper Track II
       - id: program-event-11
         time_start: "2026-03-27T12:00:00-04:00"
         time_end: "2026-03-27T12:45:00-04:00"
         time: "NOON – 12:45 P.M."
-        room: Ballroom B
+        room: Ballroom B (3rd floor)
         highlight: true
         description_html: |
           Luncheon  Speaker - <a href="/2026symposium/admi26_speakers#janett-walters-williams">Dr. Janett Walters-Williams</a>, Hampton University,  <strong>Title:</strong>  Ethics in AI
@@ -121,7 +121,7 @@ days:
         time_start: "2026-03-27T13:00:00-04:00"
         time_end: "2026-03-27T14:00:00-04:00"
         time: "1:00 P.M. - 2:00 P.M."
-        room: Theater & Ballroom A
+        room: Theater (1st floor) & Ballroom A (3rd floor)
         description_html: |
           Faculty Paper Track III<br>
           Student Poster Session
@@ -130,7 +130,7 @@ days:
         time_start: "2026-03-27T14:00:00-04:00"
         time_end: "2026-03-27T16:00:00-04:00"
         time: "2:00 P.M. – 4:00 P.M."
-        room: Conference Room A
+        room: Conference Room A (2nd floor)
         description_html: |
           Faculty Session<br>
           Presentation 1: AI Modifications in Curriculum Panel, Facilitator:  <a href="/2026symposium/admi26_speakers#linda-hayden">Dr. Linda Hayden</a><br>
@@ -141,7 +141,7 @@ days:
         time_start: "2026-03-27T14:00:00-04:00"
         time_end: "2026-03-27T16:00:00-04:00"
         time: "2:00 P.M. – 4:00 P.M."
-        room: Ballroom A
+        room: Ballroom A (3rd floor)
         description_html: |
           Student Competition: Code-a-thon – <a href="/2026symposium/admi26_speakers#jeaime-powell">Je’aime Powell</a>, Systems Analyst Omnibond Systems, LLC; <a href="/2026symposium/admi26_speakers#charlie-dey">S. Charlie Dey</a>, Texas Advanced Computing Center
       - id: program-event-15
@@ -192,7 +192,7 @@ days:
         time_start: "2026-03-28T08:30:00-04:00"
         time_end: "2026-03-28T10:30:00-04:00"
         time: "8:30 A.M. – 10:30 A.M."
-        room: Ballroom A
+        room: Ballroom A (3rd floor)
         description_html: |
           Student and Faculty Session IA<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
@@ -202,7 +202,7 @@ days:
         time_start: "2026-03-28T08:30:00-04:00"
         time_end: "2026-03-28T10:30:00-04:00"
         time: "8:30 A.M. – 10:30 A.M."
-        room: Ballroom C
+        room: Ballroom C (3rd floor)
         description_html: |
           Student and Faculty Session IB<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
@@ -226,7 +226,7 @@ days:
         time_start: "2026-03-28T11:45:00-04:00"
         time_end: "2026-03-28T12:45:00-04:00"
         time: "11:45 A.M. – 12:45 P.M."
-        room: Ballroom B
+        room: Ballroom B (3rd floor)
         highlight: true
         description_html: |
           Lunch Speaker:  <a href="/2026symposium/admi26_speakers#napoleon-paxton">Dr. Napoleon Paxton</a>, Chief Innovation Officer, AISquared
@@ -242,14 +242,14 @@ days:
         time_start: "2026-03-28T14:30:00-04:00"
         time_end: "2026-03-28T17:00:00-04:00"
         time: "2:30 P.M. – 5:00 P.M."
-        room: Conference Room A
+        room: Conference Room A (2nd floor)
         description_html: Undergraduate Student Papers
       - id: program-event-26
         session_track: student
         time_start: "2026-03-28T14:30:00-04:00"
         time_end: "2026-03-28T17:00:00-04:00"
         time: "2:30 P.M. – 5:00 P.M."
-        room: Conference Room B
+        room: Conference Room B (2nd floor)
         description_html: Graduate Student Papers
       - id: program-event-27
         time_start: "2026-03-28T17:00:00-04:00"
@@ -261,7 +261,7 @@ days:
         time_start: "2026-03-28T18:30:00-04:00"
         time_end: "2026-03-28T20:30:00-04:00"
         time: "6:30 P.M. – 8:30 P.M."
-        room: Ballroom A, B, C
+        room: Ballroom A, B, C (3rd floor)
         highlight: true
         description_html: |
           Awards Banquet<br>

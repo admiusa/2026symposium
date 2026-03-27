@@ -4,6 +4,8 @@ title: Program
 permalink: /admi26_program
 ---
 
+<p class="program-floor-map-link"><a href="{{ '/maps/Floor_Map.pdf' | relative_url }}">Floor Map (PDF)</a></p>
+
 <div class="program-title-row">
 <h1 id="admi-program">ADMI 2026 Symposium Program</h1>
 <div class="program-page-share">
@@ -12,6 +14,18 @@ permalink: /admi26_program
 </div>
 
 <style>
+.program-floor-map-link {
+  margin: 0 0 0.85rem 0;
+  font-size: 1rem;
+}
+.program-floor-map-link a {
+  font-weight: 600;
+  color: #0969da;
+  text-decoration: none;
+}
+.program-floor-map-link a:hover {
+  text-decoration: underline;
+}
 .program-day {
   margin-top: 2.25rem;
   scroll-margin-top: 5rem;
@@ -383,23 +397,61 @@ permalink: /admi26_program
     var t = card.querySelector(".program-time");
     return t ? t.textContent.trim() + " — ADMI 2026 Program" : "ADMI 2026 Symposium Program";
   }
+  function copyWithExecCommand(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.cssText = "position:fixed;left:-9999px;top:0;opacity:0";
+    document.body.appendChild(ta);
+    ta.select();
+    ta.setSelectionRange(0, text.length);
+    var ok = false;
+    try {
+      ok = document.execCommand("copy");
+    } catch (e) {}
+    document.body.removeChild(ta);
+    return ok;
+  }
+  function copyUrlToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text).catch(function () {
+        return copyWithExecCommand(text) ? Promise.resolve() : Promise.reject();
+      });
+    }
+    return copyWithExecCommand(text) ? Promise.resolve() : Promise.reject();
+  }
+  function showCopiedFeedback(btn) {
+    var prev = btn.getAttribute("aria-label");
+    btn.setAttribute("aria-label", "Link copied to clipboard");
+    setTimeout(function () {
+      btn.setAttribute("aria-label", prev || "Share");
+    }, 2000);
+  }
   document.querySelectorAll(".program-share-btn").forEach(function (btn) {
     btn.addEventListener("click", function () {
       var url = buildShareUrl(btn);
       var title = shareTitle(btn);
       if (navigator.share) {
-        navigator.share({ title: title, url: url }).catch(function () {});
-      } else if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(function () {
-          var prev = btn.getAttribute("aria-label");
-          btn.setAttribute("aria-label", "Link copied to clipboard");
-          setTimeout(function () {
-            btn.setAttribute("aria-label", prev || "Share");
-          }, 2000);
-        });
-      } else {
-        window.prompt("Copy this link:", url);
+        navigator
+          .share({ title: title, url: url })
+          .catch(function () {
+            copyUrlToClipboard(url)
+              .then(function () {
+                showCopiedFeedback(btn);
+              })
+              .catch(function () {
+                window.prompt("Copy this link:", url);
+              });
+          });
+        return;
       }
+      copyUrlToClipboard(url)
+        .then(function () {
+          showCopiedFeedback(btn);
+        })
+        .catch(function () {
+          window.prompt("Copy this link:", url);
+        });
     });
   });
 })();
