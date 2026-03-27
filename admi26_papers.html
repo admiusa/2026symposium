@@ -152,7 +152,8 @@ permalink: /admi26_papers
     <span role="columnheader">Author Category</span>
     <span role="columnheader">Authors</span>
   </div>
-{% for item in section.items %}
+{% assign sorted_items = section.items | sort: 'submission_id' %}
+{% for item in sorted_items %}
   <section class="paper-entry" role="rowgroup">
     <div class="papers-row-title" role="row"><div role="cell"><strong>{{ item.title }}</strong></div></div>
     <div class="papers-row-meta" role="row">
@@ -186,7 +187,8 @@ permalink: /admi26_papers
     <span role="columnheader">Author Category</span>
     <span role="columnheader">Authors</span>
   </div>
-{% for item in section.items %}
+{% assign sorted_items = section.items | sort: 'submission_id' %}
+{% for item in sorted_items %}
   <section class="paper-entry" role="rowgroup">
     <div class="papers-row-title" role="row"><div role="cell"><strong>{{ item.title }}</strong></div></div>
     <div class="papers-row-meta" role="row">
