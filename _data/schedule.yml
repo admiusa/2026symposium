@@ -48,7 +48,7 @@ days:
         time_start: "2026-03-27T08:30:00-04:00"
         time_end: "2026-03-27T08:40:00-04:00"
         time: "8:30 A.M. – 8:40 A.M."
-        room: Claflin Theatre
+        room: Ballroom A
         highlight: true
         description_html: |
           Opening Session/Welcome --<a href="/2026symposium/admi26_speakers#alfred-watkins">Dr. Alfred Watkins</a>,  ADMI President
@@ -56,7 +56,7 @@ days:
         time_start: "2026-03-27T08:40:00-04:00"
         time_end: "2026-03-27T09:40:00-04:00"
         time: "8:40 A.M. – 9:40 A.M."
-        room: Claflin Theatre
+        room: Ballroom A
         highlight: true
         description_html: |
           Keynote Address<br>
@@ -72,7 +72,7 @@ days:
         time_start: "2026-03-27T09:55:00-04:00"
         time_end: "2026-03-27T10:55:00-04:00"
         time: "9:55 A.M. – 10:55 A.M."
-        room: Ballroom A
+        room: Ballroom C
         description_html: |
           Student Track I: Internship Roundtable<br>
           <a href="/2026symposium/admi26_speakers#elva-jones">Dr. Elva Jones</a>, Computer Science Chair Emeritus, Winston Salem State University
@@ -81,7 +81,7 @@ days:
         time_start: "2026-03-27T09:55:00-04:00"
         time_end: "2026-03-27T10:55:00-04:00"
         time: "9:55 A.M. – 10:55 A.M."
-        room: Ballroom C
+        room: Ballroom A
         description_html: |
           Student Track II: Graduate School<br>
           <a href="/2026symposium/admi26_speakers#cheryl-seals">Dr. Cheryl Seals</a>, Charles Barkley Endowed Professor of Computer Science and Software Engineering, Auburn University
@@ -120,7 +120,7 @@ days:
         time_start: "2026-03-27T13:00:00-04:00"
         time_end: "2026-03-27T14:00:00-04:00"
         time: "1:00 P.M. - 2:00 P.M."
-        room: Claflin Theatre
+        room: Theater & Ballroom A
         description_html: |
           Faculty Paper Track III<br>
           Student Poster Session
@@ -148,7 +148,7 @@ days:
         time_start: "2026-03-27T14:00:00-04:00"
         time_end: "2026-03-27T16:00:00-04:00"
         time: "2:00 P.M. – 4:00 P.M."
-        room: Ballroom C
+        room: 3rd floor lounge
         description_html: |
           Student Competition: Cybersecurity<br>
           <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College
@@ -217,6 +217,7 @@ days:
         time_start: "2026-03-28T10:45:00-04:00"
         time_end: "2026-03-28T11:45:00-04:00"
         time: "10:45 A.M. – 11:45 A.M."
+        room: tbd
         description_html: |
           Student and Faculty Session II<br>
           <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College
