@@ -97,7 +97,7 @@ days:
         time_start: "2026-03-27T11:00:00-04:00"
         time_end: "2026-03-27T12:00:00-04:00"
         time: "11:00 A.M. – NOON"
-        room: Ballroom A
+        room: Ballroom C
         description_html: |
           Student Session: <a href="/2026symposium/admi26_speakers#togo-odbadrakh">Tuguldur (Togo) Odbadrakh</a>, HPC Engineer, Oak Ridge National Laboratory , <a href="/2026symposium/admi26_speakers#elijah-maccarthy">Elijah A. MacCarthy</a>, HPC Engineer, Oak Ridge National Laboratory , <strong>Title:</strong> HPC Crash Course (Virtual Session)<br>
           <a href="/2026symposium/slide_decks/ADMI_2026_HPCC_Crash_Course_slides.pdf">Slide Deck (PDF)</a>
