@@ -115,7 +115,8 @@ days:
         room: Ballroom B (3rd floor)
         highlight: true
         description_html: |
-          Luncheon  Speaker - <a href="/2026symposium/admi26_speakers#janett-walters-williams">Dr. Janett Walters-Williams</a>, Hampton University,  <strong>Title:</strong>  Ethics in AI
+          Luncheon  Speaker - <a href="/2026symposium/admi26_speakers#janett-walters-williams">Dr. Janett Walters-Williams</a>, Hampton University,  <strong>Title:</strong>  Ethics in AI<br>
+          <a href="/2026symposium/slide_decks/ADMI_2026_Ethics_in_AI_Janett_Walters_Williams_slides.pdf">Slide Deck (PDF)</a>
       - id: program-event-12
         session_track: both
         time_start: "2026-03-27T13:00:00-04:00"
@@ -223,7 +224,8 @@ days:
         room: Ballroom A (3rd floor)
         description_html: |
           Student and Faculty Session II<br>
-          <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College
+          <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College<br>
+          <a href="/2026symposium/slide_decks/ADMI_2026_Kristine_Christensen_slides.pdf">Slide Deck (PDF)</a>
       - id: program-event-23
         time_start: "2026-03-28T11:45:00-04:00"
         time_end: "2026-03-28T12:45:00-04:00"
