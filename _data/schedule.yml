@@ -244,14 +244,14 @@ days:
         time_start: "2026-03-28T14:30:00-04:00"
         time_end: "2026-03-28T17:00:00-04:00"
         time: "2:30 P.M. – 5:00 P.M."
-        room: Conference Room A (2nd floor)
+        room: Theatre (1st floor)
         description_html: Undergraduate Student Papers
       - id: program-event-26
         session_track: student
         time_start: "2026-03-28T14:30:00-04:00"
         time_end: "2026-03-28T17:00:00-04:00"
         time: "2:30 P.M. – 5:00 P.M."
-        room: Conference Room B (2nd floor)
+        room: Conference Room A (2nd floor)
         description_html: Graduate Student Papers
       - id: program-event-27
         time_start: "2026-03-28T17:00:00-04:00"
