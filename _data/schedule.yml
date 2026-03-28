@@ -192,7 +192,7 @@ days:
         time_start: "2026-03-28T08:30:00-04:00"
         time_end: "2026-03-28T10:30:00-04:00"
         time: "8:30 A.M. – 10:30 A.M."
-        room: Ballroom A (3rd floor)
+        room: Ballroom C (3rd floor)
         description_html: |
           Student and Faculty Session IA<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
@@ -202,7 +202,7 @@ days:
         time_start: "2026-03-28T08:30:00-04:00"
         time_end: "2026-03-28T10:30:00-04:00"
         time: "8:30 A.M. – 10:30 A.M."
-        room: Ballroom C (3rd floor)
+        room: Ballroom A (3rd floor)
         description_html: |
           Student and Faculty Session IB<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
@@ -218,7 +218,7 @@ days:
         time_start: "2026-03-28T10:45:00-04:00"
         time_end: "2026-03-28T11:45:00-04:00"
         time: "10:45 A.M. – 11:45 A.M."
-        room: tbd
+        room: Ballroom C (3rd floor)
         description_html: |
           Student and Faculty Session II<br>
           <a href="/2026symposium/admi26_speakers#kristine-christensen">Dr. Kristine Christensen</a>, Professor, Computer Information Systems, Moraine Valley Community College
