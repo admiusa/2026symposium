@@ -100,6 +100,69 @@ permalink: /admi26_sponsors
     grid-template-columns: 1fr;
   }
 }
+
+.auc-dsi-section {
+  max-width: 920px;
+  margin: 2rem 0 2.5rem 0;
+  padding: 0;
+  border: 1px solid #d0d7de;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.auc-dsi-section .auc-dsi-inner {
+  padding: 1.5rem 1.5rem 1.75rem;
+}
+
+.auc-dsi-section h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  color: #111827;
+}
+
+.auc-dsi-section .auc-dsi-lead {
+  margin: 0 0 1.25rem 0;
+  font-size: 1rem;
+}
+
+.auc-dsi-section .auc-dsi-lead a {
+  color: #0969da;
+  font-weight: 600;
+}
+
+.auc-dsi-banner {
+  margin: 0;
+  line-height: 0;
+  background: #0f172a;
+}
+
+.auc-dsi-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
+
+.auc-dsi-section p {
+  margin: 0 0 1rem 0;
+  font-size: 1.06rem;
+  line-height: 1.75;
+  color: #374151;
+}
+
+.auc-dsi-section p:last-child {
+  margin-bottom: 0;
+}
+
+.auc-dsi-section .auc-dsi-contact {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  font-size: 1.02rem;
+}
 </style>
 
 <div class="page-hero">
@@ -132,6 +195,28 @@ permalink: /admi26_sponsors
 {% endfor %}
 </div>
 
-<p class="section-note">
-  Sponsor logos on this page are referenced from the repository directory <code>/sponsorlogos/</code>.
-</p>
+<section class="auc-dsi-section" aria-labelledby="auc-dsi-heading">
+  <div class="auc-dsi-banner">
+    <img src="{{ '/images/auc-dsi-fdsi-2026-banner.png' | relative_url }}" width="1024" height="1024" alt="The AUC Data Science Initiative: 2026 Faculty Development Summer Institute — Design. Develop. Deliver. Data Science Curriculum">
+  </div>
+  <div class="auc-dsi-inner">
+    <h2 id="auc-dsi-heading">Atlanta University Center Data Science Initiative</h2>
+    <p class="auc-dsi-lead">
+      <a href="https://datascience.aucenter.org" target="_blank" rel="noopener noreferrer">datascience.aucenter.org</a>
+    </p>
+    <p>
+      Atlanta continues to grow as a center for data science innovation and technology workforce development. The Atlanta University Center Data Science Initiative (AUC DSI) invites HBCU faculty to participate in the 2026 Faculty Development Summer Institute (FDSI), a collaborative program focused on designing and developing data science integrated courses across disciplines. The institute will be held in-person in Atlanta, May 25–29. Supported by Mastercard Center for Inclusive Growth, the 2026 FDSI will guide faculty to explore how data science skills can prepare students for emerging careers in analytics, artificial intelligence, computer science, biology, chemistry, public policy, social work, psychology and other social sciences, education, humanities, and technology-driven industries. Participants will work within a Peer Collaboration Model, where faculty engage in structured workshops, course design and development activities, and feedback sessions. Courses developed through the 2026 FDSI will align with the AUC Data Science Initiative Framework.
+    </p>
+    <p>
+      Faculty selected for the program will join a growing network advancing data science education and workforce preparation across HBCUs.
+    </p>
+    <p class="auc-dsi-contact">
+      <strong>For more information:</strong> Dr. King, Deputy Director —
+      <a href="mailto:iking@aucenter.edu">iking@aucenter.edu</a>
+    </p>
+  </div>
+</section>
+
+
+
+
