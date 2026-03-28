@@ -194,10 +194,10 @@ days:
         time: "8:30 A.M. – 10:30 A.M."
         room: Ballroom C (3rd floor)
         description_html: |
-          Student and Faculty Session IA<br>
+          Student Session <br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
-          <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College<br>
-          <a href="/2026symposium/slide_decks/ADMI_2026_Vibe_Coding_Higher_Education_slides.pdf">Slide Deck (PDF)</a>
+          <a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College and <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College<br>
+          <a href="slide_decks/admi_2026_vibe_coding_student_20260328005525.pdf">Slide Deck (PDF)</a>
       - id: program-event-21
         session_track: both
         time_start: "2026-03-28T08:30:00-04:00"
@@ -205,9 +205,9 @@ days:
         time: "8:30 A.M. – 10:30 A.M."
         room: Ballroom A (3rd floor)
         description_html: |
-          Student and Faculty Session IB<br>
+          Faculty Session<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
-          <a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College<br>
+          <a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College and <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College<br>
           <a href="/2026symposium/slide_decks/ADMI_2026_Vibe_Coding_Higher_Education_slides.pdf">Slide Deck (PDF)</a>
       - id: program-event-saturday-break-mar28
         time_start: "2026-03-28T10:30:00-04:00"
