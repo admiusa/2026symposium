@@ -196,7 +196,8 @@ days:
         description_html: |
           Student and Faculty Session IA<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
-          <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College
+          <a href="/2026symposium/admi26_speakers#cory-brooks">Mr. Cory Brooks</a>, Adjunct Professor, Morehouse College<br>
+          <a href="/2026symposium/slide_decks/ADMI_2026_Vibe_Coding_Higher_Education_slides.pdf">Slide Deck (PDF)</a>
       - id: program-event-21
         session_track: both
         time_start: "2026-03-28T08:30:00-04:00"
@@ -206,7 +207,8 @@ days:
         description_html: |
           Student and Faculty Session IB<br>
           <strong>Title:</strong> Vibe Coding from Classroom to Industry:  AI Utilization in Higher Education Settings<br>
-          <a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College
+          <a href="/2026symposium/admi26_speakers#dewayne-dixon">Dr. Dewayne Dixon</a>, Faculty Fellow, Visiting Assistant Professor, Morehouse College<br>
+          <a href="/2026symposium/slide_decks/ADMI_2026_Vibe_Coding_Higher_Education_slides.pdf">Slide Deck (PDF)</a>
       - id: program-event-saturday-break-mar28
         time_start: "2026-03-28T10:30:00-04:00"
         time_end: "2026-03-28T10:45:00-04:00"
